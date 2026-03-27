@@ -1,0 +1,116 @@
+13335
+ESCUELAS PROVINCIALES                               EMITIDO 16/04/2025   REP  18            ESCUELAS PROVINCIALES                               EMITIDO 16/04/2025   REP  18            
+PERIODO: ART5 3RA CTA 4TO TRIM 2024                                           PAG    1      PERIODO: ART5 3RA CTA 4TO TRIM 2024                                           PAG    1      
+TIPO LIQ.: 8-ART.5 - INCENTIVO DOCENTE  NRO LIQ.: 1                                         TIPO LIQ.: 8-ART.5 - INCENTIVO DOCENTE  NRO LIQ.: 1                                         
+                                                                                                                                                                                        
+     CONCEPTO                  HABILITACION             TESORERIA       COD SAFYC                CONCEPTO                  HABILITACION             TESORERIA       COD SAFYC           
+
+ 229  PEN ALI                       5.309,99                                 229             229  PEN ALI                       5.309,99                                 229            
+TOTAL APORTE        5.309,99                                                                TOTAL APORTE        5.309,99                                                                
+                              TOTAL GRAL                   5.309,99                                                       TOTAL GRAL                   5.309,99                         
+
+
+13336
+ESCUELAS PROVINCIALES                                  EMITIDO 16/04/2025   REP: 18         ESCUELAS PROVINCIALES                                  EMITIDO 16/04/2025   REP: 18         
+PERIODO: ART5 3RA CTA 4TO TRIM 2024                                              PAG    1   PERIODO: ART5 3RA CTA 4TO TRIM 2024                                              PAG    1   
+TIPO LIQ.: 8-ART.5 - INCENTIVO DOCENTE  NRO LIQ.: 1                                         TIPO LIQ.: 8-ART.5 - INCENTIVO DOCENTE  NRO LIQ.: 1                                         
+
+36 14  0  0  1    111 RETR. DEL CARGO                                     56.678.801,22     36 14  0  0  1    111 RETR. DEL CARGO                                     56.678.801,22     
+                      SUB - TOTAL                                         56.678.801,22                           SUB - TOTAL                                         56.678.801,22     
+36 15  0  0  1    111 RETR. DEL CARGO                                        446.021,68     36 15  0  0  1    111 RETR. DEL CARGO                                        446.021,68     
+                      SUB - TOTAL                                            446.021,68                           SUB - TOTAL                                            446.021,68     
+36 16  0  0  1    111 RETR. DEL CARGO                                        338.636,16     36 16  0  0  1    111 RETR. DEL CARGO                                        338.636,16     
+                      SUB - TOTAL                                            338.636,16                           SUB - TOTAL                                            338.636,16     
+36 17  0  0  1    111 RETR. DEL CARGO                                        641.529,94     36 17  0  0  1    111 RETR. DEL CARGO                                        641.529,94     
+                      SUB - TOTAL                                            641.529,94                           SUB - TOTAL                                            641.529,94     
+36 18  0  0  1    111 RETR. DEL CARGO                                        292.592,59     36 18  0  0  1    111 RETR. DEL CARGO                                        292.592,59     
+                      SUB - TOTAL                                            292.592,59                           SUB - TOTAL                                            292.592,59     
+36 20  0  0  1    111 RETR. DEL CARGO                                        253.498,97     36 20  0  0  1    111 RETR. DEL CARGO                                        253.498,97     
+                      SUB - TOTAL                                            253.498,97                           SUB - TOTAL                                            253.498,97     
+                                                                                                                                                                                        
+                                                                                                                                                                                        
+LIQU       58.645.770,57                                 TOT. HAB.       58.651.080,56      LIQU       58.645.770,57                                 TOT. HAB.       58.651.080,56      
+                   APORTE PATRONAL JUBILATORIO                                                                 APORTE PATRONAL JUBILATORIO                                              
+                   APORTE PATRONAL OBRA SOCIAL                                                                 APORTE PATRONAL OBRA SOCIAL                                              
+                   A.R.T.                                                                                      A.R.T.                                                                   
+                   TOTAL                                                58.651.080,56                          TOTAL                                                58.651.080,56       
+                                                                                                                                                                                        
+                   LIQUIDO POR AGENTES                              58.645.770,57                              LIQUIDO POR AGENTES                              58.645.770,57           
+                   PENSION / EMBARGOS                                    5.309,99                              PENSION / EMBARGOS                                    5.309,99           
+                   RETENCIONES VARIAS                                                                          RETENCIONES VARIAS                                                       
+                                                                                                                                                                                        
+                                                                                                                                                                                        
+
+
+13337
+ESCUELAS SECUNDARIAS  - TRANSFERIDAS -                 EMITIDO 16/04/2025   REP: 25         ESCUELAS SECUNDARIAS  - TRANSFERIDAS -                 EMITIDO 16/04/2025   REP: 25         
+PERIODO: ART5 3RA CTA 4TO TRIM 2024                                              PAG    1   PERIODO: ART5 3RA CTA 4TO TRIM 2024                                              PAG    1   
+TIPO LIQ.: 8-ART.5 - INCENTIVO DOCENTE  NRO LIQ.: 1                                         TIPO LIQ.: 8-ART.5 - INCENTIVO DOCENTE  NRO LIQ.: 1                                         
+
+36 15  0  0  1    111 RETR. DEL CARGO                                      3.585.914,56     36 15  0  0  1    111 RETR. DEL CARGO                                      3.585.914,56     
+                      SUB - TOTAL                                          3.585.914,56                           SUB - TOTAL                                          3.585.914,56     
+36 17  0  0  1    111 RETR. DEL CARGO                                         95.591,73     36 17  0  0  1    111 RETR. DEL CARGO                                         95.591,73     
+                      SUB - TOTAL                                             95.591,73                           SUB - TOTAL                                             95.591,73     
+                                                                                                                                                                                        
+                                                                                                                                                                                        
+LIQU        3.681.506,29                                 TOT. HAB.        3.681.506,29      LIQU        3.681.506,29                                 TOT. HAB.        3.681.506,29      
+                   APORTE PATRONAL JUBILATORIO                                                                 APORTE PATRONAL JUBILATORIO                                              
+                   APORTE PATRONAL OBRA SOCIAL                                                                 APORTE PATRONAL OBRA SOCIAL                                              
+                   A.R.T.                                                                                      A.R.T.                                                                   
+                   TOTAL                                                 3.681.506,29                          TOTAL                                                 3.681.506,29       
+                                                                                                                                                                                        
+                   LIQUIDO POR AGENTES                               3.681.506,29                              LIQUIDO POR AGENTES                               3.681.506,29           
+                   PENSION / EMBARGOS                                                                          PENSION / EMBARGOS                                                       
+                   RETENCIONES VARIAS                                                                          RETENCIONES VARIAS                                                       
+                                                                                                                                                                                        
+                                                                                                                                                                                        
+
+
+13338
+ESCUELAS TECNICAS    -TRANSFERIDAS -                   EMITIDO 16/04/2025   REP: 26         ESCUELAS TECNICAS    -TRANSFERIDAS -                   EMITIDO 16/04/2025   REP: 26         
+PERIODO: ART5 3RA CTA 4TO TRIM 2024                                              PAG    1   PERIODO: ART5 3RA CTA 4TO TRIM 2024                                              PAG    1   
+TIPO LIQ.: 8-ART.5 - INCENTIVO DOCENTE  NRO LIQ.: 1                                         TIPO LIQ.: 8-ART.5 - INCENTIVO DOCENTE  NRO LIQ.: 1                                         
+
+36 15  0  0  1    111 RETR. DEL CARGO                                        231.031,86     36 15  0  0  1    111 RETR. DEL CARGO                                        231.031,86     
+                      SUB - TOTAL                                            231.031,86                           SUB - TOTAL                                            231.031,86     
+36 16  0  0  1    111 RETR. DEL CARGO                                        891.943,43     36 16  0  0  1    111 RETR. DEL CARGO                                        891.943,43     
+                      SUB - TOTAL                                            891.943,43                           SUB - TOTAL                                            891.943,43     
+                                                                                                                                                                                        
+                                                                                                                                                                                        
+LIQU        1.122.975,29                                 TOT. HAB.        1.122.975,29      LIQU        1.122.975,29                                 TOT. HAB.        1.122.975,29      
+                   APORTE PATRONAL JUBILATORIO                                                                 APORTE PATRONAL JUBILATORIO                                              
+                   APORTE PATRONAL OBRA SOCIAL                                                                 APORTE PATRONAL OBRA SOCIAL                                              
+                   A.R.T.                                                                                      A.R.T.                                                                   
+                   TOTAL                                                 1.122.975,29                          TOTAL                                                 1.122.975,29       
+                                                                                                                                                                                        
+                   LIQUIDO POR AGENTES                               1.122.975,29                              LIQUIDO POR AGENTES                               1.122.975,29           
+                   PENSION / EMBARGOS                                                                          PENSION / EMBARGOS                                                       
+                   RETENCIONES VARIAS                                                                          RETENCIONES VARIAS                                                       
+                                                                                                                                                                                        
+                                                                                                                                                                                        
+
+
+13339
+ESCUELAS NIVEL TERCIARIO   -TRANSFERIDOS               EMITIDO 16/04/2025   REP: 27         ESCUELAS NIVEL TERCIARIO   -TRANSFERIDOS               EMITIDO 16/04/2025   REP: 27         
+PERIODO: ART5 3RA CTA 4TO TRIM 2024                                              PAG    1   PERIODO: ART5 3RA CTA 4TO TRIM 2024                                              PAG    1   
+TIPO LIQ.: 8-ART.5 - INCENTIVO DOCENTE  NRO LIQ.: 1                                         TIPO LIQ.: 8-ART.5 - INCENTIVO DOCENTE  NRO LIQ.: 1                                         
+
+36 15  0  0  1    111 RETR. DEL CARGO                                         57.330,24     36 15  0  0  1    111 RETR. DEL CARGO                                         57.330,24     
+                      SUB - TOTAL                                             57.330,24                           SUB - TOTAL                                             57.330,24     
+36 18  0  0  1    111 RETR. DEL CARGO                                        152.508,48     36 18  0  0  1    111 RETR. DEL CARGO                                        152.508,48     
+                      SUB - TOTAL                                            152.508,48                           SUB - TOTAL                                            152.508,48     
+                                                                                                                                                                                        
+                                                                                                                                                                                        
+LIQU          209.838,72                                 TOT. HAB.          209.838,72      LIQU          209.838,72                                 TOT. HAB.          209.838,72      
+                   APORTE PATRONAL JUBILATORIO                                                                 APORTE PATRONAL JUBILATORIO                                              
+                   APORTE PATRONAL OBRA SOCIAL                                                                 APORTE PATRONAL OBRA SOCIAL                                              
+                   A.R.T.                                                                                      A.R.T.                                                                   
+                   TOTAL                                                   209.838,72                          TOTAL                                                   209.838,72       
+                                                                                                                                                                                        
+                   LIQUIDO POR AGENTES                                 209.838,72                              LIQUIDO POR AGENTES                                 209.838,72           
+                   PENSION / EMBARGOS                                                                          PENSION / EMBARGOS                                                       
+                   RETENCIONES VARIAS                                                                          RETENCIONES VARIAS                                                       
+                                                                                                                                                                                        
+                                                                                                                                                                                        
+
+

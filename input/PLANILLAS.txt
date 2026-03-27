@@ -1,0 +1,999 @@
+13210
+PLANILLLA DE HABERES CORRESPONDIENTE A: ART5 3RA CTA 4TO TRIM 2024  REPARTICION: ESCUELAS PROVINCIALES                             PAG.   1 / 1 REP. 18
+TIPO LIQ.: 8-ART.5 - INCENTIVO DOCENTE  NRO LIQ.: 1  MES LIQ.: 2025/04                                             FEC.IMPRESION: 16/04/2025 11:54:56                                                      
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TE % C O CAT MES DS UNI   HABERES      HABERES      TOTAL         ASIGNAC.    APORTES      TOTAL        LIQUIDO      CARGO   APELLIDOS Y NOMBRES        DOCUMENTO     AFILIADO NUMERO  
+   J C S            ORG   CON APTE.    SIN APTE.    HABERES       FAMILIAR    JUBILAT      RETENIDOS    A PAGAR                                        TIPO NUMERO    I.P.S.S. ORDEN  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                 ADSCRIPTO                                                           
+04 1 1 1 0         0000                 23.600,00    23.600,00                                           23.600,00  INC DOC  MAIDANA JUAN RAMIRIO       DNI 17219567  140526 0000-003
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  VELIZ JUANA ROSA           DNI 22935006  227875 0000-003
+04 1 1 1 0         0000                 15.900,47    15.900,47                                           15.900,47  INC DOC  ARGA¥ARAZ PEDRO CELES      DNI 17377064  140161 0000-005
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  MIEJA MIGUEL ANGEL         DNI 17239244  184572 0000-005
+04 1   1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  ARMAS MIGUEL ANGEL         DNI 17317523  141168 0000-006
+04 1 1 1 0         0000                 35.400,00    35.400,00                                           35.400,00  INC DOC  GONZALEZ DE CUESTAS S      DNI 20883832  156758 0000-006
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  NOGUERA DE PEREZ ANGELINA  DNI 18569710  159351 0000-006
+04 1 1 1 0         0000                 14.189,50    14.189,50                                           14.189,50  INC DOC  MALDANIS, ALBA MARIEL      DNI 20219310  161930 0000-006
+04 1 1 1 0         0000                  2.360,00     2.360,00                                            2.360,00  INC DOC  FEYLING DE QUINTEROS BEAT  DNI 17947767  187113 0000-006
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  JUAREZ JOSE ALBERTO        DNI 17573794  154883 0000-007
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  ALVAREZ EDUARDO NICOL      DNI 17916646  209304 0000-007
+04 1 1 1 0         0000                 14.101,00    14.101,00                                           14.101,00  INC DOC  VILLADA VIOLETA NANCY      DNI 23827116  218196 0000-007
+04 1 1 1 0         0000                 15.900,47    15.900,47                                           15.900,47  INC DOC  BAZAN SILVIA BEATRIZ       DNI 22030321  177547 0000-008
+04 1 1 1 0         0000                 14.101,00    14.101,00                                           14.101,00  INC DOC  MARTINEZ SERGIO MIGUE      DNI 22127222  188529 0000-008
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  LUNA TERESA ROGELIA        DNI 23828933  192278 0000-008
+04 1 1 1 0         0000                 15.900,47    15.900,47                                           15.900,47  INC DOC  ACOSTA MARIA ELENA         DNI 20178672  149075 0000-009
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  FLORES DE AGUILAR S        DNI 20898701  138084 0000-010
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  L ESTRADA DE GEREZ         DNI 22031504  181397 0000-011
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  LAGORIA LOURDES JUDITH     DNI 25510034  187570 0000-011
+04 1 1 1 0         0000                  4.708,20     4.708,20                                            4.708,20  INC DOC  HERRERA RICARDO ELBIO      DNI 25211243  208488 0000-011
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  ARDILES MERCEDES DEL VALL  DNI 25213297  425829 0000-011
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  LANZULLI HECTOR ROLANDO    DNI 18185755  184699 0000-012
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  DIAZ MARINA JULIANA        DNI 23677467  191548 0000-012
+04 1 1 1 0         0000                 14.101,00    14.101,00                                           14.101,00  INC DOC  BERTONE NOEMI LUJAN        DNI 26498757  192301 0000-012
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  LANZULLI HECTOR ROLANDO    DNI 18185755  184699 0000-013
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  CHAVEZ NORA ALEJANDRA      DNI 20653071  191289 0000-013
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  OROSCO HUGO ALFREDO        DNI 23680133  177760 0000-015
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  AMILAGA TERESA SUSANA      DNI 22429535  181220 0000-015
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  ALDERETE, PATRICIA EL      DNI 23311049  184811 0000-015
+04 1 1 1 0         0000                 14.101,00    14.101,00                                           14.101,00  INC DOC  SARASPE MONICA ISABEL      DNI 21748532  138753 0000-016
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  JEREZ NELSON RAUL          DNI 22798240  196980 0000-017
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  JIMENEZ, LUIS EDGARDO      DNI 23576415  192126 0000-018
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  ALBORNOZ RITA ELIZABE      DNI 23865219  205026 0000-018
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  YTURRE, SILVIA BEATRI      DNI 23519062  180144 0000-019
+04 1 1 1 0         0000                 16.797,27    16.797,27                                           16.797,27  INC DOC  MEDINA REYNALDO FEDER      DNI 24982522  191143 0000-019
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  SALDA¥O SANDRA ELVIRA      DNI 20219465  194997 0000-019
+04 1 1 1 0         0000                 14.101,00    14.101,00                                           14.101,00  INC DOC  LUCENA BEATRIZ ELIZAB      DNI 26454517  200540 0000-019
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  FERNANDEZ MIRTA BEATR      DNI 22283098  228457 0000-019
+04 1 1 1 0         0000                 14.101,00    14.101,00                                           14.101,00  INC DOC  VEGA FERNANDA GRACIEL      DNI 27017863  400702 0000-019
+04 1 1 1 0         0000                  2.360,00     2.360,00                                            2.360,00  INC DOC  FERNANDEZ, ANA MARIA       DNI 17927754  136607 0000-020
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  GRANEROS NELLY DEL V       DNI 18582515  138679 0000-020
+04 1 1 1 0         0000                 14.101,00    14.101,00                                           14.101,00  INC DOC  LEGUIZAMON SILVINA ESTER   DNI 25211234  191506 0000-020
+04 1 1 1 0         0000                  7.080,00     7.080,00                                            7.080,00  INC DOC  MENA ALMEIDA  OSCAR M      DNI 23117190  207267 0000-020
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  FERNANDEZ MIRTA BEATR      DNI 22283098  228457 0000-020
+04 1 1 1 0         0000                 16.514,07    16.514,07                                           16.514,07  INC DOC  LENCINA RAMON RICARDO      DNI 20311127  163341 0000-021
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  UNZAGA HUGO HUMBERTO       DNI 14252548  188923 0000-021
+04 1 1 1 0         0000                 14.101,00    14.101,00                                           14.101,00  INC DOC  BARRIOS TOLEDO CLAUDI      DNI 17859607  155436 0000-025
+04 1 1 1 0         0000                 14.189,50    14.189,50                                           14.189,50  INC DOC  ACOSTA MARIA ELENA         DNI 20178672  149075 0000-026
+04 1 1 1 0         0000                 14.101,00    14.101,00                                           14.101,00  INC DOC  LAZARTE NOEM¨ ALEJANDRA    DNI 29412954  605310 0000-026
+04 1 1 1 0         0000                  2.354,10     2.354,10                                            2.354,10  INC DOC  JUAREZ ACHEN MARCELO       DNI 21129943  208094 0000-027
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  UNZAGA HUGO HUMBERTO       DNI 14252548  188923 0000-029
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  APAS DE RODRIGUEZ MYR      DNI 20171505  191421 0000-029
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  APAS EVANGELINA CENOB      DNI 22451746  183949 0000-030
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  CHEBIB SONIA MABEL         DNI 20444311  136097 0000-031
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  LEGUIZAMON JORGE A         DNI 17077018  186330 0000-032
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  JUAREZ JUAN PAULINO        DNI 21748308  182083 0000-033
+04 1 1 1 0         0000                 14.101,00    14.101,00                                           14.101,00  INC DOC  CARRIZO MARTIN A           DNI 17270312  143041 0000-035
+04 1 1 1 0         0000                 14.101,00    14.101,00                                           14.101,00  INC DOC  APARICIO RAUL A.           DNI 20612837  157057 0000-035
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  AGUIRRE MARCELO RUBEN      DNI 18203890  223623 0000-035
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  GUTIERREZ NORMA T          DNI 22057798  159855 0000-036
+04 1 1 1 0         0000                  5.899,99     5.899,99                                            5.899,99  INC DOC  HERRERA RICARDO ELBIO      DNI 25211243  208488 0000-036
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  PIAZZETA CLAUDIA SILV      DNI 20261905  185568 0000-038
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  GARCIA SILVINA PAOLA       DNI 26400453  433195 0000-041
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  ROLDAN ROBERTO DANIEL      DNI 17714807  162029 0000-042
+04 1 1 1 0         0000                  7.080,00     7.080,00                                            7.080,00  INC DOC  UNZAGA HUGO HUMBERTO       DNI 14252548  188923 0000-042
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  SINTORA ANALIA DE LOS      DNI 24982938  196998 0000-043
+04 1 1 1 0         0000                 21.239,97    21.239,97                                           21.239,97  INC DOC  ORTEGA MARIA DEL HUERTO    DNI 26795715  207217 0000-045
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  MAMANI JOSE ALFREDO        DNI 17947749  198215 0000-046
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  AZLAN MARIA FERNANDA       DNI 25255820  207175 0000-046
+04 1 1 1 0         0000                  1.185,90     1.185,90                                            1.185,90  INC DOC  ORTEGA MARIA DEL HUERTO    DNI 26795715  207217 0000-046
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  RODRIGUEZ SILVIA SUSA      DNI 23666518  206887 0000-049
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  SOLANIS ROMERO SILVIA      DNI 20163269  200461 0000-050
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  TREJO ELIAS LUIS RODOLFO   DNI 22429728  180111 0000-051
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  FERREIRA SONIA BEATRIZ     DNI 25074206  187354 0000-051
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  LAZARTE ADRIANA ELIZA      DNI 27430044  191676 0000-052
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  PEPE GUSTAVO RODOLFO       DNI 22073853  179173 0000-054
+04 1 1 1 0         0000                  2.354,10     2.354,10                                            2.354,10  INC DOC  LOBO SANDRA MYRIAM         DNI 21829351  192389 0000-054
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  LOBO MARICEL DEL VALLE     DNI 26638786  214062 0000-055
+04 1 1 1 0         0000                 14.101,00    14.101,00                                           14.101,00  INC DOC  VIZCARRA JOSE DANIEL       DNI 16175941  137212 0000-058
+04 1 1 1 0         0000                 35.400,00    35.400,00                                           35.400,00  INC DOC  LEAL CARLOS RAUL           DNI 21338350  159890 0000-058
+
+13211
+PLANILLLA DE HABERES CORRESPONDIENTE A: ART5 3RA CTA 4TO TRIM 2024  REPARTICION: ESCUELAS PROVINCIALES                             PAG.   2 / 2 REP. 18
+TIPO LIQ.: 8-ART.5 - INCENTIVO DOCENTE  NRO LIQ.: 1  MES LIQ.: 2025/04                                             FEC.IMPRESION: 16/04/2025 11:54:56                                                      
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TE % C O CAT MES DS UNI   HABERES      HABERES      TOTAL         ASIGNAC.    APORTES      TOTAL        LIQUIDO      CARGO   APELLIDOS Y NOMBRES        DOCUMENTO     AFILIADO NUMERO  
+   J C S            ORG   CON APTE.    SIN APTE.    HABERES       FAMILIAR    JUBILAT      RETENIDOS    A PAGAR                                        TIPO NUMERO    I.P.S.S. ORDEN  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+04 1 1 1 0         0000                 15.900,47    15.900,47                                           15.900,47  INC DOC  TOLEDO GUSTAVO ANTONI      DNI 16541212  147968 0000-060
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  RUIZ SILVIA GRISELDA       DNI 21025412  222242 0000-060
+04 1 1 1 0         0000                 14.101,00    14.101,00                                           14.101,00  INC DOC  ALDERETE MIGUEL ALBERTO    DNI 17894878  163047 0000-062
+04 1 1 1 0         0000                 14.101,00    14.101,00                                           14.101,00  INC DOC  ROMERO NORMA CRISTINA      DNI 21329927  176560 0000-062
+04 1 1 1 0         0000                  9.434,10     9.434,10                                            9.434,10  INC DOC  LAZARTE ADRIANA ELIZA      DNI 27430044  191676 0000-062
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  AZLAN MARIA FERNANDA       DNI 25255820  207175 0000-062
+04 1 1 1 0         0000                  9.434,10     9.434,10                                            9.434,10  INC DOC  LOBO SANDRA MYRIAM         DNI 21829351  192389 0000-063
+04 1 1 1 0         0000                  7.080,00     7.080,00                                            7.080,00  INC DOC  ZELARAYAN JOSE ANTONI      DNI 14414354  198495 0000-064
+04 1 1 1 0         0000                  9.434,10     9.434,10                                            9.434,10  INC DOC  LOBO SANDRA MYRIAM         DNI 21829351  192389 0000-065
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  INFANTE GABRIELA ELIZABET  DNI 22073703  169138 0000-067
+04 1 1 1 0         0000                 10.620,00    10.620,00                                           10.620,00  INC DOC  FIGUEROA FRANCISCO ED      DNI 20311924  176782 0000-071
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  BRIZUELA SERGIO HECTO      DNI 16176880  179172 0000-071
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  MOYANO YENI VILMA          DNI 24810946  187296 0000-071
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  ROLDAN ROBERTO DANIEL      DNI 17714807  162029 0000-072
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  ZELARAYAN JOSE ANTONI      DNI 14414354  198495 0000-072
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  AMAYA SANDRA ELIZABET      DNI 21788157  205228 0000-073
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  LOBO MARICEL DEL VALLE     DNI 26638786  214062 0000-074
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  JUAREZ ACHEN MARCELO       DNI 21129943  208094 0000-078
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  ARGA¥ARAZ PEDRO CELES      DNI 17377064  140161 0000-080
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  CORONEL ALBA INES DEL      DNI 20377368  205416 0000-080
+04 1 1 1 0         0000                 16.797,27    16.797,27                                           16.797,27  INC DOC  ROMANO JOSE ANTONIO        DNI 20171734  183009 0000-082
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  RODRIGUEZ SILVIA SUSA      DNI 23666518  206887 0000-083
+04 1 1 1 0         0000                  2.354,10     2.354,10                                            2.354,10  INC DOC  AGUDO, ALEJANDRO           DNI 22397646  194388 0000-086
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  BRIZUELA SERGIO HECTO      DNI 16176880  179172 0000-087
+04 1 1 1 0         0000                  7.080,00     7.080,00                                            7.080,00  INC DOC  MENA ALMEIDA  OSCAR M      DNI 23117190  207267 0000-089
+04 1 1 1 0         0000                  7.080,00     7.080,00                                            7.080,00  INC DOC  JUAREZ ACHEN MARCELO       DNI 21129943  208094 0000-091
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  LOBO SANDRA MYRIAM         DNI 21829351  192389 0000-092
+04 1 1 1 0         0000                  1.168,20     1.168,20                                            1.168,20  INC DOC  FIGUEROA FRANCISCO ED      DNI 20311924  176782 0000-093
+04 1 1 1 0         0000                     17,70        17,70                                               17,70  INC DOC  LOBO SANDRA MYRIAM         DNI 21829351  192389 0000-093
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  AGUDO, ALEJANDRO           DNI 22397646  194388 0000-093
+04 1 1 1 0         0000                  7.080,00     7.080,00                                            7.080,00  INC DOC  MENA ALMEIDA  OSCAR M      DNI 23117190  207267 0000-094
+04 1 1 1 0         0000                 14.278,00    14.278,00                                           14.278,00  INC DOC  SANCHEZ RICARDO MIGUEL     DNI 28965190  411471 0000-095
+04 1 1 1 0         0000                 11.805,90    11.805,90                                           11.805,90  INC DOC  MOYANO YENI VILMA          DNI 24810946  187296 0000-096
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  UNZAGA HUGO HUMBERTO       DNI 14252548  188923 0000-096
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  MENA ALMEIDA  OSCAR M      DNI 23117190  207267 0000-096
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  ARMAS MIGUEL ANGEL         DNI 17317523  141168 0000-098
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  CARRIZO MARTIN A           DNI 17270312  143041 0000-099
+04 1 1 1 0         0000                  1.168,20     1.168,20                                            1.168,20  INC DOC  BARROS DE DEL VALLE MARIA  DNI 22030259  138306 0000-100
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  PUPPI SILVIA SUSANA        DNI 20883737  164547 0000-100
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  JIMENEZ, LUIS EDGARDO      DNI 23576415  192126 0000-100
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  JUAREZ, GERARDO JESUS      DNI 24593866  197949 0000-100
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  ZELARAYAN JOSE ANTONI      DNI 14414354  198495 0000-100
+04 1 1 1 0         0000                  2.354,10     2.354,10                                            2.354,10  INC DOC  JUAREZ ACHEN MARCELO       DNI 21129943  208094 0000-101
+04 1 1 1 0         0000                 15.900,47    15.900,47                                           15.900,47  INC DOC  KAIRUZ ALBORNOZ VERON      DNI 25542063  220125 0000-101
+04 1 1 1 0         0000                 11.805,90    11.805,90                                           11.805,90  INC DOC  BRITO NOELIA INES          DNI 26400169  227332 0000-101
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  LAMAS SEBASTIAN GERAR      DNI 26827116  420616 0000-101
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  SELIS FERNANDO MIGUEL      DNI 26029216  428847 0000-101
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  PUPPI SILVIA SUSANA        DNI 20883737  164547 0000-102
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  SCHIJA EMIR                DNI 39359391  359391 0000-102
+04 1 1 1 0         0000                  2.354,10     2.354,10                                            2.354,10  INC DOC  DE JESUS DORA LILIA        DNI 23056428  600403 0000-102
+04 1 1 1 0         0000                  2.354,10     2.354,10                                            2.354,10  INC DOC  I¥IGUEZ MARIA LUISA        DNI 26655858  216002 0000-103
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  ROJAS RUBEN RICARDO        DNI 25188357  403194 0000-104
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  BARROS DE DEL VALLE MARIA  DNI 22030259  138306 0000-105
+04 1 1 1 0         0000                  2.354,10     2.354,10                                            2.354,10  INC DOC  AGUDO, ALEJANDRO           DNI 22397646  194388 0000-105
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  CASTRO GRACIELA DEL C      DNI 24098809  410401 0000-105
+04 1 1 1 0         0000                  3.522,30     3.522,30                                            3.522,30  INC DOC  LAMAS SEBASTIAN GERAR      DNI 26827116  420616 0000-105
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  VILLANUEVA BELLARROSA      DNI 23117958  183641 0000-106
+04 1 1 1 0         0000                 10.620,00    10.620,00                                           10.620,00  INC DOC  SOTELO MARIA VIVIANA       DNI 20160276  188922 0000-107
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  ROCHA DELINA DEL CARM      DNI 28920045  213619 0000-107
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  ALVAREZ VIVIANA FABIO      DNI 24671033  405540 0000-107
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  PUPPI SILVIA SUSANA        DNI 20883737  164547 0000-108
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  LAGORIA LOURDES JUDITH     DNI 25510034  187570 0000-108
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  ROCHA DELINA DEL CARM      DNI 28920045  213619 0000-108
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  VERASALUSE PEDRO PABL      DNI 17270291  411205 0000-108
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  DE JESUS DORA LILIA        DNI 23056428  600403 0000-108
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  NAVARRO GLORIA DEL VA      DNI 22394637  191898 0000-109
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  AZLAN MARIA FERNANDA       DNI 25255820  207175 0000-109
+04 1 1 1 0         0000                 14.189,50    14.189,50                                           14.189,50  INC DOC  DIAZ VERONICA LORENA       DNI 27210304  222750 0000-109
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  BARROS DE DEL VALLE MARIA  DNI 22030259  138306 0000-110
+04 1 1 1 0         0000                 14.101,00    14.101,00                                           14.101,00  INC DOC  VILLANUEVA BELLARROSA      DNI 23117958  183641 0000-110
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  AGUDO, ALEJANDRO           DNI 22397646  194388 0000-110
+04 1 1 1 0         0000                  2.354,10     2.354,10                                            2.354,10  INC DOC  ARAOZ MARIA SOLEDAD        DNI 27370974  211302 0000-110
+04 1 1 1 0         0000                 15.900,47    15.900,47                                           15.900,47  INC DOC  RUFFA ROSA FERNANDA        DNI 28893650  215241 0000-110
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  TULA VERONICA MABEL        DNI 29357743  405366 0000-110
+04 1 1 1 0         0000                 15.900,47    15.900,47                                           15.900,47  INC DOC  VEGA FABIAN EZEQUIEL       DNI 32132977  409697 0000-110
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  ARMAS MIGUEL ANGEL         DNI 17317523  141168 0000-112
+04 1 1 1 0         0000                  7.080,00     7.080,00                                            7.080,00  INC DOC  JUAREZ ACHEN MARCELO       DNI 21129943  208094 0000-112
+04 1 1 1 0         0000                  8.265,90     8.265,90                                            8.265,90  INC DOC  CASTRO GRACIELA DEL C      DNI 24098809  410401 0000-112
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  PEREZ MIRIAM KARINA        DNI 25667675  411027 0000-112
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  IOVANE MARIA EUGENIA       DNI 16132448  165654 0000-113
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  PEPE GUSTAVO RODOLFO       DNI 22073853  179173 0000-113
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  ROMERO CRISTIAN DARIO      DNI 25844830  601250 0000-113
+
+13212
+PLANILLLA DE HABERES CORRESPONDIENTE A: ART5 3RA CTA 4TO TRIM 2024  REPARTICION: ESCUELAS PROVINCIALES                             PAG.   3 / 3 REP. 18
+TIPO LIQ.: 8-ART.5 - INCENTIVO DOCENTE  NRO LIQ.: 1  MES LIQ.: 2025/04                                             FEC.IMPRESION: 16/04/2025 11:54:56                                                      
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TE % C O CAT MES DS UNI   HABERES      HABERES      TOTAL         ASIGNAC.    APORTES      TOTAL        LIQUIDO      CARGO   APELLIDOS Y NOMBRES        DOCUMENTO     AFILIADO NUMERO  
+   J C S            ORG   CON APTE.    SIN APTE.    HABERES       FAMILIAR    JUBILAT      RETENIDOS    A PAGAR                                        TIPO NUMERO    I.P.S.S. ORDEN  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+04 1 1 1 0         0000                  9.434,10     9.434,10                                            9.434,10  INC DOC  BARROS DE DEL VALLE MARIA  DNI 22030259  138306 0000-114
+04 1 1 1 0         0000                  7.080,00     7.080,00                                            7.080,00  INC DOC  FERREIRA SONIA BEATRIZ     DNI 25074206  187354 0000-114
+04 1 1 1 0         0000                  2.354,10     2.354,10                                            2.354,10  INC DOC  AGUDO, ALEJANDRO           DNI 22397646  194388 0000-114
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  MENA ALMEIDA  OSCAR M      DNI 23117190  207267 0000-114
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  CAMPANELLI JOSE ANTON      DNI 26743895  213954 0000-114
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  RODRIGUEZ JUAN ANDRES      DNI 26676829  218708 0000-115
+04 1 1 1 0         0000                  7.080,00     7.080,00                                            7.080,00  INC DOC  OLIVERA SILVIA FATIMA      DNI 20285411  159560 0000-116
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  VILLAFA¥E MARTIN ALEJANDR  DNI 27960603  208962 0000-116
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  RODRIGUEZ JUAN ANDRES      DNI 26676829  218708 0000-116
+04 1 1 1 0         0000                 16.797,27    16.797,27                                           16.797,27  INC DOC  SAPAG GUSTAVO ADOLFO       DNI 23241771  222826 0000-116
+04 1 1 1 0         0000                  1.185,90     1.185,90                                            1.185,90  INC DOC  AGUDO, ALEJANDRO           DNI 22397646  194388 0000-117
+04 1 1 1 0         0000                  7.080,00     7.080,00                                            7.080,00  INC DOC  ROJAS RUBEN RICARDO        DNI 25188357  403194 0000-117
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  HERNANDEZ ALEJANDRA SOLED  DNI 28893649  601853 0000-117
+04 1 1 1 0         0000                  1.185,90     1.185,90                                            1.185,90  INC DOC  ARAOZ MARIA SOLEDAD        DNI 27370974  211302 0000-118
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  GOMEZ RICARDO DARIO        DNI 34709257  439019 0000-118
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  FIGUEROA FRANCISCO ED      DNI 20311924  176782 0000-119
+04 1 1 1 0         0000                 10.620,00    10.620,00                                           10.620,00  INC DOC  SOTELO MARIA VIVIANA       DNI 20160276  188922 0000-119
+04 1 1 1 0         0000                  1.168,20     1.168,20                                            1.168,20  INC DOC  SOLANIS ROMERO SILVIA      DNI 20163269  200461 0000-119
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  TOLEDO MARIA BELEN         DNI 24409746  218896 0000-119
+04 1 1 1 0         0000                  9.434,10     9.434,10                                            9.434,10  INC DOC  RISSO PATRON MARIA CECILI  DNI 29323006  410513 0000-119
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  LAMAS SEBASTIAN GERAR      DNI 26827116  420616 0000-119
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  ARROYO MARIA ISABEL        DNI 24279216  187171 0000-120
+04 1 1 1 0         0000                  7.080,00     7.080,00                                            7.080,00  INC DOC  SANCHEZ TELLO MARIA DEL P  DNI 24808553  216104 0000-120
+04 1 1 1 0         0000                 11.805,90    11.805,90                                           11.805,90  INC DOC  QUIROS RITA IVONNE         DNI 29653718  227933 0000-120
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  SORIA RITA CECILIA AL      DNI 32728156  444912 0000-120
+04 1 1 1 0         0000                  2.354,10     2.354,10                                            2.354,10  INC DOC  ARMAS MIGUEL ANGEL         DNI 17317523  141168 0000-121
+04 1 1 1 0         0000                  9.434,10     9.434,10                                            9.434,10  INC DOC  MANCA JOSE CONSTANTINO     DNI 18158643  162911 0000-121
+04 1 1 1 0         0000                  8.265,90     8.265,90                                            8.265,90  INC DOC  QUIROS RITA IVONNE         DNI 29653718  227933 0000-121
+04 1 1 1 0         0000                  9.434,10     9.434,10                                            9.434,10  INC DOC  MANCA JOSE CONSTANTINO     DNI 18158643  162911 0000-122
+04 1 1 1 0         0000                  9.434,10     9.434,10                                            9.434,10  INC DOC  MANCA JOSE CONSTANTINO     DNI 18158643  162911 0000-123
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  AGUDO, ALEJANDRO           DNI 22397646  194388 0000-123
+04 1 1 1 0         0000                 14.278,00    14.278,00                                           14.278,00  INC DOC  BRITO NOELIA INES          DNI 26400169  227332 0000-123
+04 1 1 1 0         0000                 14.278,00    14.278,00                                           14.278,00  INC DOC  GUZMAN DARIO OSVALDO       DNI 25423268  227935 0000-123
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  VALLEJO JULIETA AGOSTINA   DNI 43651885  651885 0000-123
+04 1 1 1 0         0000                  7.097,70     7.097,70                                            7.097,70  INC DOC  MANCA JOSE CONSTANTINO     DNI 18158643  162911 0000-124
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  FIGUEROA FRANCISCO ED      DNI 20311924  176782 0000-124
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  GARAY MIGUEL ALBERTO       DNI 26300484  601830 0000-125
+04 1 1 1 0         0000                 16.797,27    16.797,27                                           16.797,27  INC DOC  VISCARRA RODOLFO E         DNI 23055793  138782 0000-126
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  FIGUEROA FRANCISCO ED      DNI 20311924  176782 0000-126
+04 1 1 1 0         0000                  8.265,90     8.265,90                                            8.265,90  INC DOC  LAMAS SEBASTIAN GERAR      DNI 26827116  420616 0000-126
+04 1 1 1 0         0000                  2.354,10     2.354,10                                            2.354,10  INC DOC  DE JESUS DORA LILIA        DNI 23056428  600403 0000-126
+04 1 1 1 0         0000                  9.439,99     9.439,99                                            9.439,99  INC DOC  FEYLING DE QUINTEROS BEAT  DNI 17947767  187113 0000-128
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  DRUBE PABLO DANIEL         DNI 26408647  214832 0000-128
+04 1 1 1 0         0000                  1.168,20     1.168,20                                            1.168,20  INC DOC  OROPEL ROSA ANTONIA        DNI 16318345  224720 0000-128
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  FERREIRA SONIA BEATRIZ     DNI 25074206  187354 0000-129
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  SOSA PABLO GUILLERMO       DNI 30497627  403023 0000-130
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  ROJAS RUBEN RICARDO        DNI 25188357  403194 0000-130
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  ESPECHE LORENA VIVIANA     DNI 27092056  602333 0000-130
+04 1 1 1 0         0000                  2.354,10     2.354,10                                            2.354,10  INC DOC  ARMAS MIGUEL ANGEL         DNI 17317523  141168 0000-131
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  ALBORNOZ RITA ELIZABE      DNI 23865219  205026 0000-134
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  PALAVECINO MARIA SOLEDAD   DNI 30068983  523156 0000-134
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  GRANEROS GERMAN ROQUE      DNI 17973068  165652 0000-136
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  FERNANDEZ CLAUDIO MARCELO  DNI 17458737  190708 0000-136
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  CAMPORA HECTOR ANTONI      DNI 23931367  403628 0000-136
+04 1 1 1 0         0000                  7.080,00     7.080,00                                            7.080,00  INC DOC  FERNANDEZ CLAUDIO MARCELO  DNI 17458737  190708 0000-137
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  CANTO TORRENS MARIA D      DNI 30759715  413841 0000-137
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  VERASALUSE PEDRO PABL      DNI 17270291  411205 0000-138
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  PEREZ ELOY                 DNI 17152638  144918 0000-140
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  LAZARTE ADRIANA ELIZA      DNI 27430044  191676 0000-140
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  CAMPORA HECTOR ANTONI      DNI 23931367  403628 0000-142
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  CAMPANELLI JOSE ANTON      DNI 26743895  213954 0000-143
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  ESPECHE LORENA VIVIANA     DNI 27092056  602333 0000-143
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  TOLEDO MARIA BELEN         DNI 24409746  218896 0000-144
+04 1 1 1 0         0000                  8.265,90     8.265,90                                            8.265,90  INC DOC  BARROS DE DEL VALLE MARIA  DNI 22030259  138306 0000-145
+04 1 1 1 0         0000                  7.080,00     7.080,00                                            7.080,00  INC DOC  OLIVERA SILVIA FATIMA      DNI 20285411  159560 0000-145
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  DRUBE PABLO DANIEL         DNI 26408647  214832 0000-145
+04 1 1 1 0         0000                 14.160,00    14.160,00                                           14.160,00  INC DOC  OLIVERA SILVIA FATIMA      DNI 20285411  159560 0000-146
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  AZLAN MARIA FERNANDA       DNI 25255820  207175 0000-146
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  FERNANDEZ MIRTA BEATR      DNI 22283098  228457 0000-147
+04 1 1 1 0         0000                  2.354,10     2.354,10                                            2.354,10  INC DOC  DE JESUS DORA LILIA        DNI 23056428  600403 0000-147
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  GARAY MIGUEL ALBERTO       DNI 26300484  601830 0000-147
+04 1 1 1 0         0000                  2.354,10     2.354,10                                            2.354,10  INC DOC  YBARRA NATALIA INGRID      DNI 28956086  424439 0000-148
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  PARRA PABLO OMAR           DNI 25859733  427927 0000-150
+04 1 1 1 0         0000                 10.620,00    10.620,00                                           10.620,00  INC DOC  AGUERO RICARDO SEBASTIAN   DNI 31589970  522296 0000-150
+04 1 1 1 0         0000                  2.354,10     2.354,10                                            2.354,10  INC DOC  SOTELO MARIA VIVIANA       DNI 20160276  188922 0000-151
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  RODRIGUEZ JUAN ANDRES      DNI 26676829  218708 0000-151
+04 1 1 1 0         0000                 17.505,27    17.505,27                                           17.505,27  INC DOC  CABRERA CLAUDIA MARCELA    DNI 23659520  418286 0000-151
+04 1 1 1 0         0000                  7.080,00     7.080,00                                            7.080,00  INC DOC  GARCIA DARIO AMIN          DNI 26441029  200444 0000-152
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  SOLANIS ROMERO SILVIA      DNI 20163269  200461 0000-152
+04 1 1 1 0         0000                  1.185,90     1.185,90                                            1.185,90  INC DOC  JUAREZ ACHEN MARCELO       DNI 21129943  208094 0000-152
+04 1 1 1 0         0000                  9.434,10     9.434,10                                            9.434,10  INC DOC  GARCIA DARIO AMIN          DNI 26441029  200444 0000-154
+04 1 1 1 0         0000                  1.168,20     1.168,20                                            1.168,20  INC DOC  MENA ALMEIDA  OSCAR M      DNI 23117190  207267 0000-154
+
+13213
+PLANILLLA DE HABERES CORRESPONDIENTE A: ART5 3RA CTA 4TO TRIM 2024  REPARTICION: ESCUELAS PROVINCIALES                             PAG.   4 / 4 REP. 18
+TIPO LIQ.: 8-ART.5 - INCENTIVO DOCENTE  NRO LIQ.: 1  MES LIQ.: 2025/04                                             FEC.IMPRESION: 16/04/2025 11:54:56                                                      
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TE % C O CAT MES DS UNI   HABERES      HABERES      TOTAL         ASIGNAC.    APORTES      TOTAL        LIQUIDO      CARGO   APELLIDOS Y NOMBRES        DOCUMENTO     AFILIADO NUMERO  
+   J C S            ORG   CON APTE.    SIN APTE.    HABERES       FAMILIAR    JUBILAT      RETENIDOS    A PAGAR                                        TIPO NUMERO    I.P.S.S. ORDEN  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+04 1 1 1 0         0000                  1.185,90     1.185,90                                            1.185,90  INC DOC  ARAOZ MARIA SOLEDAD        DNI 27370974  211302 0000-155
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  CORDOBA DIEGO PABLO SEBAS  DNI 26783682  221836 0000-155
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  CAMPORA HECTOR ANTONI      DNI 23931367  403628 0000-157
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  VALDEZ JULIO ARGENTINO     DNI 26506933  600965 0000-157
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  MENA ALMEIDA  OSCAR M      DNI 23117190  207267 0000-158
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  GARC¨A ROMINA VER¨NICA     DNI 26029240  438517 0000-158
+04 1 1 1 0         0000                  9.434,10     9.434,10                                            9.434,10  INC DOC  SOLANIS ROMERO SILVIA      DNI 20163269  200461 0000-160
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  DRUBE PABLO DANIEL         DNI 26408647  214832 0000-161
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  LAGORIA LOURDES JUDITH     DNI 25510034  187570 0000-162
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  RODRIGUEZ JUAN ANDRES      DNI 26676829  218708 0000-162
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  DE JESUS DORA LILIA        DNI 23056428  600403 0000-163
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  ROMERO CRISTIAN DARIO      DNI 25844830  601250 0000-163
+04 1 1 1 0         0000                  2.354,10     2.354,10                                            2.354,10  INC DOC  DE JESUS DORA LILIA        DNI 23056428  600403 0000-165
+04 1 1 1 0         0000                  2.354,10     2.354,10                                            2.354,10  INC DOC  ROMERO CRISTIAN DARIO      DNI 25844830  601250 0000-168
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  OROPEL ROSA ANTONIA        DNI 16318345  224720 0000-169
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  ROMERO CRISTIAN DARIO      DNI 25844830  601250 0000-170
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  DRUBE PABLO DANIEL         DNI 26408647  214832 0000-171
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  ZELARAYAN JOSE ANTONI      DNI 14414354  198495 0000-173
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  ARAOZ MARIA SOLEDAD        DNI 27370974  211302 0000-173
+04 1 1 1 0         0000                 10.620,00    10.620,00                                           10.620,00  INC DOC  JUAREZ ACHEN MARCELO       DNI 21129943  208094 0000-175
+04 1 1 1 0         0000                  2.354,10     2.354,10                                            2.354,10  INC DOC  ARAOZ MARIA SOLEDAD        DNI 27370974  211302 0000-175
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  NOGALES BAISSI GUSTAVO AD  DNI 25945090  218650 0000-180
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  MALDANIS SONIA BEATRIZ     DNI 17860719  198751 0000-181
+04 1 1 1 0         0000                  1.185,90     1.185,90                                            1.185,90  INC DOC  GARCIA DARIO AMIN          DNI 26441029  200444 0000-181
+04 1 1 1 0         0000                  2.354,10     2.354,10                                            2.354,10  INC DOC  CAMPORA HECTOR ANTONI      DNI 23931367  403628 0000-181
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  ESPECHE LORENA VIVIANA     DNI 27092056  602333 0000-181
+04 1 1 1 0         0000                  7.080,00     7.080,00                                            7.080,00  INC DOC  OLIVERA SILVIA FATIMA      DNI 20285411  159560 0000-182
+04 1 1 1 0         0000                 14.160,00    14.160,00                                           14.160,00  INC DOC  GARAY MIGUEL ALBERTO       DNI 26300484  601830 0000-182
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  LOBO SANDRA MYRIAM         DNI 21829351  192389 0000-183
+04 1 1 1 0         0000                 35.400,00    35.400,00                                           35.400,00  INC DOC  VICTORIA CLAUDIA CARINA    DNI 27662201  433170 0000-183
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  BESSONE ARBE JUAN MANUEL   DNI 36839971  434865 0000-183
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  ARBE ANALIA JUDITH         DNI 17947315  434866 0000-184
+04 1 1 1 0         0000                  7.080,00     7.080,00                                            7.080,00  INC DOC  SOTELO MARIA VIVIANA       DNI 20160276  188922 0000-185
+04 1 1 1 0         0000                 14.278,00    14.278,00                                           14.278,00  INC DOC  MIRANDA ANALIA GISELL      DNI 32235594  216345 0000-185
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  LAMAS SEBASTIAN GERAR      DNI 26827116  420616 0000-188
+04 1 1 1 0         0000                 14.101,00    14.101,00                                           14.101,00  INC DOC  BERTONE NOEMI LUJAN        DNI 26498757  192301 0000-189
+04 1 1 1 0         0000                 14.160,00    14.160,00                                           14.160,00  INC DOC  MANSILLA RUBEN DARIO       DNI 18600801  227758 0000-189
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  SOSA DUILIO GUSTAVO        DNI 24593971  188990 0000-190
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  PUPPI SILVIA SUSANA        DNI 20883737  164547 0000-191
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  COLLANTE GUILLERMO RAMON   DNI 26881647  429795 0000-193
+04 1 1 1 0         0000                 15.900,47    15.900,47                                           15.900,47  INC DOC  SILVA RENE EDUARDO         DNI 26371976  205390 0000-194
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  ROJAS RUBEN RICARDO        DNI 25188357  403194 0000-194
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  MARCINKIEWIEZ ELBA LUCIA   DNI 24736542  423811 0000-200
+04 1 1 1 0         0000                  9.434,10     9.434,10                                            9.434,10  INC DOC  OROPEL ROSA ANTONIA        DNI 16318345  224720 0000-208
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  OROPEL ROSA ANTONIA        DNI 16318345  224720 0000-211
+04 1 1 1 0         0000                 14.101,00    14.101,00                                           14.101,00  INC DOC  MORALES NELLY NOEMI        DNI 37496546  496546 0000-211
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  MAMANI JOSE ALFREDO        DNI 17947749  198215 0000-212
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  PUPPI SILVIA SUSANA        DNI 20883737  164547 0000-214
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  MARTININI STELLA MARI      DNI 22451770  167312 0000-214
+04 1 1 1 0         0000                  1.168,20     1.168,20                                            1.168,20  INC DOC  QUIROS RITA IVONNE         DNI 29653718  227933 0000-214
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  ROLDAN LUIS EDUARDO        DNI 17574628  416513 0000-214
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  AGUDO, ALEJANDRO           DNI 22397646  194388 0000-218
+04 1 1 1 0         0000                 35.400,00    35.400,00                                           35.400,00  INC DOC  LAGO ESTELA DEL VALLE      DNI 18309956  175220 0000-220
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  VILLANUEVA BELLARROSA      DNI 23117958  183641 0000-220
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  VILLANUEVA BELLARROSA      DNI 23117958  183641 0000-226
+04 1 1 1 0         0000                 16.797,27    16.797,27                                           16.797,27  INC DOC  VALDEZ VICTOR HUGO         DNI 27842643  222417 0000-228
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  OROPEL ROSA ANTONIA        DNI 16318345  224720 0000-230
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  RUIZ NOELIA                DNI 30319202  430096 0000-235
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  LOBO MARICEL DEL VALLE     DNI 26638786  214062 0000-237
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  SOTELO MARIA VIVIANA       DNI 20160276  188922 0000-246
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  NAVARRO GLORIA DEL VA      DNI 22394637  191898 0000-249
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  GONZALEZ ARIAS RODRIGO JO  DNI 27735793  525975 0000-250
+04 1 1 1 0         0000                  2.354,10     2.354,10                                            2.354,10  INC DOC  ARMAS MIGUEL ANGEL         DNI 17317523  141168 0000-254
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  CABANILLAS ESCOBAR H       DNI 18749287  181667 0000-256
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  ALVAREZ VIVIANA FABIO      DNI 24671033  405540 0000-256
+04 1 1 1 0         0000                 15.900,47    15.900,47                                           15.900,47  INC DOC  TACLA PAOLA NOEMI          DNI 29743812  463533 0000-259
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  FERNANDEZ GUSTAVO ROD      DNI 17239958  167529 0000-265
+04 1 1 1 0         0000                  7.080,00     7.080,00                                            7.080,00  INC DOC  BRIZUELA SERGIO HECTO      DNI 16176880  179172 0000-275
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  LAGORIA LOURDES JUDITH     DNI 25510034  187570 0000-275
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  LAGORIA LOURDES JUDITH     DNI 25510034  187570 0000-276
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  FERREIRA SONIA BEATRIZ     DNI 25074206  187354 0000-301
+04 1 1 1 0         0000                 14.101,00    14.101,00                                           14.101,00  INC DOC  LEGUIZAMON SILVINA ESTER   DNI 25211234  191506 0000-301
+04 1 1 1 0         0000                 15.900,47    15.900,47                                           15.900,47  INC DOC  ARGA¥ARAZ ADRIANA CECILIA  DNI 30068797  206312 0000-301
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  APARICIO MARIA DEL C       DNI 29997424  443473 0000-301
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  URQUIZA SILVIA SUSANA      DNI 22818386  188168 0000-302
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  RUIZ ANDREA FATIMA         DNI 25542082  192889 0000-302
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  ARELLANO HECTOR GUSTA      DNI 26782195  201343 0000-302
+04 1 1 1 0         0000                  1.185,90     1.185,90                                            1.185,90  INC DOC  ARAOZ MARIA SOLEDAD        DNI 27370974  211302 0000-302
+04 1 1 1 0         0000                 11.799,98    11.799,98                                           11.799,98  INC DOC  PAJ¨N EXEQUIEL RAM¨N AUGU  DNI 34096349  463224 0000-302
+04 1 1 1 0         0000                 11.805,90    11.805,90                                           11.805,90  INC DOC  AGUERO RICARDO SEBASTIAN   DNI 31589970  522296 0000-302
+04 1 1 1 0         0000                 10.319,10    10.319,10                                           10.319,10  INC DOC  HERNANDEZ ALEJANDRA SOLED  DNI 28893649  601853 0000-302
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  ELIAS ISAIAS FERNANDO      DNI 35194525  607610 0000-302
+
+13214
+PLANILLLA DE HABERES CORRESPONDIENTE A: ART5 3RA CTA 4TO TRIM 2024  REPARTICION: ESCUELAS PROVINCIALES                             PAG.   5 / 5 REP. 18
+TIPO LIQ.: 8-ART.5 - INCENTIVO DOCENTE  NRO LIQ.: 1  MES LIQ.: 2025/04                                             FEC.IMPRESION: 16/04/2025 11:54:56                                                      
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TE % C O CAT MES DS UNI   HABERES      HABERES      TOTAL         ASIGNAC.    APORTES      TOTAL        LIQUIDO      CARGO   APELLIDOS Y NOMBRES        DOCUMENTO     AFILIADO NUMERO  
+   J C S            ORG   CON APTE.    SIN APTE.    HABERES       FAMILIAR    JUBILAT      RETENIDOS    A PAGAR                                        TIPO NUMERO    I.P.S.S. ORDEN  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+04 1 1 1 0         0000                 16.797,27    16.797,27                                           16.797,27  INC DOC  ROMANO JOSE ANTONIO        DNI 20171734  183009 0000-303
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  NAVARRO SILVIA DEL CA      DNI 26006936  224803 0000-303
+04 1 1 1 0         0000                 14.101,00    14.101,00                                           14.101,00  INC DOC  MENA CESAR ESTEBAN         DNI 29998656  428664 0000-303
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  CARDOZO GISELLE ALEJANDRA  DNI 32601729  454905 0000-303
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  ELIAS ISAIAS FERNANDO      DNI 35194525  607610 0000-303
+04 1 1 1 0         0000                 35.400,00    35.400,00                                           35.400,00  INC DOC  PEDRAZA ELIZABETH DE LOS   DNI 22263811  196262 0000-304
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  AZLAN MARIA FERNANDA       DNI 25255820  207175 0000-304
+04 1 1 1 0         0000                  8.465,32     8.465,32                                            8.465,32  INC DOC  PEREZ ROSANA DEL VALLE     DNI 26277447  277447 0000-304
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  ANCE NATALIA CAROLINA      DNI 31038083  431712 0000-304
+04 1 1 1 0         0000                  2.354,10     2.354,10                                            2.354,10  INC DOC  CHIBILISCO OSCAR EDUARDO   DNI 29240755  455398 0000-304
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  PEREYRA MARCELA MARIA FER  DNI 22664647  193188 0000-305
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  AMARGOS NOEMI DEL VALLE    DNI 26408510  415416 0000-305
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  ALVAREZ MARIA GABRIEL      DNI 24981474  419930 0000-305
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  SABALZA MANUEL FRANCISCO   DNI 30108972  430396 0000-305
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  LAZARTE MARIO FACUNDO      DNI 33969470  461811 0000-305
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  CANSINO FLAVIA CAROLI      DNI 36612868  525702 0000-305
+04 1 1 1 0         0000                 35.400,00    35.400,00                                           35.400,00  INC DOC  G DE PETERS MARIA C        DNI 23566597  181281 0000-306
+04 1 1 1 0         0000                 14.101,00    14.101,00                                           14.101,00  INC DOC  BAIGORRIA FATIMA           DNI 23566541  190286 0000-306
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  RISSO LEOPOLDO DANTE       DNI 31353995  413453 0000-306
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  CANSINO FLAVIA CAROLI      DNI 36612868  525702 0000-306
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  PALAVECINO MARIA SOLEDAD   DNI 30068983  523156 0000-307
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  BRITO DOMINGO HECTOR       DNI 23467595  604695 0000-307
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  JEREZ NELSON RAUL          DNI 22798240  196980 0000-308
+04 1 1 1 0         0000                 14.160,00    14.160,00                                           14.160,00  INC DOC  QUIROS RITA IVONNE         DNI 29653718  227933 0000-308
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  DIAZ KARINA DEL VALLE      DNI 23310935  416660 0000-308
+04 1 1 1 0         0000                 14.278,00    14.278,00                                           14.278,00  INC DOC  GIGNONE ANA EUGENIA        DNI 32158385  438395 0000-308
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  PONCE SILVANA VANESA       DNI 29357654  455555 0000-308
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  SALINA SERGIO LUIS         DNI 27964065  189118 0000-309
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  SABALZA MANUEL FRANCISCO   DNI 30108972  430396 0000-309
+04 1 1 1 0         0000                  7.080,00     7.080,00                                            7.080,00  INC DOC  RISSO PATRON MARIA CECILI  DNI 29323006  410513 0000-310
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  PEREZ MIRIAM KARINA        DNI 25667675  411027 0000-310
+04 1 1 1 0         0000                 14.101,00    14.101,00                                           14.101,00  INC DOC  FAZZIO SOSA SOFIA TAM      DNI 34419519  411364 0000-310
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  LUNA ERNESTO CARLOS        DNI 32167346  429341 0000-310
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  CANSINO FLAVIA CAROLI      DNI 36612868  525702 0000-310
+04 1 1 1 0         0000                  1.185,90     1.185,90                                            1.185,90  INC DOC  OYOLA PABLO DANIEL         DNI 23132030  189054 0000-311
+04 1 1 1 0         0000                 12.974,10    12.974,10                                           12.974,10  INC DOC  ORTEGA MARIA DEL HUERTO    DNI 26795715  207217 0000-311
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  LOBO MARICEL DEL VALLE     DNI 26638786  214062 0000-311
+04 1 1 1 0         0000                 14.160,00    14.160,00                                           14.160,00  INC DOC  RUIZ NOELIA                DNI 30319202  430096 0000-311
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  ELIAS ISAIAS FERNANDO      DNI 35194525  607610 0000-311
+04 1 1 1 0         0000                  4.425,00     4.425,00                                            4.425,00  INC DOC  LIZARRAGA LUIS EUSTAQUIO   DNI 35255723  608553 0000-311
+04 1 1 1 0         0000                  7.080,00     7.080,00                                            7.080,00  INC DOC  SALINA SERGIO LUIS         DNI 27964065  189118 0000-312
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  LUNA ERNESTO CARLOS        DNI 32167346  429341 0000-312
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  RUIZ NOELIA                DNI 30319202  430096 0000-312
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  PONCE SILVANA VANESA       DNI 29357654  455555 0000-312
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  ELIAS ISAIAS FERNANDO      DNI 35194525  607610 0000-312
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  ARAOZ MARIA SOLEDAD        DNI 27370974  211302 0000-313
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  PONCE SILVANA VANESA       DNI 29357654  455555 0000-313
+04 1 1 1 0         0000                  1.203,60     1.203,60                                            1.203,60  INC DOC  DE JESUS DORA LILIA        DNI 23056428  600403 0000-313
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  OYOLA PABLO DANIEL         DNI 23132030  189054 0000-314
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  SOLANIS ROMERO SILVIA      DNI 20163269  200461 0000-314
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  RISSO PATRON MARIA CECILI  DNI 29323006  410513 0000-314
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  FERNANDEZ ELENA ISABEL     DNI 22557345  416020 0000-314
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  SELIS FERNANDO MIGUEL      DNI 26029216  428847 0000-314
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  LEIVA MARIA LAURA          DNI 24803046  803046 0000-314
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  SELIS FERNANDO MIGUEL      DNI 26029216  428847 0000-315
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  DE JESUS DORA LILIA        DNI 23056428  600403 0000-315
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  ROMERO CRISTIAN DARIO      DNI 25844830  601250 0000-315
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  SALINA SERGIO LUIS         DNI 27964065  189118 0000-316
+04 1 1 1 0         0000                 14.101,00    14.101,00                                           14.101,00  INC DOC  RUFFA ROSA FERNANDA        DNI 28893650  215241 0000-316
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  BRITO NOELIA INES          DNI 26400169  227332 0000-316
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  SELIS FERNANDO MIGUEL      DNI 26029216  428847 0000-316
+04 1 1 1 0         0000                  4.708,20     4.708,20                                            4.708,20  INC DOC  ALBORNOZ GONZALO HORACIO   DNI 36039574  467605 0000-316
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  SELIS FERNANDO MIGUEL      DNI 26029216  428847 0000-317
+04 1 1 1 0         0000                 11.799,98    11.799,98                                           11.799,98  INC DOC  RADIS ANA SOFIA            DNI 29918313  463526 0000-317
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  BRITO DOMINGO HECTOR       DNI 23467595  604695 0000-317
+04 1 1 1 0         0000                  3.557,70     3.557,70                                            3.557,70  INC DOC  FERREIRA SONIA BEATRIZ     DNI 25074206  187354 0000-318
+04 1 1 1 0         0000                  2.354,10     2.354,10                                            2.354,10  INC DOC  ARAOZ MARIA SOLEDAD        DNI 27370974  211302 0000-318
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  JEREZ NELSON RAUL          DNI 22798240  196980 0000-319
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  SALINA SERGIO LUIS         DNI 27964065  189118 0000-320
+04 1 1 1 0         0000                 14.101,00    14.101,00                                           14.101,00  INC DOC  VEGA FABIAN EZEQUIEL       DNI 32132977  409697 0000-320
+04 1 1 1 0         0000                  7.080,00     7.080,00                                            7.080,00  INC DOC  GIGNONE ANA EUGENIA        DNI 32158385  438395 0000-320
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  LEIVA MARIA LAURA          DNI 24803046  803046 0000-320
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  RISSO LEOPOLDO DANTE       DNI 31353995  413453 0000-321
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  BURGOS RAMIRO DANIEL       DNI 23616640  215112 0000-322
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  MAZA MARIA JOSE VALERIA    DNI 28919948  604575 0000-322
+04 1 1 1 0         0000                  2.354,10     2.354,10                                            2.354,10  INC DOC  YBARRA NATALIA INGRID      DNI 28956086  424439 0000-323
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  LUNA ERNESTO CARLOS        DNI 32167346  429341 0000-323
+04 1 1 1 0         0000                  1.964,70     1.964,70                                            1.964,70  INC DOC  ORONA DE BOTTONE SILV      DNI 26246479  600620 0000-323
+04 1 1 1 0         0000                  1.575,30     1.575,30                                            1.575,30  INC DOC  ORONA DE BOTTONE SILV      DNI 26246479  600620 0000-324
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  HERRERA PAOLA SILVANA      DNI 24993053  606167 0000-324
+04 1 1 1 0         0000                 17.505,27    17.505,27                                           17.505,27  INC DOC  BARRIOS MARIANO ALEJANDRO  DNI 31310706  611333 0000-324
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  CANSECO JUAN BAUTISTA      DNI 21744096  404414 0000-325
+
+13215
+PLANILLLA DE HABERES CORRESPONDIENTE A: ART5 3RA CTA 4TO TRIM 2024  REPARTICION: ESCUELAS PROVINCIALES                             PAG.   6 / 6 REP. 18
+TIPO LIQ.: 8-ART.5 - INCENTIVO DOCENTE  NRO LIQ.: 1  MES LIQ.: 2025/04                                             FEC.IMPRESION: 16/04/2025 11:54:56                                                      
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TE % C O CAT MES DS UNI   HABERES      HABERES      TOTAL         ASIGNAC.    APORTES      TOTAL        LIQUIDO      CARGO   APELLIDOS Y NOMBRES        DOCUMENTO     AFILIADO NUMERO  
+   J C S            ORG   CON APTE.    SIN APTE.    HABERES       FAMILIAR    JUBILAT      RETENIDOS    A PAGAR                                        TIPO NUMERO    I.P.S.S. ORDEN  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  SELIS FERNANDO MIGUEL      DNI 26029216  428847 0000-325
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  OYOLA PABLO DANIEL         DNI 23132030  189054 0000-326
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  PEREYRA MARCELA MARIA FER  DNI 22664647  193188 0000-326
+04 1 1 1 0         0000                  1.185,90     1.185,90                                            1.185,90  INC DOC  PARRA PABLO OMAR           DNI 25859733  427927 0000-326
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  SABALZA MANUEL FRANCISCO   DNI 30108972  430396 0000-326
+04 1 1 1 0         0000                 11.805,90    11.805,90                                           11.805,90  INC DOC  ROLDAN MARIA JOSE          DNI 26935920  189076 0000-327
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  SALINA SERGIO LUIS         DNI 27964065  189118 0000-327
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  RUIZ ANDREA FATIMA         DNI 25542082  192889 0000-327
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  FUNES RUBEN OMAR           DNI 35808636  444474 0000-327
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  SALON CRISTIAN HUMBERTO    DNI 37503279  503279 0000-327
+04 1 1 1 0         0000                    395,30       395,30                                              395,30  INC DOC  ORONA DE BOTTONE SILV      DNI 26246479  600620 0000-327
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  ARELLANO HECTOR GUSTA      DNI 26782195  201343 0000-328
+04 1 1 1 0         0000                 14.101,00    14.101,00                                           14.101,00  INC DOC  GONZALEZ ESCOBAR ORNELA T  DNI 30374359  410145 0000-328
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  FUNES RUBEN OMAR           DNI 35808636  444474 0000-328
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  AGUILAR MARIA SOLEDAD      DNI 27735841  605022 0000-328
+04 1 1 1 0         0000                    194,70       194,70                                              194,70  INC DOC  BARRIOS MARIANO ALEJANDRO  DNI 31310706  611333 0000-328
+04 1 1 1 0         0000                 17.505,27    17.505,27                                           17.505,27  INC DOC  CABRERA CLAUDIA MARCELA    DNI 23659520  418286 0000-329
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  RISSO PATRON MARIA CECILI  DNI 29323006  410513 0000-330
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  LAZARTE PRISCILA NATA      DNI 38490050  490050 0000-330
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  DE JESUS DORA LILIA        DNI 23056428  600403 0000-330
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  MERCADO OSCAR MARCELO      DNI 28093636  421504 0000-331
+04 1 1 1 0         0000                 14.101,00    14.101,00                                           14.101,00  INC DOC  LAZARTE MARIO FACUNDO      DNI 33969470  461811 0000-331
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  IBRAIM MARIA VERONICA      DNI 32201155  450352 0000-332
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  CANCINO FATIMA ROSANA      DNI 28417012  404888 0000-333
+04 1 1 1 0         0000                 15.345,87    15.345,87                                           15.345,87  INC DOC  ALBORNOZ GONZALO HORACIO   DNI 36039574  467605 0000-333
+04 1 1 1 0         0000                  8.265,90     8.265,90                                            8.265,90  INC DOC  LAMAS SEBASTIAN GERAR      DNI 26827116  420616 0000-334
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  CASTILLO EMILIA NATIVIDAD  DNI 29155902  446340 0000-334
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  DE JESUS DORA LILIA        DNI 23056428  600403 0000-334
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  DRUBE PABLO DANIEL         DNI 26408647  214832 0000-335
+04 1 1 1 0         0000                  7.080,00     7.080,00                                            7.080,00  INC DOC  RISSO LEOPOLDO DANTE       DNI 31353995  413453 0000-335
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  PARRA PABLO OMAR           DNI 25859733  427927 0000-335
+04 1 1 1 0         0000                 16.797,27    16.797,27                                           16.797,27  INC DOC  ELIAS FERNANDO             DNI 36039998  457028 0000-337
+04 1 1 1 0         0000                 14.278,00    14.278,00                                           14.278,00  INC DOC  GIL ADRIANA DEL VALLE      DNI 17269326  454524 0000-338
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  FUNES RUBEN OMAR           DNI 35808636  444474 0000-339
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  FUNES RUBEN OMAR           DNI 35808636  444474 0000-340
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  IBRAIM MARIA VERONICA      DNI 32201155  450352 0000-340
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  OROPEL ROSA ANTONIA        DNI 16318345  224720 0000-342
+04 1 1 1 0         0000                 35.400,00    35.400,00                                           35.400,00  INC DOC  ROLDAN NELIDA ADRIANA      DNI 26834505  413520 0000-344
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  PAZ CLAUDIA PAOLA          DNI 27798387  428727 0000-344
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  ROJAS RUBEN RICARDO        DNI 25188357  403194 0000-345
+04 1 1 1 0         0000                  3.522,30     3.522,30                                            3.522,30  INC DOC  SALINA SERGIO LUIS         DNI 27964065  189118 0000-347
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  JEREZ NELSON RAUL          DNI 22798240  196980 0000-347
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  BURGOS RAMIRO DANIEL       DNI 23616640  215112 0000-348
+04 1 1 1 0         0000                  1.185,90     1.185,90                                            1.185,90  INC DOC  TOLEDO MARIA BELEN         DNI 24409746  218896 0000-348
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  MARCINKIEWIEZ ELBA LUCIA   DNI 24736542  423811 0000-349
+04 1 1 1 0         0000                  7.080,00     7.080,00                                            7.080,00  INC DOC  RISSO LEOPOLDO DANTE       DNI 31353995  413453 0000-350
+04 1 1 1 0         0000                  2.354,10     2.354,10                                            2.354,10  INC DOC  FUNES RUBEN OMAR           DNI 35808636  444474 0000-350
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  RODRIGUEZ JUAN JESUS       DNI 26783166  220475 0000-351
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  DE JESUS DORA LILIA        DNI 23056428  600403 0000-351
+04 1 1 1 0         0000                    902,70       902,70                                              902,70  INC DOC  VALDEZ VICTOR HUGO         DNI 27842643  222417 0000-352
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  AGUILAR MARIA SOLEDAD      DNI 27735841  605022 0000-352
+04 1 1 1 0         0000                  2.354,10     2.354,10                                            2.354,10  INC DOC  FUNES RUBEN OMAR           DNI 35808636  444474 0000-353
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  CARDOZO LAVIN MARIA CELES  DNI 35806522  462893 0000-353
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  AGUERO RICARDO SEBASTIAN   DNI 31589970  522296 0000-353
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  AZLAN MARIA FERNANDA       DNI 25255820  207175 0000-354
+04 1 1 1 0         0000                  2.354,10     2.354,10                                            2.354,10  INC DOC  PARRA PABLO OMAR           DNI 25859733  427927 0000-354
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  SALINA SERGIO LUIS         DNI 27964065  189118 0000-355
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  FERNANDEZ ELENA ISABEL     DNI 22557345  416020 0000-355
+04 1 1 1 0         0000                 15.900,47    15.900,47                                           15.900,47  INC DOC  SAPAG GUSTAVO ADOLFO       DNI 23241771  222826 0000-356
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  ROLDAN MARIA JOSE          DNI 26935920  189076 0000-357
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  DE JESUS VICTORIA ALI      DNI 22397337  227691 0000-358
+04 1 1 1 0         0000                  1.770,00     1.770,00                                            1.770,00  INC DOC  RISSO PATRON MARIA CECILI  DNI 29323006  410513 0000-358
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  IBRAIM MARIA VERONICA      DNI 32201155  450352 0000-358
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  MAZA MARIA JOSE VALERIA    DNI 28919948  604575 0000-358
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  DRUBE PABLO DANIEL         DNI 26408647  214832 0000-359
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  CHIBILISCO OSCAR EDUARDO   DNI 29240755  455398 0000-359
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  LOBO MARICEL DEL VALLE     DNI 26638786  214062 0000-360
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  ROJAS MARIBEL NOELIA GUAD  DNI 33541717  448754 0000-362
+04 1 1 1 0         0000                  1.203,60     1.203,60                                            1.203,60  INC DOC  PAJ¨N EXEQUIEL RAM¨N AUGU  DNI 34096349  463224 0000-362
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  CASARES MYRIAM DEL CA      DNI 22127365  185106 0000-367
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  ALVAREZ LUCIO OSVALDO FED  DNI 31589250  428137 0000-367
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  SANNA JOSEFINA SOLEDAD DE  DNI 28921531  523667 0000-367
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  CAMPORA HECTOR ANTONI      DNI 23931367  403628 0000-368
+04 1 1 1 0         0000                  2.354,10     2.354,10                                            2.354,10  INC DOC  ARAOZ MARIA SOLEDAD        DNI 27370974  211302 0000-369
+04 1 1 1 0         0000                  5.899,99     5.899,99                                            5.899,99  INC DOC  ORONA DE BOTTONE SILV      DNI 26246479  600620 0000-370
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  IBA¥EZ ADRIANA VALERI      DNI 23930420  411323 0000-371
+04 1 1 1 0         0000                  1.964,70     1.964,70                                            1.964,70  INC DOC  ORONA DE BOTTONE SILV      DNI 26246479  600620 0000-371
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  OYOLA PABLO DANIEL         DNI 23132030  189054 0000-374
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  LUCENA BEATRIZ ELIZAB      DNI 26454517  200540 0000-379
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  GIGNONE ANA EUGENIA        DNI 32158385  438395 0000-379
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  CARDOZO GISELLE ALEJANDRA  DNI 32601729  454905 0000-379
+04 1 1 1 0         0000                 15.900,47    15.900,47                                           15.900,47  INC DOC  PAJ¨N EXEQUIEL RAM¨N AUGU  DNI 34096349  463224 0000-379
+
+13216
+PLANILLLA DE HABERES CORRESPONDIENTE A: ART5 3RA CTA 4TO TRIM 2024  REPARTICION: ESCUELAS PROVINCIALES                             PAG.   7 / 7 REP. 18
+TIPO LIQ.: 8-ART.5 - INCENTIVO DOCENTE  NRO LIQ.: 1  MES LIQ.: 2025/04                                             FEC.IMPRESION: 16/04/2025 11:54:56                                                      
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TE % C O CAT MES DS UNI   HABERES      HABERES      TOTAL         ASIGNAC.    APORTES      TOTAL        LIQUIDO      CARGO   APELLIDOS Y NOMBRES        DOCUMENTO     AFILIADO NUMERO  
+   J C S            ORG   CON APTE.    SIN APTE.    HABERES       FAMILIAR    JUBILAT      RETENIDOS    A PAGAR                                        TIPO NUMERO    I.P.S.S. ORDEN  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  ROMANO MARIA DEL CARMEN    DNI 29177770  603218 0000-379
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  CARDOZO GISELLE ALEJANDRA  DNI 32601729  454905 0000-380
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  CHIBILISCO OSCAR EDUARDO   DNI 29240755  455398 0000-380
+04 1 1 1 0         0000                 35.400,00    35.400,00                                           35.400,00  INC DOC  GARCIA RAUL JOSE           DNI 23280368  191260 0000-381
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  LAGORIA LOURDES JUDITH     DNI 25510034  187570 0000-383
+04 1 1 1 0         0000                  1.203,60     1.203,60                                            1.203,60  INC DOC  AZLAN MARIA FERNANDA       DNI 25255820  207175 0000-383
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  TULA VERONICA MABEL        DNI 29357743  405366 0000-383
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  HERNANDEZ ALEJANDRA SOLED  DNI 28893649  601853 0000-384
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  DRUBE PABLO DANIEL         DNI 26408647  214832 0000-386
+04 1 1 1 0         0000                  1.185,90     1.185,90                                            1.185,90  INC DOC  SABALZA MANUEL FRANCISCO   DNI 30108972  430396 0000-387
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  BURGOS RAMIRO DANIEL       DNI 23616640  215112 0000-388
+04 1 1 1 0         0000                  1.185,90     1.185,90                                            1.185,90  INC DOC  SABALZA MANUEL FRANCISCO   DNI 30108972  430396 0000-388
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  GIL ADRIANA DEL VALLE      DNI 17269326  454524 0000-388
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  MERCADO OSCAR MARCELO      DNI 28093636  421504 0000-389
+04 1 1 1 0         0000                  1.185,90     1.185,90                                            1.185,90  INC DOC  SABALZA MANUEL FRANCISCO   DNI 30108972  430396 0000-389
+04 1 1 1 0         0000                  1.185,90     1.185,90                                            1.185,90  INC DOC  SABALZA MANUEL FRANCISCO   DNI 30108972  430396 0000-390
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  GUZMAN DARIO OSVALDO       DNI 25423268  227935 0000-391
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  LUNA ERNESTO CARLOS        DNI 32167346  429341 0000-391
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  ELIAS ISAIAS FERNANDO      DNI 35194525  607610 0000-391
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  NOGALES BAISSI GUSTAVO AD  DNI 25945090  218650 0000-393
+04 1 1 1 0         0000                  2.354,10     2.354,10                                            2.354,10  INC DOC  CHIBILISCO OSCAR EDUARDO   DNI 29240755  455398 0000-396
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  DIAZ VOLPEZ SOLCIRE        DNI 39726906  526912 0000-396
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  ELIAS ISAIAS FERNANDO      DNI 35194525  607610 0000-396
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  LUCENA BEATRIZ ELIZAB      DNI 26454517  200540 0000-398
+04 1 1 1 0         0000                  7.080,00     7.080,00                                            7.080,00  INC DOC  FERREIRA SONIA BEATRIZ     DNI 25074206  187354 0000-402
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  SELIS FERNANDO MIGUEL      DNI 26029216  428847 0000-405
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  PONCE SILVANA VANESA       DNI 29357654  455555 0000-406
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  SOLANIS ROMERO SILVIA      DNI 20163269  200461 0000-407
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  OROPEL ROSA ANTONIA        DNI 16318345  224720 0000-407
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  GIGNONE ANA EUGENIA        DNI 32158385  438395 0000-407
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  RUIZ NOELIA                DNI 30319202  430096 0000-410
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  AMMAR ALE DANIEL           DNI 33974906  450058 0000-410
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  CHIBILISCO OSCAR EDUARDO   DNI 29240755  455398 0000-410
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  CANSINO FLAVIA CAROLI      DNI 36612868  525702 0000-410
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  JEREZ NELSON RAUL          DNI 22798240  196980 0000-411
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  RUIZ NOELIA                DNI 30319202  430096 0000-411
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  RUIZ NOELIA                DNI 30319202  430096 0000-412
+04 1 1 1 0         0000                  2.354,10     2.354,10                                            2.354,10  INC DOC  IBRAIM MARIA VERONICA      DNI 32201155  450352 0000-412
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  QUIROGA NATALIA ELIZABETH  DNI 24175276  204282 0000-413
+04 1 1 1 0         0000                  2.354,10     2.354,10                                            2.354,10  INC DOC  IBRAIM MARIA VERONICA      DNI 32201155  450352 0000-413
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  LANZULLI HECTOR ROLANDO    DNI 18185755  184699 0000-414
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  TOLABA DELGADO SEBASTIAN   DNI 26982313  212105 0000-416
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  MAZA MARIA JOSE VALERIA    DNI 28919948  604575 0000-416
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  TOLABA DELGADO SEBASTIAN   DNI 26982313  212105 0000-418
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  MOYA CECILIA MARIA         DNI 23021489  197979 0000-420
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  OLVEIRA CARLOS ADALBE      DNI 24401419  405542 0000-420
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  I¥IGUEZ MARIA LUISA        DNI 26655858  216002 0000-421
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  NOGALES BAISSI GUSTAVO AD  DNI 25945090  218650 0000-423
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  NOGALES BAISSI GUSTAVO AD  DNI 25945090  218650 0000-424
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  BASUALDO MARIA JORGEL      DNI 27799947  441508 0000-425
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  CHIBILISCO OSCAR EDUARDO   DNI 29240755  455398 0000-425
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  VALDEZ VICTOR HUGO         DNI 27842643  222417 0000-426
+04 1 1 1 0         0000                  2.354,10     2.354,10                                            2.354,10  INC DOC  LUCENA BEATRIZ ELIZAB      DNI 26454517  200540 0000-427
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  AGUERO RICARDO SEBASTIAN   DNI 31589970  522296 0000-427
+04 1 1 1 0         0000                  2.336,40     2.336,40                                            2.336,40  INC DOC  SELIS FERNANDO MIGUEL      DNI 26029216  428847 0000-428
+04 1 1 1 0         0000                  3.522,30     3.522,30                                            3.522,30  INC DOC  ELIAS ISAIAS FERNANDO      DNI 35194525  607610 0000-428
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  MERCADO NORA BEATRIZ       DNI 24982429  421435 0000-430
+04 1 1 1 0         0000                 35.400,00    35.400,00                                           35.400,00  INC DOC  CARRION SOLEDAD DEL CARME  DNI 27720881  604268 0000-432
+04 1 1 1 0         0000                  2.955,90     2.955,90                                            2.955,90  INC DOC  LIZARRAGA LUIS EUSTAQUIO   DNI 35255723  608553 0000-432
+04 1 1 1 0         0000                 11.805,90    11.805,90                                           11.805,90  INC DOC  JALIL MARIA SOLEDAD        DNI 31001396  408495 0000-433
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  RUIZ LUCIANA ANALIA        DNI 32344905  605249 0000-433
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  LUNA ERNESTO CARLOS        DNI 32167346  429341 0000-436
+04 1 1 1 0         0000                 14.160,00    14.160,00                                           14.160,00  INC DOC  VALDEZ VICTOR HUGO         DNI 27842643  222417 0000-440
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  GOMEZ RICARDO DARIO        DNI 34709257  439019 0000-443
+04 1 1 1 0         0000                  1.185,90     1.185,90                                            1.185,90  INC DOC  SABALZA MANUEL FRANCISCO   DNI 30108972  430396 0000-444
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  PARRA PABLO OMAR           DNI 25859733  427927 0000-445
+04 1 1 1 0         0000                  2.354,10     2.354,10                                            2.354,10  INC DOC  CHIBILISCO OSCAR EDUARDO   DNI 29240755  455398 0000-449
+04 1 1 1 0         0000                  1.185,90     1.185,90                                            1.185,90  INC DOC  ROMERO CRISTIAN DARIO      DNI 25844830  601250 0000-449
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  LUNA ERNESTO CARLOS        DNI 32167346  429341 0000-451
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  PARRA PABLO OMAR           DNI 25859733  427927 0000-452
+04 1 1 1 0         0000                 18.885,87    18.885,87                                           18.885,87  INC DOC  LENCINA RAMON RICARDO      DNI 20311127  163341 0000-453
+04 1 1 1 0         0000                  1.185,90     1.185,90                                            1.185,90  INC DOC  PARRA PABLO OMAR           DNI 25859733  427927 0000-453
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  CARDOZO GISELLE ALEJANDRA  DNI 32601729  454905 0000-453
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  PARRA PABLO OMAR           DNI 25859733  427927 0000-454
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  DRUBE PABLO DANIEL         DNI 26408647  214832 0000-455
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  OYOLA PABLO DANIEL         DNI 23132030  189054 0000-457
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  NOGALES BAISSI GUSTAVO AD  DNI 25945090  218650 0000-465
+04 1 1 1 0         0000                  2.371,80     2.371,80                                            2.371,80  INC DOC  LAGORIA LOURDES JUDITH     DNI 25510034  187570 0000-469
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  CARDOZO LAVIN MARIA CELES  DNI 35806522  462893 0000-471
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  BURGOS RAMIRO DANIEL       DNI 23616640  215112 0000-472
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  BURGOS RAMIRO DANIEL       DNI 23616640  215112 0000-473
+04 1 1 1 0         0000                  4.590,20     4.590,20                                            4.590,20  INC DOC  GIGNONE ANA EUGENIA        DNI 32158385  438395 0000-473
+
+13217
+PLANILLLA DE HABERES CORRESPONDIENTE A: ART5 3RA CTA 4TO TRIM 2024  REPARTICION: ESCUELAS PROVINCIALES                             PAG.   8 / 8 REP. 18
+TIPO LIQ.: 8-ART.5 - INCENTIVO DOCENTE  NRO LIQ.: 1  MES LIQ.: 2025/04                                             FEC.IMPRESION: 16/04/2025 11:54:56                                                      
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TE % C O CAT MES DS UNI   HABERES      HABERES      TOTAL         ASIGNAC.    APORTES      TOTAL        LIQUIDO      CARGO   APELLIDOS Y NOMBRES        DOCUMENTO     AFILIADO NUMERO  
+   J C S            ORG   CON APTE.    SIN APTE.    HABERES       FAMILIAR    JUBILAT      RETENIDOS    A PAGAR                                        TIPO NUMERO    I.P.S.S. ORDEN  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  SERRANO NOELIA GRACIELA    DNI 34133160  450504 0000-473
+04 1 1 1 0         0000                  2.354,10     2.354,10                                            2.354,10  INC DOC  CHIBILISCO OSCAR EDUARDO   DNI 29240755  455398 0000-473
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  BURGOS RAMIRO DANIEL       DNI 23616640  215112 0000-474
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  NIETO ESTELA BEATRIZ       DNI 31312040  451143 0000-474
+04 1 1 1 0         0000                  1.150,50     1.150,50                                            1.150,50  INC DOC  BURGOS RAMIRO DANIEL       DNI 23616640  215112 0000-475
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  ROCHA DELINA DEL CARM      DNI 28920045  213619 0000-476
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  SORIA RITA CECILIA AL      DNI 32728156  444912 0000-478
+04 1 1 1 0         0000                  7.080,00     7.080,00                                            7.080,00  INC DOC  BURGOS RAMIRO DANIEL       DNI 23616640  215112 0000-482
+04 1 1 1 0         0000                  7.080,00     7.080,00                                            7.080,00  INC DOC  FERNANDEZ MIRTA BEATR      DNI 22283098  228457 0000-483
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  NIEVA NADIA DEL VALLE      DNI 34646842  458420 0000-484
+04 1 1 1 0         0000                  1.185,90     1.185,90                                            1.185,90  INC DOC  TOLABA DELGADO SEBASTIAN   DNI 26982313  212105 0000-486
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  PONCE SILVANA VANESA       DNI 29357654  455555 0000-490
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  CANSINO FLAVIA CAROLI      DNI 36612868  525702 0000-490
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  SERRANO NOELIA GRACIELA    DNI 34133160  450504 0000-494
+04 1 1 1 0         0000                  4.324,70     4.324,70                                            4.324,70  INC DOC  ELIAS FERNANDO             DNI 36039998  457028 0000-494
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  CHIBILISCO OSCAR EDUARDO   DNI 29240755  455398 0000-500
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  CHIBILISCO OSCAR EDUARDO   DNI 29240755  455398 0000-502
+04 1 1 1 0         0000                     17,70        17,70                                               17,70  INC DOC  CHIBILISCO OSCAR EDUARDO   DNI 29240755  455398 0000-503
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  CHIBILISCO OSCAR EDUARDO   DNI 29240755  455398 0000-504
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  OVEJERO ROMINA MARIELA     DNI 28717675  717675 0000-510
+04 1 1 1 0         0000                  7.080,00     7.080,00                                            7.080,00  INC DOC  FERNANDEZ CLAUDIO MARCELO  DNI 17458737  190708 0000-518
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  ARAOZ MARIA SOLEDAD        DNI 27370974  211302 0000-522
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  GUZMAN DARIO OSVALDO       DNI 25423268  227935 0000-527
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  GUZMAN DARIO OSVALDO       DNI 25423268  227935 0000-528
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  GUZMAN DARIO OSVALDO       DNI 25423268  227935 0000-529
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  PEREZ ELOY                 DNI 17152638  144918 0000-530
+04 1 1 1 0         0000                  3.404,30     3.404,30                                            3.404,30  INC DOC  GUZMAN DARIO OSVALDO       DNI 25423268  227935 0000-530
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  PAZ MAYRA MICAELA          DNI 40529622  529622 0000-532
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  RISSO LEOPOLDO DANTE       DNI 31353995  413453 0000-553
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  ROCHA DELINA DEL CARM      DNI 28920045  213619 0000-558
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  ROJAS RUBEN RICARDO        DNI 25188357  403194 0000-562
+04 1 1 1 0         0000                 14.744,10    14.744,10                                           14.744,10  INC DOC  JALIL MARIA SOLEDAD        DNI 31001396  408495 0000-575
+04 1 1 1 0         0000                  2.354,10     2.354,10                                            2.354,10  INC DOC  CARDOZO LAVIN MARIA CELES  DNI 35806522  462893 0000-579
+04 1 1 1 0         0000                  1.203,60     1.203,60                                            1.203,60  INC DOC  ROCHA DELINA DEL CARM      DNI 28920045  213619 0000-583
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  BESSONE ARBE FACUNDO       DNI 39141368  141368 0000-593
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  LUNA ERNESTO CARLOS        DNI 32167346  429341 0000-594
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  LUNA ERNESTO CARLOS        DNI 32167346  429341 0000-595
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  LUNA ERNESTO CARLOS        DNI 32167346  429341 0000-596
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  LUNA ERNESTO CARLOS        DNI 32167346  429341 0000-597
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  ELIAS ISAIAS FERNANDO      DNI 35194525  607610 0000-626
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  MAZA MARIA JOSE VALERIA    DNI 28919948  604575 0000-635
+04 1 1 1 0         0000                  2.354,10     2.354,10                                            2.354,10  INC DOC  MAZA MARIA JOSE VALERIA    DNI 28919948  604575 0000-636
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  NOGALES BAISSI GUSTAVO AD  DNI 25945090  218650 0000-650
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  ROCHA DELINA DEL CARM      DNI 28920045  213619 0000-653
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  NOGALES BAISSI GUSTAVO AD  DNI 25945090  218650 0000-657
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  PUPPI SILVIA SUSANA        DNI 20883737  164547 0000-659
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  LOBO MARICEL DEL VALLE     DNI 26638786  214062 0000-669
+04 1 1 1 0         0000                  2.354,10     2.354,10                                            2.354,10  INC DOC  RUIZ NOELIA                DNI 30319202  430096 0000-686
+04 1 1 1 0         0000                 10.620,00    10.620,00                                           10.620,00  INC DOC  ZELARAYAN JOSE ANTONI      DNI 14414354  198495 0000-700
+04 1 1 1 0         0000                 10.620,00    10.620,00                                           10.620,00  INC DOC  BRIZUELA SERGIO HECTO      DNI 16176880  179172 0000-701
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  SALON CRISTIAN HUMBERTO    DNI 37503279  503279 0000-701
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  SALON CRISTIAN HUMBERTO    DNI 37503279  503279 0000-702
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  SOLANIS ROMERO SILVIA      DNI 20163269  200461 0000-703
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  SALON CRISTIAN HUMBERTO    DNI 37503279  503279 0000-703
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  BRIZUELA SERGIO HECTO      DNI 16176880  179172 0000-704
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  VILLANUEVA BELLARROSA      DNI 23117958  183641 0000-705
+04 1 1 1 0         0000                  3.522,30     3.522,30                                            3.522,30  INC DOC  BRIZUELA SERGIO HECTO      DNI 16176880  179172 0000-706
+04 1 1 1 0         0000                  3.522,30     3.522,30                                            3.522,30  INC DOC  NOGALES BAISSI GUSTAVO AD  DNI 25945090  218650 0000-752
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  BESSONE ARBE FACUNDO       DNI 39141368  141368 0000-793
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  AGUDO, ALEJANDRO           DNI 22397646  194388 0000-800
+04 1 1 1 0         0000                  7.080,00     7.080,00                                            7.080,00  INC DOC  AGUDO, ALEJANDRO           DNI 22397646  194388 0000-822
+04 1 1 1 0         0000                  7.080,00     7.080,00                                            7.080,00  INC DOC  VILLANUEVA BELLARROSA      DNI 23117958  183641 0000-850
+04 1 1 1 0         0000                  9.434,10     9.434,10                                            9.434,10  INC DOC  FERNANDEZ MIRTA BEATR      DNI 22283098  228457 0000-850
+04 1 1 1 0         0000                     59,00        59,00                                               59,00  INC DOC  VILLANUEVA BELLARROSA      DNI 23117958  183641 0000-851
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  ARMELLA SILVANA PAOLA      DNI 22163999  165855 0000-855
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  PUPPI SILVIA SUSANA        DNI 20883737  164547 0000-865
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  ZELARAYAN JOSE ANTONI      DNI 14414354  198495 0000-910
+                                                                       CANTIDAD BOLETAS    639     LIQUIDO ESTAB.  5.930.590,81
+
+        1              CODIGO DE LIQUIDACION SUPERVISORES                                  
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  VELIZ ANA MARIA            DNI 23132188  186029 0001-003
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  CORREIA FATIMA ROSSANA     DNI 21829010  218993 0001-003
+04 1 1 1 0         0000                 14.101,00    14.101,00                                           14.101,00  INC DOC  TOLOZA NATALIA SOLEDA      DNI 29289138  198512 0001-004
+04 1 1 1 0         0000                 14.101,00    14.101,00                                           14.101,00  INC DOC  FILIPPINI BERNARDO         DNI 24982374  418272 0001-004
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  GONZALEZ NOEMI ROSSAN      DNI 20692005  165098 0001-005
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  MIGUEZ SILVINA DEL VALLE   DNI 23239050  168441 0001-006
+04 1 1 1 0         0000                 35.400,00    35.400,00                                           35.400,00  INC DOC  VARGAS PEDRO HIPOLIT       DNI 16780028  131827 0001-007
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  GIMENEZ MIRTA BEATRI       DNI 21336726  164330 0001-007
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  LASTRA GRACIELA  ADRI      DNI 23564889  191645 0001-007
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  GONZALEZ POLO ANA MAR      DNI 22682361  175994 0001-008
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  DELEO DE BRUNA ADRIANA MA  DNI 24803988  191304 0001-008
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  RUIZ MARIELA KARINA        DNI 23238933  222265 0001-008
+
+13218
+PLANILLLA DE HABERES CORRESPONDIENTE A: ART5 3RA CTA 4TO TRIM 2024  REPARTICION: ESCUELAS PROVINCIALES                             PAG.   9 / 9 REP. 18
+TIPO LIQ.: 8-ART.5 - INCENTIVO DOCENTE  NRO LIQ.: 1  MES LIQ.: 2025/04                                             FEC.IMPRESION: 16/04/2025 11:54:56                                                      
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TE % C O CAT MES DS UNI   HABERES      HABERES      TOTAL         ASIGNAC.    APORTES      TOTAL        LIQUIDO      CARGO   APELLIDOS Y NOMBRES        DOCUMENTO     AFILIADO NUMERO  
+   J C S            ORG   CON APTE.    SIN APTE.    HABERES       FAMILIAR    JUBILAT      RETENIDOS    A PAGAR                                        TIPO NUMERO    I.P.S.S. ORDEN  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+04 1 1 1 0         0000                 35.400,00    35.400,00                                           35.400,00  INC DOC  BARRIONUEVO CARLOS LU      DNI 17394894  135267 0001-009
+04 1 1 1 0         0000                 35.400,00    35.400,00                                           35.400,00  INC DOC  CHABAN DE NU¥EZ ROSAN      DNI 18158635  144085 0001-009
+04 1 1 1 0         0000                 35.400,00    35.400,00                                           35.400,00  INC DOC  GOMEZ JORGE GUILLERMO      DNI 20261566  153353 0001-009
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  CONTRERAS DE VALDEZ ELBA   DNI 21328454  176317 0001-009
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  ROLDAN PRISCILA MARCELA    DNI 22664030  182710 0001-009
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  VILDOZA GARCIA NESTOR      DNI 17152671  133963 0001-010
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  CORDOBA MAURICIO           DNI 21966639  163125 0001-010
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  HERRERA DAVID TADEO        DNI 27370525  225934 0001-010
+04 1 1 1 0         0000                 35.400,00    35.400,00                                           35.400,00  INC DOC  OJEDA JOSE TOMAS           DNI 20012372  144928 0001-011
+04 1 1 1 0         0000                 14.101,00    14.101,00                                           14.101,00  INC DOC  CHAVARRIA MABEL EDITH      DNI 27944515  194524 0001-011
+04 1 1 1 0         0000                  4.708,20     4.708,20                                            4.708,20  INC DOC  MARTINEZ GONZALEZ CAR      DNI 25498310  197948 0001-011
+04 1 1 1 0         0000                  2.472,10     2.472,10                                            2.472,10  INC DOC  GOMEZ MU¥OZ MARIA S        DNI 27722295  424942 0001-011
+04 1 1 1 0         0000                 35.400,00    35.400,00                                           35.400,00  INC DOC  CASTILLO MYRIAM ELIZA      DNI 20418600  153729 0001-012
+04 1 1 1 0         0000                 14.101,00    14.101,00                                           14.101,00  INC DOC  BENITEZ CLAUDIA CECIL      DNI 20758855  164949 0001-012
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  DEL MORAL DE DIAZ MAR      DNI 20662342  153802 0001-013
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  ABREGU MARIA GABRIELA      DNI 21743895  161067 0001-013
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  JIMENEZ ORLANDO ANTON      DNI 18526472  146052 0001-014
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  ORELLANA, LAURA INES       DNI 21744782  164351 0001-015
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  LOPEZ SILVIA PATRICIA      DNI 22332649  169385 0001-016
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  LASTRA GRACIELA  ADRI      DNI 23564889  191645 0001-016
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  AGRAMUNT ESTELA SUSAN      DNI 22877571  200237 0001-016
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  GONZALEZ PATRICIA ROSANA   DNI 25209443  224330 0001-016
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  COLOMO MARIA JOSE          DNI 30597670  455353 0001-016
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  GRAMAJO DE LAZARTE KA      DNI 22613064  176056 0001-017
+04 1 1 1 0         0000                 35.400,00    35.400,00                                           35.400,00  INC DOC  MEMBRIBE, PATRICIA IN      DNI 20334876  149044 0001-018
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  CAMPOS SILVIA ELIZABE      DNI 20160169  155313 0001-018
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  CORREA SANDRA ISABEL       DNI 23751402  179042 0001-018
+04 1 1 1 0         0000                  8.265,90     8.265,90                                            8.265,90  INC DOC  GRASSIA  JOSE VICENTE      DNI 20433111  192397 0001-018
+04 1 1 1 0         0000                 35.400,00    35.400,00                                           35.400,00  INC DOC  ALBORNOZ ELIDA DEL VA      DNI 18513279  149103 0001-019
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  ARIAS MARIA ALEJANDRA      DNI 20692407  164616 0001-019
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  GRASSIA  JOSE VICENTE      DNI 20433111  192397 0001-019
+04 1 1 1 0         0000                 16.797,27    16.797,27                                           16.797,27  INC DOC  CARRANZA EDGARDO R         DNI 25009303  192237 0001-020
+04 1 1 1 0         0000                 14.101,00    14.101,00                                           14.101,00  INC DOC  GOMEZ MU¥OZ MARIA S        DNI 27722295  424942 0001-020
+04 1 1 1 0         0000                 35.400,00    35.400,00                                           35.400,00  INC DOC  BILACHA DANTE WALTER       DNI 17869315  136196 0001-021
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  MORALES MARCELA LILIANA    DNI 22397070  139098 0001-021
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  I¥IGO NILDA ZULEMA         DNI 23015978  175632 0001-021
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  ZELAYA DE MOTHE SILVIA MA  DNI 20662465  176146 0001-021
+04 1 1 1 0         0000                 14.101,00    14.101,00                                           14.101,00  INC DOC  URUE¥A HECTOR MANUEL       DNI 26936000  187864 0001-021
+04 1 1 1 0         0000                 14.101,00    14.101,00                                           14.101,00  INC DOC  MORENO ADRIANA MARCEL      DNI 24217785  191601 0001-021
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  MORALES FANY GRISELDA      DNI 28502373  196838 0001-021
+04 1 1 1 0         0000                 14.101,00    14.101,00                                           14.101,00  INC DOC  GOMEZ MU¥OZ MARIA S        DNI 27722295  424942 0001-021
+04 1 1 1 0         0000                 35.400,00    35.400,00                                           35.400,00  INC DOC  ROMANO RINA EVANGELIN      DNI 18464749  148675 0001-022
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  CARAM DE GARDELLA CLAUDIA  DNI 18610865  162416 0001-022
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  SANTILLAN NORMA B          DNI 18156466  165092 0001-022
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  SARIFE MONICA DEL VALLE    DNI 23117472  170190 0001-022
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  CISNEROS MARIA ANTONI      DNI 24621173  426348 0001-022
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  CAMPOS SUSANA GRACIEL      DNI 20652828  164820 0001-023
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  CORROTO DE GETAR GLOR      DNI 20444360  135951 0001-024
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  ORTEGA SONIA ALEJANDRA     DNI 22056114  137991 0001-024
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  FERNANDEZ NOEMI DEL        DNI 21332968  160702 0001-024
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  RUIZ PEDRO PABLO           DNI 17573895  136576 0001-025
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  DOMINGUEZ RITA NATALI      DNI 23239480  179642 0001-025
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  BARRIENTOS PATRICIA MABEL  DNI 26154892  212354 0001-025
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  DIAZ DORA INES             DNI 18187769  157357 0001-026
+04 1 1 1 0         0000                 11.799,98    11.799,98                                           11.799,98  INC DOC  VILLOLDO DE ROYER GEM      DNI 18464712  161191 0001-026
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  BULACIO LILIANA BEATR      DNI 22557433  206628 0001-026
+04 1 1 1 0         0000                 15.900,47    15.900,47                                           15.900,47  INC DOC  CISNEROS PABLO LUIS        DNI 24803016  214894 0001-026
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  NU¥EZ MARCELA A            DNI 20261630  175239 0001-027
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  GONZALEZ FABIANA DEL       DNI 22181400  183070 0001-027
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  SANCHEZ TELLO ALICIA       DNI 22312715  186596 0001-027
+04 1 1 1 0         0000                 14.101,00    14.101,00                                           14.101,00  INC DOC  RAMIREZ JESUS FERNAND      DNI 26798933  192309 0001-027
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  PEREZ DE MARTINEZ MAR      DNI 20178747  159401 0001-028
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  VEGA DE SOSA CLAUDIA       DNI 20680331  160174 0001-028
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  BARRIOS IVANA RUTH         DNI 23519120  201303 0001-028
+04 1 1 1 0         0000                 14.101,00    14.101,00                                           14.101,00  INC DOC  JALIFE ROSANA GRACIELA     DNI 21743977  136597 0001-029
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  JURAO, MARIA ALEJANDR      DNI 20178550  180783 0001-029
+04 1 1 1 0         0000                  5.899,99     5.899,99                                            5.899,99  INC DOC  MORENO SILVIA LILIANA      DNI 26849800  225484 0001-029
+04 1 1 1 0         0000                 14.101,00    14.101,00                                           14.101,00  INC DOC  ARAOZ RODRIGUEZ JULIE      DNI 28681492  222441 0001-030
+04 1 1 1 0         0000                 14.101,00    14.101,00                                           14.101,00  INC DOC  VALENZUELA MARIA ELENA     DNI 17376578  164699 0001-032
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  GOMEZ, DORA DEL VALLE      DNI 22073431  181019 0001-032
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  ACOSTA MERCEDES DEL MILAG  DNI 21634872  206091 0001-032
+04 1 1 1 0         0000                 14.101,00    14.101,00                                           14.101,00  INC DOC  BENITEZ CLAUDIA CECIL      DNI 20758855  164949 0001-034
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  VILLALBA NORA INGRID       DNI 20747855  177444 0001-034
+04 1 1 1 0         0000                 11.805,90    11.805,90                                           11.805,90  INC DOC  AVILA DANIEL HORACIO       DNI 24581808  198012 0001-035
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  SANCHEZ INES ROXANA        DNI 21745957  159914 0001-036
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  RUIZ PEDRO PABLO           DNI 17573895  136576 0001-037
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  DIAZ DE GAMBARO CLAUD      DNI 21074948  139954 0001-037
+04 1 1 1 0         0000                 35.400,00    35.400,00                                           35.400,00  INC DOC  GONZALEZ SUSANA BEATR      DNI 20433080  154039 0001-037
+04 1 1 1 0         0000                 14.101,00    14.101,00                                           14.101,00  INC DOC  SALINAS MARIA SILVANA      DNI 24409681  175946 0001-037
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  SILVA CARINA BEATRIZ       DNI 24803177  183321 0001-037
+04 1 1 1 0         0000                 14.101,00    14.101,00                                           14.101,00  INC DOC  ORTEGA SONIA ALEJANDRA     DNI 22056114  137991 0001-038
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  NU¥EZ MARCELA A            DNI 20261630  175239 0001-038
+
+13219
+PLANILLLA DE HABERES CORRESPONDIENTE A: ART5 3RA CTA 4TO TRIM 2024  REPARTICION: ESCUELAS PROVINCIALES                             PAG.   10 / 10 REP. 18
+TIPO LIQ.: 8-ART.5 - INCENTIVO DOCENTE  NRO LIQ.: 1  MES LIQ.: 2025/04                                             FEC.IMPRESION: 16/04/2025 11:54:56                                                      
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TE % C O CAT MES DS UNI   HABERES      HABERES      TOTAL         ASIGNAC.    APORTES      TOTAL        LIQUIDO      CARGO   APELLIDOS Y NOMBRES        DOCUMENTO     AFILIADO NUMERO  
+   J C S            ORG   CON APTE.    SIN APTE.    HABERES       FAMILIAR    JUBILAT      RETENIDOS    A PAGAR                                        TIPO NUMERO    I.P.S.S. ORDEN  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  ORELLANA ADRIANA ROSA      DNI 18661173  199000 0001-040
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  LEDESMA MARIA DE LOS ANGE  DNI 25543918  213868 0001-040
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  CACERES ZAYAS DANIEL       DNI 22180391  180289 0001-043
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  D'AURIA MARCELA DEL V      DNI 23555351  183502 0001-045
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  PALACIO MARIA TERESA       DNI 25001293  187818 0001-045
+04 1 1 1 0         0000                 14.189,50    14.189,50                                           14.189,50  INC DOC  SCHETTINI MARIA            DNI 25421592  182753 0001-046
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  QUIROGA SANDRA MABEL       DNI 20159789  164035 0001-047
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  SILVA CARINA BEATRIZ       DNI 24803177  183321 0001-050
+04 1 1 1 0         0000                 11.805,90    11.805,90                                           11.805,90  INC DOC  PUNTANO ROSSANA ISABE      DNI 20163261  204698 0001-050
+04 1 1 1 0         0000                 11.799,98    11.799,98                                           11.799,98  INC DOC  ROBLES NOEMI MARCELA       DNI 18464740  151058 0001-051
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  FERNANDEZ MARCELA AZU      DNI 21699942  156139 0001-051
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  QUIPILDOR SILVIA VIVIANA   DNI 25211381  201355 0001-051
+04 1 1 1 0         0000                 14.101,00    14.101,00                                           14.101,00  INC DOC  MONGES ELISA VERONICA      DNI 25843579  208898 0001-051
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  FERNANDEZ MARCELA AZU      DNI 21699942  156139 0001-052
+04 1 1 1 0         0000                 14.101,00    14.101,00                                           14.101,00  INC DOC  CHAVARRIA MABEL EDITH      DNI 27944515  194524 0001-052
+04 1 1 1 0         0000                 15.900,47    15.900,47                                           15.900,47  INC DOC  ZEBALLO MERCEDES RAQUEL    DNI 22877205  196614 0001-052
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  VICTORIA JUAN MANUEL       DNI 20493195  171681 0001-053
+04 1 1 1 0         0000                 14.101,00    14.101,00                                           14.101,00  INC DOC  SALINAS MARIA SILVANA      DNI 24409681  175946 0001-054
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  VICTORIA JUAN MANUEL       DNI 20493195  171681 0001-058
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  ROBLES WILKINSON CARLA SO  DNI 32460691  437565 0001-060
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  ORELLANA ADRIANA ROSA      DNI 18661173  199000 0001-061
+04 1 1 1 0         0000                 14.101,00    14.101,00                                           14.101,00  INC DOC  IRATCHET JORGE EDUARD      DNI 23015577  207401 0001-061
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  MARTINO INES PAOLA         DNI 25214689  222212 0001-062
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  BRITOS CECILIA TERESA      DNI 23519847  225347 0001-062
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  CHICO ERIKA SUSANA         DNI 22414308  222295 0001-063
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  QUIPILDOR SILVIA VIVIANA   DNI 25211381  201355 0001-066
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  CASTA¥EDA SANSONE NOR      DNI 21745965  156785 0001-067
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  GRANITO ROSA CLAUDIA       DNI 21867606  163007 0001-071
+04 1 1 1 0         0000                 35.400,00    35.400,00                                           35.400,00  INC DOC  MIRANDA KARINA DEL VALLE   DNI 24355782  194936 0001-074
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  FERNANDEZ MARIA ISABE      DNI 26403036  229525 0001-075
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  TORRES ALBA ESPERANZA      DNI 20171272  159545 0001-079
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  PEREZ INES DEL CARME       DNI 21337072  157194 0001-080
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  FLEURY SONIA FABIANA       DNI 21622475  197005 0001-081
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  ORTEGA SONIA ALEJANDRA     DNI 22056114  137991 0001-088
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  CARAM DE GARDELLA CLAUDIA  DNI 18610865  162416 0001-093
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  ALONSO ADRIANA BEATRI      DNI 20370020  205510 0001-093
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  QUIPILDOR SILVIA VIVIANA   DNI 25211381  201355 0001-096
+04 1 1 1 0         0000                  2.354,10     2.354,10                                            2.354,10  INC DOC  GOMEZ GASEP GERARDO E      DNI 14410459  202517 0001-097
+04 1 1 1 0         0000                  2.354,10     2.354,10                                            2.354,10  INC DOC  GOMEZ GASEP GERARDO E      DNI 14410459  202517 0001-098
+04 1 1 1 0         0000                 14.101,00    14.101,00                                           14.101,00  INC DOC  MORENO ALDO RENE           DNI 20422453  138354 0001-099
+04 1 1 1 0         0000                 35.400,00    35.400,00                                           35.400,00  INC DOC  PALAVECINO MARCELA RA      DNI 21332235  153758 0001-099
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  VICTORIA JUAN MANUEL       DNI 20493195  171681 0001-099
+04 1 1 1 0         0000                  2.354,10     2.354,10                                            2.354,10  INC DOC  GOMEZ GASEP GERARDO E      DNI 14410459  202517 0001-099
+04 1 1 1 0         0000                 35.400,00    35.400,00                                           35.400,00  INC DOC  LAZO SINECIO GABRIEL       DNI 20755670  157249 0001-100
+04 1 1 1 0         0000                 14.101,00    14.101,00                                           14.101,00  INC DOC  LUCERO DE LA ROSA DAN      DNI 29430757  420148 0001-100
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  VICTORIA JUAN MANUEL       DNI 20493195  171681 0001-101
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  GRASSIA  JOSE VICENTE      DNI 20433111  192397 0001-101
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  GOMEZ GASEP GERARDO E      DNI 14410459  202517 0001-101
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  GRAMAJO MARIANA DEL V      DNI 25405555  216386 0001-101
+04 1 1 1 0         0000                 10.620,00    10.620,00                                           10.620,00  INC DOC  JUNCOS MIGUEL ERNEST       DNI 22114169  179566 0001-102
+04 1 1 1 0         0000                  7.080,00     7.080,00                                            7.080,00  INC DOC  VICTORIA JUAN MANUEL       DNI 20493195  171681 0001-103
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  MORENO ALDO RENE           DNI 20422453  138354 0001-104
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  VICTORIA JUAN MANUEL       DNI 20493195  171681 0001-104
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  QUIPILDOR SILVIA VIVIANA   DNI 25211381  201355 0001-104
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  JUNCOS MIGUEL ERNEST       DNI 22114169  179566 0001-105
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  VERGARA DE OSORES S        DNI 22384702  180082 0001-105
+04 1 1 1 0         0000                  7.380,90     7.380,90                                            7.380,90  INC DOC  BARRIENTOS GRACIELA D      DNI 25444221  198799 0001-105
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  DIAZ CELINA MARIA          DNI 20334819  209483 0001-105
+04 1 1 1 0         0000                  1.185,90     1.185,90                                            1.185,90  INC DOC  GAMBOA LAIN ALBERTO        DNI 28599333  421487 0001-105
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  MONACO RODRIGUEZ MARI      DNI 24503647  197924 0001-106
+04 1 1 1 0         0000                 11.805,90    11.805,90                                           11.805,90  INC DOC  BARRIENTOS GRACIELA D      DNI 25444221  198799 0001-106
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  CORBALAN SELVA MARINA      DNI 26224194  199157 0001-106
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  SMITSAART PATRICIO JO      DNI 21963822  212088 0001-106
+04 1 1 1 0         0000                 11.805,90    11.805,90                                           11.805,90  INC DOC  PEREYRA ADRIANA ANABE      DNI 25719510  404574 0001-107
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  MORALES MARCELA LILIANA    DNI 22397070  139098 0001-108
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  QUINTANA ROSA NIEVES       DNI 26486478  212263 0001-108
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  BULACIO LAURA BEATRIZ      DNI 20015296  149418 0001-109
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  CORBALAN SELVA MARINA      DNI 26224194  199157 0001-109
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  LEDESMA MARIA DE LOS ANGE  DNI 25543918  213868 0001-109
+04 1 1 1 0         0000                 14.278,00    14.278,00                                           14.278,00  INC DOC  CHIRINO VALERIA SILVA      DNI 23930195  194810 0001-110
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  QUINTANA ROSA NIEVES       DNI 26486478  212263 0001-110
+04 1 1 1 0         0000                     59,00        59,00                                               59,00  INC DOC  MORENO ALDO RENE           DNI 20422453  138354 0001-111
+04 1 1 1 0         0000                 35.400,00    35.400,00                                           35.400,00  INC DOC  ORTIZ LEILA VIVIANA        DNI 20571942  162127 0001-111
+04 1 1 1 0         0000                  7.080,00     7.080,00                                            7.080,00  INC DOC  BARRIENTOS GRACIELA D      DNI 25444221  198799 0001-113
+04 1 1 1 0         0000                  7.380,90     7.380,90                                            7.380,90  INC DOC  MESTROCOLDI DE TORRES CRI  DNI 21332074  159504 0001-116
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  ROBLEDO LUCIA CECILIA      DNI 22336972  406074 0001-117
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  VALDEZ MARIA FERNANDA      DNI 29532442  415096 0001-118
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  QUINTANA ROSA NIEVES       DNI 26486478  212263 0001-119
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  GRAMAJO GRACIELA SUSANA    DNI 26154614  209966 0001-120
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  TOLEDO LORENA DEL CARMEN   DNI 28884044   24801 0001-121
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  ALONSO ADRIANA BEATRI      DNI 20370020  205510 0001-121
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  CORBALAN SELVA MARINA      DNI 26224194  199157 0001-122
+
+13220
+PLANILLLA DE HABERES CORRESPONDIENTE A: ART5 3RA CTA 4TO TRIM 2024  REPARTICION: ESCUELAS PROVINCIALES                             PAG.   11 / 11 REP. 18
+TIPO LIQ.: 8-ART.5 - INCENTIVO DOCENTE  NRO LIQ.: 1  MES LIQ.: 2025/04                                             FEC.IMPRESION: 16/04/2025 11:54:56                                                      
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TE % C O CAT MES DS UNI   HABERES      HABERES      TOTAL         ASIGNAC.    APORTES      TOTAL        LIQUIDO      CARGO   APELLIDOS Y NOMBRES        DOCUMENTO     AFILIADO NUMERO  
+   J C S            ORG   CON APTE.    SIN APTE.    HABERES       FAMILIAR    JUBILAT      RETENIDOS    A PAGAR                                        TIPO NUMERO    I.P.S.S. ORDEN  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  LAZARTE DAVID ISAIAS       DNI 27555310  200614 0001-122
+04 1 1 1 0         0000                  2.354,10     2.354,10                                            2.354,10  INC DOC  GOMEZ GASEP GERARDO E      DNI 14410459  202517 0001-122
+04 1 1 1 0         0000                 11.805,90    11.805,90                                           11.805,90  INC DOC  ALONSO ADRIANA BEATRI      DNI 20370020  205510 0001-122
+04 1 1 1 0         0000                 35.400,00    35.400,00                                           35.400,00  INC DOC  SORIA ADRIANA ALEJAND      DNI 20898658  152708 0001-126
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  ORELLANA ADRIANA ROSA      DNI 18661173  199000 0001-126
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  QUINTANA ROSA NIEVES       DNI 26486478  212263 0001-126
+04 1 1 1 0         0000                  2.354,10     2.354,10                                            2.354,10  INC DOC  AMENTA CLAUDIO GUSTAVO     DNI 26660561  416051 0001-127
+04 1 1 1 0         0000                  7.080,00     7.080,00                                            7.080,00  INC DOC  ORTEGA SONIA ALEJANDRA     DNI 22056114  137991 0001-128
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  FRIAS ARAOZ MARIA VIRGINI  DNI 27371104  208716 0001-128
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  AMENTA CLAUDIO GUSTAVO     DNI 26660561  416051 0001-128
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  MARCONI ROXANA PAOLA       DNI 24553679  415561 0001-129
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  PUNTANO ROSSANA ISABE      DNI 20163261  204698 0001-131
+04 1 1 1 0         0000                    283,20       283,20                                              283,20  INC DOC  BARRIENTOS GRACIELA D      DNI 25444221  198799 0001-132
+04 1 1 1 0         0000                 11.805,90    11.805,90                                           11.805,90  INC DOC  ORELLANA ADRIANA ROSA      DNI 18661173  199000 0001-132
+04 1 1 1 0         0000                  2.354,10     2.354,10                                            2.354,10  INC DOC  ADAD ALICIA                DNI 16972871  140003 0001-136
+04 1 1 1 0         0000                 10.620,00    10.620,00                                           10.620,00  INC DOC  SORIA ALEJANDRA MARIA      DNI 24981779  412187 0001-136
+04 1 1 1 0         0000                 14.744,10    14.744,10                                           14.744,10  INC DOC  AVILA DANIEL HORACIO       DNI 24581808  198012 0001-137
+04 1 1 1 0         0000                 21.239,97    21.239,97                                           21.239,97  INC DOC  LIZARRAGA SERGIO GABR      DNI 24842412  205451 0001-137
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  ALBARRAN, DARIO ANTONIO    DNI 28920622  600631 0001-137
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  ORTEGA SONIA ALEJANDRA     DNI 22056114  137991 0001-138
+04 1 1 1 0         0000                  7.080,00     7.080,00                                            7.080,00  INC DOC  JUNCOS MIGUEL ERNEST       DNI 22114169  179566 0001-138
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  MORALES MARCELA LILIANA    DNI 22397070  139098 0001-140
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  MONGES ELISA VERONICA      DNI 25843579  208898 0001-141
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  PEREYRA ADRIANA ANABE      DNI 25719510  404574 0001-141
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  DURAND JULIO CESAR         DNI 25734621  195100 0001-142
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  QUIPILDOR SILVIA VIVIANA   DNI 25211381  201355 0001-143
+04 1 1 1 0         0000                  8.850,00     8.850,00                                            8.850,00  INC DOC  JALIFE ROSANA GRACIELA     DNI 21743977  136597 0001-144
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  ORELLANA ADRIANA ROSA      DNI 18661173  199000 0001-144
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  SOSA JAVIER ANTONIO        DNI 22070358  138648 0001-150
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  PEDRAZA LILIANA ISABE      DNI 20612701  169345 0001-150
+04 1 1 1 0         0000                  8.850,00     8.850,00                                            8.850,00  INC DOC  AVILA DANIEL HORACIO       DNI 24581808  198012 0001-150
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  QUIPILDOR SILVIA VIVIANA   DNI 25211381  201355 0001-150
+04 1 1 1 0         0000                 11.805,90    11.805,90                                           11.805,90  INC DOC  ALONSO ADRIANA BEATRI      DNI 20370020  205510 0001-150
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  SORIA ALEJANDRA MARIA      DNI 24981779  412187 0001-150
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  QUIPILDOR SILVIA VIVIANA   DNI 25211381  201355 0001-152
+04 1 1 1 0         0000                     41,30        41,30                                               41,30  INC DOC  ORTEGA SONIA ALEJANDRA     DNI 22056114  137991 0001-153
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  QUIPILDOR SILVIA VIVIANA   DNI 25211381  201355 0001-153
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  QUIPILDOR SILVIA VIVIANA   DNI 25211381  201355 0001-154
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  AMENTA CLAUDIO GUSTAVO     DNI 26660561  416051 0001-154
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  OLEA SOFIA AZUCENA         DNI 28680004  212857 0001-155
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  O DE NAVARRO KLIDES S      DNI 21921410  175660 0001-159
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  AMENTA CLAUDIO GUSTAVO     DNI 26660561  416051 0001-160
+04 1 1 1 0         0000                  4.425,00     4.425,00                                            4.425,00  INC DOC  AMENTA CLAUDIO GUSTAVO     DNI 26660561  416051 0001-165
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  ALVAREZ JOSE RENE          DNI 23894358  209034 0001-171
+04 1 1 1 0         0000                 14.101,00    14.101,00                                           14.101,00  INC DOC  BEJARANO HECTOR RAUL       DNI 16784663  160032 0001-174
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  NU¥EZ VALERIA ALEJAND      DNI 26782606  223382 0001-175
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  PEREYRA ADRIANA ANABE      DNI 25719510  404574 0001-176
+04 1 1 1 0         0000                 15.900,47    15.900,47                                           15.900,47  INC DOC  GAMBOA LAIN ALBERTO        DNI 28599333  421487 0001-179
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  SMITSAART PATRICIO JO      DNI 21963822  212088 0001-181
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  PEREYRA ADRIANA ANABE      DNI 25719510  404574 0001-181
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  PEREYRA ADRIANA ANABE      DNI 25719510  404574 0001-182
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  MESTROCOLDI DE TORRES CRI  DNI 21332074  159504 0001-191
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  OCAMPO GRACIELA SUSANA     DNI 22263880  417371 0001-193
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  BARROS SUSANA ADELA        DNI 24059633  200482 0001-195
+04 1 1 1 0         0000                  2.354,10     2.354,10                                            2.354,10  INC DOC  QUIPILDOR SILVIA VIVIANA   DNI 25211381  201355 0001-195
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  MORALES MARCELA LILIANA    DNI 22397070  139098 0001-198
+04 1 1 1 0         0000                  1.185,90     1.185,90                                            1.185,90  INC DOC  GONZALEZ LUIS HUMBERTO     DNI 20179237  169354 0001-198
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  STANEFF CELINA MARIA       DNI 26385037  205472 0001-199
+04 1 1 1 0         0000                     17,70        17,70                                               17,70  INC DOC  MORALES MARCELA LILIANA    DNI 22397070  139098 0001-200
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  CORREA  LAURA  CECILI      DNI 24200464  195107 0001-200
+04 1 1 1 0         0000                  2.354,10     2.354,10                                            2.354,10  INC DOC  GOMEZ GASEP GERARDO E      DNI 14410459  202517 0001-200
+04 1 1 1 0         0000                  7.080,00     7.080,00                                            7.080,00  INC DOC  FRIAS ARAOZ MARIA VIRGINI  DNI 27371104  208716 0001-201
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  NIEVA JOSE GONZALO         DNI 30588506  601925 0001-201
+04 1 1 1 0         0000                  3.522,30     3.522,30                                            3.522,30  INC DOC  QUINTANA ROSA NIEVES       DNI 26486478  212263 0001-208
+04 1 1 1 0         0000                  2.354,10     2.354,10                                            2.354,10  INC DOC  OLEA SOFIA AZUCENA         DNI 28680004  212857 0001-209
+04 1 1 1 0         0000                 14.101,00    14.101,00                                           14.101,00  INC DOC  MONMANY RAQUEL EDITH       DNI 22336334  183826 0001-215
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  CORBALAN SELVA MARINA      DNI 26224194  199157 0001-216
+04 1 1 1 0         0000                  2.354,10     2.354,10                                            2.354,10  INC DOC  AMENTA CLAUDIO GUSTAVO     DNI 26660561  416051 0001-219
+04 1 1 1 0         0000                 23.600,00    23.600,00                                           23.600,00  INC DOC  DIB ANALIA ELIZABETH       DNI 23117270  197911 0001-220
+04 1 1 1 0         0000                 11.805,90    11.805,90                                           11.805,90  INC DOC  STANEFF CELINA MARIA       DNI 26385037  205472 0001-220
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  AMENTA CLAUDIO GUSTAVO     DNI 26660561  416051 0001-223
+04 1 1 1 0         0000                  3.540,00     3.540,00                                            3.540,00  INC DOC  STANEFF CELINA MARIA       DNI 26385037  205472 0001-230
+04 1 1 1 0         0000                  9.434,10     9.434,10                                            9.434,10  INC DOC  ABREGU DE ALVAREZ MIRTA S  DNI 18430231  147177 0001-236
+04 1 1 1 0         0000                  4.725,90     4.725,90                                            4.725,90  INC DOC  VICTORIA JUAN MANUEL       DNI 20493195  171681 0001-243
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  FRIAS ARAOZ MARIA VIRGINI  DNI 27371104  208716 0001-243
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  J DE COSTILLA SANDRA       DNI 21331983  139094 0001-244
+04 1 1 1 0         0000                  5.894,10     5.894,10                                            5.894,10  INC DOC  AMENTA CLAUDIO GUSTAVO     DNI 26660561  416051 0001-247
+04 1 1 1 0         0000                  8.265,90     8.265,90                                            8.265,90  INC DOC  NU¥EZ VALERIA ALEJAND      DNI 26782606  223382 0001-249
+04 1 1 1 0         0000                    867,30       867,30                                              867,30  INC DOC  MESTROCOLDI DE TORRES CRI  DNI 21332074  159504 0001-250
+04 1 1 1 0         0000                 17.699,97    17.699,97                                           17.699,97  INC DOC  ROMERO MARIA ELENA         DNI 18566458  186142 0001-250
+04 1 1 1 0         0000                  2.354,10     2.354,10                                            2.354,10  INC DOC  GOMEZ GASEP GERARDO E      DNI 14410459  202517 0001-251
+04 1 1 1 0         0000                  2.354,10     2.354,10                                            2.354,10  INC DOC  GOMEZ GASEP GERARDO E      DNI 14410459  202517 0001-252
+
