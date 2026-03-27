@@ -16,8 +16,7 @@ main
 # Archivos temporales
 *.tmp
 *.log
-*.out
-/input/*.*  
+*.out  
 
 # IDE
 .vscode/
