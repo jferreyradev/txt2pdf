@@ -10,11 +10,14 @@ main
 # Directorios de build
 /bin/
 /obj/
+/input/
+/output/
 
 # Archivos temporales
 *.tmp
 *.log
 *.out
+/input/*.*  
 
 # IDE
 .vscode/
