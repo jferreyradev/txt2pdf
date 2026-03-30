@@ -57,6 +57,42 @@ func calculateFileHash(fileName string) (string, error) {
 	return hex.EncodeToString(hash.Sum(nil)), nil
 }
 
+// detectOrientation analiza las líneas y detecta la mejor orientación
+// Retorna "P" para Portrait (vertical) o "L" para Landscape (horizontal)
+func detectOrientation(lines []LineEntry) string {
+	if len(lines) == 0 {
+		return "L" // Por defecto Landscape
+	}
+
+	// Analizar primeras 100 líneas no vacías
+	totalLen := 0
+	count := 0
+	maxCount := 100
+
+	for _, entry := range lines {
+		if count >= maxCount {
+			break
+		}
+		if !entry.IsBlank && entry.BreakType == "" {
+			totalLen += len(entry.Content)
+			count++
+		}
+	}
+
+	if count == 0 {
+		return "L" // Si no hay líneas, usar Landscape
+	}
+
+	avgLen := totalLen / count
+
+	// Si línea promedio > 80 caracteres → Landscape
+	// Si línea promedio <= 80 caracteres → Portrait
+	if avgLen > 80 {
+		return "L" // Landscape para líneas largas
+	}
+	return "P" // Portrait para líneas cortas
+}
+
 // generateAuditReport crea un archivo con registro de autenticidad
 func generateAuditReport(inputDir string, auditFile string) error {
 	files, err := filepath.Glob(filepath.Join(inputDir, "*.txt"))
@@ -160,10 +196,10 @@ func readFile(fileName string) ([]LineEntry, int, int, int, error) {
 	return lines, lineNum, blankLines, pageBreaks, scanner.Err()
 }
 
-func generatePDF(fileName string, lines []LineEntry) error {
+func generatePDF(fileName string, lines []LineEntry, orientation string) error {
 	pdfFileName := strings.TrimSuffix(fileName, ".txt") + ".pdf"
 
-	pdf := gofpdf.New("L", "mm", "A4", "")
+	pdf := gofpdf.New(orientation, "mm", "A4", "")
 	pdf.SetMargins(10, 15, 10)
 
 	// Metadatos
@@ -267,6 +303,9 @@ func main() {
 	var processAll bool
 	var genAudit bool
 	var hashFile bool
+	var autoOrient bool
+	var forcePortrait bool
+	var forceLandscape bool
 
 	flag.StringVar(&fileName, "file", "", "Nombre del archivo a leer")
 	flag.StringVar(&inputDir, "input", "./input", "Directorio con archivos .txt")
@@ -274,6 +313,9 @@ func main() {
 	flag.BoolVar(&processAll, "all", false, "Procesar todos los archivos .txt del directorio")
 	flag.BoolVar(&genAudit, "audit", false, "Generar reporte de autenticidad con hashes")
 	flag.BoolVar(&hashFile, "hash", false, "Calcular hash SHA256 de archivo(s)")
+	flag.BoolVar(&autoOrient, "auto", false, "Detectar orientación automáticamente")
+	flag.BoolVar(&forcePortrait, "portrait", false, "Forzar orientación vertical (Portrait)")
+	flag.BoolVar(&forceLandscape, "landscape", false, "Forzar orientación horizontal (Landscape)")
 	flag.Parse()
 
 	// Crear directorio input si no existe
@@ -367,7 +409,18 @@ func main() {
 			}
 
 			if toPDF {
-				err := generatePDF(file, lines)
+				// Determinar orientación
+				var orientation string
+				if forcePortrait {
+					orientation = "P"
+				} else if forceLandscape {
+					orientation = "L"
+				} else {
+					// Por defecto: auto-detecta
+					orientation = detectOrientation(lines)
+				}
+
+				err := generatePDF(file, lines, orientation)
 				if err != nil {
 					fmt.Printf("  ✗ Error al generar PDF: %v\n\n", err)
 					continue
@@ -423,6 +476,19 @@ func main() {
 		fmt.Println("    Solo leer y mostrar contenido (sin generar PDF)\n")
 
 		fmt.Println("════════════════════════════════════════════════════════════════")
+		fmt.Println("ORIENTACIÓN DEL PDF (opcional):")
+		fmt.Println("════════════════════════════════════════════════════════════════\n")
+
+		fmt.Printf("  %s -file documento.txt -pdf -auto\n", appName)
+		fmt.Println("    Auto-detecta la mejor orientación (Portrait/Landscape)\n")
+
+		fmt.Printf("  %s -file documento.txt -pdf -portrait\n", appName)
+		fmt.Println("    Fuerza orientación vertical (Portrait)\n")
+
+		fmt.Printf("  %s -file documento.txt -pdf -landscape\n", appName)
+		fmt.Println("    Fuerza orientación horizontal (Landscape, por defecto)\n")
+
+		fmt.Println("════════════════════════════════════════════════════════════════")
 		fmt.Println()
 		return
 	}
@@ -436,7 +502,18 @@ func main() {
 
 	// Generar PDF si se solicita
 	if toPDF {
-		err := generatePDF(fileName, lines)
+		// Determinar orientación
+		var orientation string
+		if forcePortrait {
+			orientation = "P"
+		} else if forceLandscape {
+			orientation = "L"
+		} else {
+			// Por defecto: auto-detecta
+			orientation = detectOrientation(lines)
+		}
+
+		err := generatePDF(fileName, lines, orientation)
 		if err != nil {
 			fmt.Printf("Error al generar PDF: %v\n", err)
 			return
@@ -444,8 +521,16 @@ func main() {
 
 		// Generar reporte de autenticidad automáticamente
 		fmt.Println("Generando reporte de autenticidad...")
-		auditFile := filepath.Join(inputDir, "hashes.txt")
-		err = generateAuditReport(inputDir, auditFile)
+		// Usar el directorio del archivo si se especificó -file, sino usar inputDir
+		reportDir := inputDir
+		if fileName != "" {
+			reportDir = filepath.Dir(fileName)
+			if reportDir == "." {
+				reportDir = "."
+			}
+		}
+		auditFile := filepath.Join(reportDir, "hashes.txt")
+		err = generateAuditReport(reportDir, auditFile)
 		if err != nil {
 			fmt.Printf("  ✗ Error al generar reporte: %v\n", err)
 		}

@@ -15,6 +15,8 @@ Herramienta Go para convertir archivos TXT a PDF con **autenticidad verificable*
 ✅ Procesamiento **batch** para múltiples archivos  
 ✅ **Generación automática** de hashes al crear PDFs  
 ✅ **Calculadora de hashes** para verificación offline  
+✅ **Orientación automática** (Portrait/Landscape)  
+✅ **Control manual de orientación** (flags -portrait/-landscape)  
 ✅ Verificación simple sin herramientas adicionales
 
 ## Instalación
@@ -69,6 +71,30 @@ Para descripción detallada de comandos, continúa leyendo abajo.
 ✅ Cada carpeta genera sus PDFs y hashes.txt por separado
 ✅ Ideal para organizar múltiples lotes de documentos
 
+### 4. Controlar orientación del PDF
+
+**Por defecto: Auto-detección automática**
+
+Los PDFs se generan con la mejor orientación automáticamente:
+```bash
+.\txt2pdf.exe -file documento.txt -pdf
+.\txt2pdf.exe -all -pdf -input ./documentos
+```
+✅ Analiza primeras 100 líneas  
+✅ Elige Portrait si línea promedio ≤ 80 caracteres  
+✅ Elige Landscape si línea promedio > 80 caracteres
+
+**Forzar orientación específica (opcional):**
+```bash
+# Vertical (Portrait) - para texto de líneas cortas
+.\txt2pdf.exe -file documento.txt -pdf -portrait
+
+# Horizontal (Landscape) - para texto de líneas largas
+.\txt2pdf.exe -file documento.txt -pdf -landscape
+```
+✅ Útil cuando deseas una orientación específica  
+✅ Anula la auto-detección
+
 ### 5. Calcular hash de un PDF
 ```bash
 # Calcular hash de un PDF específico
@@ -79,6 +105,22 @@ Para descripción detallada de comandos, continúa leyendo abajo.
 
 # Otra carpeta
 .\txt2pdf.exe -all -hash -input ./carpeta
+```
+
+### 6. Combinar parámetros
+
+```bash
+# Procesar con auto-detección (defecto, sin parámetros de orientación)
+.\txt2pdf.exe -all -pdf -input ./reportes
+
+# Forzar portrait en carpeta personalizada
+.\txt2pdf.exe -all -pdf -portrait -input ./cartas
+
+# Forzar landscape en carpeta específica
+.\txt2pdf.exe -all -pdf -landscape -input ./contratos
+
+# Archivo único con forzado de orientación
+.\txt2pdf.exe -file ./documentos/reporte.txt -pdf -portrait
 ```
 
 ## Verificación de Autenticidad
@@ -171,12 +213,13 @@ Opcionalmente (para uso avanzado):
 
 ## Características Técnicas
 
-- **PDF Orientation**: Landscape A4
+- **PDF Orientation**: Auto-detectable o manual (Portrait/Landscape) A4
 - **Font**: Courier 7pt
 - **Footer**: Fecha | Página N
 - **Watermark**: Opcional - si existe `logo/logo_dgs.png`, aparece semi-transparente (50%)
 - **Hash Algorithm**: SHA256
 - **Page Break Detection**: Form Feed (FF) character
+- **Auto-orientación**: Analiza primeras 100 líneas, ≤80 chars → Portrait, >80 chars → Landscape
 - **Encoding**: UTF-8
 
 ## Ejemplo Completo

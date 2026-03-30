@@ -65,6 +65,29 @@ Procesa todos los `.txt` en `./documentos/`
 .\txt2pdf.exe -file ./documentos/reporte.txt -pdf
 ```
 
+### ⭐ Orientación del PDF (Nuevo)
+
+**Por defecto: Auto-detecta automáticamente**
+```bash
+# Simplemente genera PDF - analiza y elige orientación automáticamente
+.\txt2pdf.exe -file documento.txt -pdf
+.\txt2pdf.exe -all -pdf
+```
+
+**Fuerza orientación específica (opcional):**
+```bash
+# Vertical (Portrait) - fuerza líneas cortas
+.\txt2pdf.exe -file documento.txt -pdf -portrait
+
+# Horizontal (Landscape) - fuerza líneas largas
+.\txt2pdf.exe -file documento.txt -pdf -landscape
+```
+
+**Cómo funciona la auto-detección (por defecto):**
+- Analiza primeras 100 líneas del documento
+- Si línea promedio ≤ 80 caracteres → Portrait
+- Si línea promedio > 80 caracteres → Landscape
+
 ---
 
 ## Paso 4: Verificar integridad
@@ -173,15 +196,26 @@ PDF: documento1.pdf
 | Parámetro | Uso |
 |-----------|-----|
 | `-file archivo.txt` | Procesar archivo específico |
-| `-pdf` | Generar PDF |
+| `-pdf` | Generar PDF (con auto-detección de orientación) |
 | `-all` | Procesar todos los archivos de la carpeta |
 | `-hash` | Calcular SHA256 |
 | `-input ./carpeta` | Especificar carpeta diferente a `input/` |
+| `-portrait` | Fuerza orientación vertical (opcional) |
+| `-landscape` | Fuerza orientación horizontal (opcional) |
 
 **Ejemplos:**
 ```bash
-# Procesar todos de otra carpeta
+# Procesar todos con auto-detección (defecto)
+.\txt2pdf.exe -all -pdf
+
+# Procesar todos de otra carpeta con auto-detección
 .\txt2pdf.exe -all -pdf -input ./documentos
+
+# Forzar portrait en todos
+.\txt2pdf.exe -all -pdf -portrait -input ./cartas
+
+# Forzar landscape específicamente
+.\txt2pdf.exe -all -pdf -landscape -input ./reportes
 
 # Solo leer (sin generar PDF)
 .\txt2pdf.exe -file documento.txt
