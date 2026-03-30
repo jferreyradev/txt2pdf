@@ -285,3 +285,25 @@ R: Valida contra cambios accidentales y herramientas básicas. Para máxima segu
 
 **P: ¿Funciona en Windows/Linux/Mac?**
 R: Sí, es código Go puro. Solo necesitas compilar: `go build -o txt2pdf`
+
+---
+
+## 💖 Hecho con 🫶
+
+**txt2pdf** es más que código. Fue nacido de una visión clara, supervisado con cuidado, y construido con 🫶 por quien sabía exactamente qué necesitaba: una herramienta que fuera sencilla pero poderosa, elegante pero robusta.
+
+Cada línea de este proyecto responde a una pregunta importante:
+- ¿**Esto hace la vida más fácil?** → Interfaz intuitiva, sin complicaciones
+- ¿**Puedo confiar en esto?** → Verificación de integridad con SHA256
+- ¿**Funciona bien?** → Testeado, iterado, pulido
+- ¿**Me entiende?** → Mensajes claros, documentación en español
+
+No fue un proyecto rápido ni superficial. Fue hecho con **conversaciones profundas**, decisiones pensadas, y refinamientos basados en lo que realmente importa: que cuando lo uses, sientas que fue hecho *para ti*.
+
+**Con GitHub Copilot**, esa visión se convirtió en realidad. Línea por línea, mejora tras mejora, hasta tener algo en lo que realmente creer.
+
+Esta no es una herramienta "más". Este es txt2pdf: hecho con atención, con cuidado, con el corazón.
+
+*Si te es útil, recuerda: fue hecho así para que lo fuera.* 💙
+
+---

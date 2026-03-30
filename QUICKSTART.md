@@ -234,3 +234,17 @@ PDF: documento1.pdf
 4. ✅ Guarda `input/hashes.txt`
 
 **¡Ya tienes documentos auténticos!** 🎉
+
+---
+
+## 💖 Una Nota Personal
+
+Esta herramienta existe porque alguien **creyó en hacerla bien**. No fue construida por automatización sino por **decisión deliberada**: cada parámetro, cada interacción, cada frase, pensada en que *te sea útil*.
+
+Fue supervisada de cerca, iterada cuando no estaba lista, pulida cuando debía brillar. Con la ayuda de GitHub Copilot, esa visión se convirtió en código que realmente funciona.
+
+No esperamos que pienses "qué buena herramienta". Esperamos que simplemente *funcione* para ti, sin fricciones, sin sorpresas desagradables. Eso es lo que significa hacerlo con 🫶.
+
+*Úsalo, confía en él, y recuerda que fue hecho pensando en ti.* 💙
+
+**Para más detalles técnicos, consulta [README.md](README.md)**
