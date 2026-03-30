@@ -1,13 +1,15 @@
 # Text-to-PDF Converter con Autenticidad
 
-Herramienta Go para convertir archivos TXT a PDF con **autenticidad verificable** mediante hash SHA256 embebido en cada página.
+Herramienta Go para convertir archivos TXT a PDF con **autenticidad verificable** mediante hash SHA256.
+
+> 🚀 **¿Primerizo?** Lee [QUICKSTART.md](QUICKSTART.md) para empezar en 5 minutos
 
 ## Características
 
 ✅ Convierte TXT a PDF (línea por línea)  
 ✅ Detecta **saltos de página** (Form Feed)  
 ✅ **Hash SHA256** en archivo separado `hashes.txt`  
-✅ **Logo watermark** semi-transparente  
+✅ **Watermark personalizable** (opcional)  
 ✅ **Metadata** en PDF (Autor, Título, Creador, etc.)  
 ✅ **Reporte de autenticidad** con todos los hashes  
 ✅ Procesamiento **batch** para múltiples archivos  
@@ -25,72 +27,47 @@ Herramienta Go para convertir archivos TXT a PDF con **autenticidad verificable*
 go build -o txt2pdf.exe
 ```
 
-Listo. El ejecutable se crear en el mismo directorio.
+El ejecutable se creará en el mismo directorio.
 
-## ✨ Características
+## 🚀 Guía Rápida
 
-✅ Convierte TXT a PDF (línea por línea)  
-✅ Detecta **saltos de página** (Form Feed)  
-✅ **Hash SHA256** en archivo separado `hashes.txt`  
-✅ **Logo watermark** semi-transparente  
-✅ **Metadata** en PDF (Autor, Título, Creador, etc.)  
-✅ **Reporte de autenticidad** con todos los hashes  
-✅ Procesamiento **batch** para múltiples archivos  
-✅ **Generación automática** de hashes al crear PDFs  
-✅ **Calculadora de hashes** para verificación offline  
-✅ Verificación simple sin herramientas adicionales  
-✅ **Auto-creación** de carpetas necesarias
+👉 **Si eres usuario final, lee [QUICKSTART.md](QUICKSTART.md)**
 
-## 🚀 Guía Rápida (2 pasos)
-
-### Paso 1: Convertir archivos a PDF
-```bash
-.\txt2pdf.exe -all -pdf
-```
-Convierte todos los `.txt` en `input/` a PDF **y automáticamente genera `hashes.txt`**.
-
-### Paso 2: Verificar documentos
-1. Abre cualquier PDF generado
-2. En el **footer (pie de página)** verás: fecha y número de página
-3. Ejecuta `.\txt2pdf.exe -file documento.pdf -hash` para calcular su hash
-4. Compara con el `hash corto` en `hashes.txt` → ✅ Auténtico
-
-### Casos de uso comunes
-
-| Necesidad | Comando |
-|-----------|---------|
-| Convertir 1 archivo (+ hashes) | `.\txt2pdf.exe -file archivo.txt -pdf` |
-| Convertir todos (+ hashes) | `.\txt2pdf.exe -all -pdf` |
-| Otra carpeta | `.\txt2pdf.exe -all -pdf -input ./carpeta` |
-| Calcular hash de PDF | `.\txt2pdf.exe -file documento.pdf -hash` |
-| Hashes de todos los PDFs | `.\txt2pdf.exe -all -hash` |
-| Solo leer archivo | `.\txt2pdf.exe -file archivo.txt` |
-| Ver opciones | `.\txt2pdf.exe` |
-
-**Nota:** El archivo `hashes.txt` se genera **automáticamente** después de crear PDFs. Ya no necesitas ejecutar `-audit` por separado.
+Para descripción detallada de comandos, continúa leyendo abajo.
 
 ## Uso Detallado
 
 ### 1. Convertir un archivo TXT a PDF
 ```bash
-.\txt2pdf.exe -file input/ARCHIVO.txt -pdf
+# Forma simple (busca en carpeta actual o especifica la ruta)
+.\txt2pdf.exe -file documento.txt -pdf
+
+# O desde carpeta específica
+.\txt2pdf.exe -file ./documentos/reporte.txt -pdf
 ```
-✅ Genera `ARCHIVO.pdf`  
-✅ Automáticamente actualiza `hashes.txt` con los hash SHA256 del documento
+✅ Genera `documento.pdf` en la misma carpeta  
+✅ Automáticamente actualiza `hashes.txt`
 
 ### 2. Convertir todos los archivos
 ```bash
+# Carpeta por defecto (input/)
 .\txt2pdf.exe -all -pdf
+
+# O carpeta personalizada
+.\txt2pdf.exe -all -pdf -input ./documentos
+.\txt2pdf.exe -all -pdf -input C:\mis_documentos
 ```
-✅ Procesa todos los `.txt` de la carpeta `input/`  
-✅ Automáticamente actualiza `hashes.txt` con todos los hash SHA256
+✅ Procesa todos los `.txt`  
+✅ Automáticamente actualiza `hashes.txt` con todos los hash SHA256  
+✅ Crea la carpeta si no existe
 
 ### 3. Especificar carpeta personalizada
 ```bash
-.\txt2pdf.exe -all -pdf -input ./mi_carpeta
+.\txt2pdf.exe -all -pdf -input ./auditoria_2024
+.\txt2pdf.exe -all -pdf -input ./auditoria_2025
 ```
-✅ Genera PDFs en carpeta personalizada  
-✅ Crea `hashes.txt` en la misma carpeta
+✅ Cada carpeta genera sus PDFs y hashes.txt por separado
+✅ Ideal para organizar múltiples lotes de documentos
 
 ### 5. Calcular hash de un PDF
 ```bash
@@ -151,7 +128,7 @@ PDF: DOCUMENTO.pdf
 
 | Componente | Función | Uso |
 |-----------|----------|-----|
-| **PDF con watermark** | Documento procesado | Lectura y distribución |
+| **PDF generado** | Documento procesado | Lectura y distribución |
 | **hashes.txt** | Registro centralizado de integridad | Auditoría y verificación |
 | **-hash flag** | Calculadora independiente | Validación posterior |
 
@@ -168,14 +145,25 @@ txt2pdf/
 ├── go.mod                  (módulo Go)
 ├── go.sum                  (checksums de dependencias)
 ├── README.md              (este archivo)
-├── logo/
-│   └── logo_dgs.png       (logo watermark)
-├── input/                 (archivos de entrada)
+├── QUICKSTART.md          (guía para usuario final)
+└── txt2pdf.exe            (ejecutable compilado)
+
+Opcionalmente (para uso avanzado):
+├── logo/                  (OPCIONAL - para watermark personalizado)
+│   └── logo_dgs.png      (coloca tu logo aquí)
+├── input/                 (OPCIONAL - carpeta de trabajo por defecto)
 │   ├── *.txt             (archivos TXT fuente)
 │   ├── *.pdf             (PDFs generados)
 │   └── hashes.txt        (reporte de hashes)
-└── txt2pdf.exe           (ejecutable compilado)
+└── mis_documentos/        (OPCIONAL - o cualquier otra carpeta)
+    └── ...
 ```
+
+**Nota Importante:**
+- La carpeta `input/` es solo el **nombre por defecto**, no es obligatoria
+- El programa se adapta a cualquier carpeta: `-input ./tu_carpeta`
+- Las carpetas se crean automáticamente si no existen
+- El archivo `logo/logo_dgs.png` es completamente opcional
 
 ## Dependencias
 
@@ -185,8 +173,8 @@ txt2pdf/
 
 - **PDF Orientation**: Landscape A4
 - **Font**: Courier 7pt
-- **Footer**: Fecha | Hash (primeros 16 caracteres) | Página N
-- **Logo**: Semi-transparente (50% opacidad)
+- **Footer**: Fecha | Página N
+- **Watermark**: Opcional - si existe `logo/logo_dgs.png`, aparece semi-transparente (50%)
 - **Hash Algorithm**: SHA256
 - **Page Break Detection**: Form Feed (FF) character
 - **Encoding**: UTF-8
