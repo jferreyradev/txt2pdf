@@ -101,9 +101,17 @@ func generateAuditReport(inputDir string, auditFile string) error {
 		}
 
 		auditContent.WriteString(fmt.Sprintf("Archivo: %s\n", baseName))
-		auditContent.WriteString(fmt.Sprintf("Hash SHA256: %s\n", hash))
+		auditContent.WriteString(fmt.Sprintf("Hash SHA256 TXT: %s\n", hash))
 		auditContent.WriteString(fmt.Sprintf("Hash QR: %s\n", hash[:16]))
-		auditContent.WriteString(fmt.Sprintf("PDF: %s\n", strings.TrimSuffix(baseName, ".txt")+".pdf"))
+
+		// Calcular hash del PDF si existe
+		pdfName := strings.TrimSuffix(baseName, ".txt") + ".pdf"
+		pdfPath := filepath.Join(inputDir, pdfName)
+		if pdfHash, err := calculateFileHash(pdfPath); err == nil {
+			auditContent.WriteString(fmt.Sprintf("Hash SHA256 PDF: %s\n", pdfHash))
+		}
+
+		auditContent.WriteString(fmt.Sprintf("PDF: %s\n", pdfName))
 		auditContent.WriteString(strings.Repeat("-", 50) + "\n\n")
 	}
 
@@ -113,17 +121,6 @@ func generateAuditReport(inputDir string, auditFile string) error {
 	}
 
 	fmt.Printf("✓ Reporte de autenticidad generado: %s\n", auditFile)
-
-	// Generar PDF del archivo de autenticidad después
-	lines, _, _, _, err := readFile(auditFile)
-	if err != nil {
-		return err
-	}
-
-	err = generatePDF(auditFile, lines)
-	if err != nil {
-		return err
-	}
 
 	return nil
 }
