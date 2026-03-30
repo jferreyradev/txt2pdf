@@ -2,7 +2,8 @@
 
 Herramienta Go para convertir archivos TXT a PDF con **autenticidad verificable** mediante hash SHA256.
 
-> 🚀 **¿Primerizo?** Lee [QUICKSTART.md](QUICKSTART.md) para empezar en 5 minutos
+> 🚀 **¿Primerizo (CLI)?** Lee [QUICKSTART.md](QUICKSTART.md) para empezar en 5 minutos  
+> 🌐 **¿Integración API?** Lee [API_QUICKSTART.md](API_QUICKSTART.md)
 
 ## Características
 
@@ -17,6 +18,8 @@ Herramienta Go para convertir archivos TXT a PDF con **autenticidad verificable*
 ✅ **Calculadora de hashes** para verificación offline  
 ✅ **Orientación automática** (Portrait/Landscape)  
 ✅ **Control manual de orientación** (flags -portrait/-landscape)  
+✅ **Modo CLI** - Línea de comandos para usuarios  
+✅ **Modo API REST** - Servidor web para integraciones  
 ✅ Verificación simple sin herramientas adicionales
 
 ## Instalación
@@ -30,6 +33,75 @@ go build -o txt2pdf.exe
 ```
 
 El ejecutable se creará en el mismo directorio.
+
+## 🌐 API REST (Nuevo en v1.1)
+
+**txt2pdf** ahora soporta modo servidor REST para integración con aplicaciones web.
+
+### Iniciar servidor API:
+```bash
+txt2pdf.exe -api -port 8080
+# 🌐 Servidor escuchando en http://localhost:8080
+```
+
+### Endpoints disponibles:
+
+#### 1. **POST /convert** - Convertir TXT a PDF
+```bash
+curl -F "file=@documento.txt" http://localhost:8080/convert \
+  -o documento.pdf
+```
+**Parámetros:**
+- `file` (required): Archivo TXT (multipart form)
+- `orientation` (optional): `auto` | `portrait` | `landscape`
+
+**Respuesta:** PDF binario con headers:
+- `X-PDF-Hash`: SHA256 completo
+- `X-PDF-Hash-Short`: Primeros 16 caracteres
+
+#### 2. **POST /hash** - Calcular SHA256
+```bash
+curl -F "file=@documento.pdf" http://localhost:8080/hash
+```
+**Respuesta JSON:**
+```json
+{
+  "filename": "documento.pdf",
+  "sha256": "abc123...",
+  "short_hash": "abc123456789abcd",
+  "size_bytes": 17537
+}
+```
+
+#### 3. **GET /status** - Estado del servidor
+```bash
+curl http://localhost:8080/status
+```
+
+#### 4. **GET /help** - Documentación
+```bash
+curl http://localhost:8080/help
+```
+
+### Ejemplo de uso con JavaScript:
+```javascript
+const formData = new FormData();
+formData.append('file', document.getElementById('fileInput').files[0]);
+formData.append('orientation', 'auto');
+
+fetch('http://localhost:8080/convert', {
+  method: 'POST',
+  body: formData
+})
+.then(response => response.blob())
+.then(blob => {
+  const url = window.URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'documento.pdf';
+  a.click();
+});
+```
 
 ## 🚀 Guía Rápida
 
@@ -183,12 +255,14 @@ PDF: DOCUMENTO.pdf
 
 ```
 txt2pdf/
-├── main.go                 (código principal)
+├── main.go                 (CLI + dispatcher API/CLI)
+├── core.go                 (lógica compartida: PDF, hashes, IO)
+├── api.go                  (servidor REST con Gin)
 ├── go.mod                  (módulo Go)
 ├── go.sum                  (checksums de dependencias)
 ├── README.md              (este archivo)
 ├── QUICKSTART.md          (guía para usuario final)
-└── txt2pdf.exe            (ejecutable compilado)
+└── txt2pdf.exe            (ejecutable compilado ~13MB)
 
 Opcionalmente (para uso avanzado):
 ├── logo/                  (OPCIONAL - para watermark personalizado)
@@ -201,15 +275,30 @@ Opcionalmente (para uso avanzado):
     └── ...
 ```
 
+**Arquitectura:**
+- **main.go**: Dispatcher que elige entre modo CLI (-api flag) o API REST
+- **core.go**: Lógica compartida independiente de la interfaz (CLI/API)
+  - PDF generation (buffer o archivo)
+  - Hashing (SHA256)
+  - File I/O
+  - Orientation detection
+- **api.go**: Servidor Gin con 4 endpoints REST
+  - `/convert` - Convertir TXT a PDF
+  - `/hash` - Calcular SHA256
+  - `/status` - Estado del servidor
+  - `/help` - Documentación
+
 **Nota Importante:**
 - La carpeta `input/` es solo el **nombre por defecto**, no es obligatoria
 - El programa se adapta a cualquier carpeta: `-input ./tu_carpeta`
 - Las carpetas se crean automáticamente si no existen
 - El archivo `logo/logo_dgs.png` es completamente opcional
+- El mismo ejecutable funciona como CLI y como servidor API
 
 ## Dependencias
 
 - `github.com/jung-kurt/gofpdf` - Generación de PDF
+- `github.com/gin-gonic/gin` - Framework web REST (solo en modo -api)
 
 ## Características Técnicas
 

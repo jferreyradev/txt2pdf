@@ -1,300 +1,12 @@
 package main
 
 import (
-	"bufio"
-	"crypto/sha256"
-	"encoding/hex"
 	"flag"
 	"fmt"
-	"io"
 	"os"
 	"path/filepath"
-	"strconv"
 	"strings"
-	"time"
-
-	"github.com/jung-kurt/gofpdf"
 )
-
-// isPageBreak detecta si una línea es un salto de página
-func isPageBreak(line string) string {
-	trimmed := strings.TrimSpace(line)
-
-	// Form Feed
-	if strings.ContainsAny(line, "\f\x0c") {
-		return "FF"
-	}
-
-	// Marcador PAGE BREAK
-	if strings.Contains(trimmed, "PAGE BREAK") {
-		return "MARKER"
-	}
-
-	// Número de página (1-999)
-	if len(trimmed) > 0 && len(trimmed) <= 3 {
-		_, err := strconv.Atoi(trimmed)
-		if err == nil {
-			return "PAGE_NUM"
-		}
-	}
-
-	return ""
-}
-
-// calculateFileHash calcula el SHA256 de un archivo
-func calculateFileHash(fileName string) (string, error) {
-	file, err := os.Open(fileName)
-	if err != nil {
-		return "", err
-	}
-	defer file.Close()
-
-	hash := sha256.New()
-	if _, err := io.Copy(hash, file); err != nil {
-		return "", err
-	}
-
-	return hex.EncodeToString(hash.Sum(nil)), nil
-}
-
-// detectOrientation analiza las líneas y detecta la mejor orientación
-// Retorna "P" para Portrait (vertical) o "L" para Landscape (horizontal)
-func detectOrientation(lines []LineEntry) string {
-	if len(lines) == 0 {
-		return "L" // Por defecto Landscape
-	}
-
-	// Analizar primeras 100 líneas no vacías
-	totalLen := 0
-	count := 0
-	maxCount := 100
-
-	for _, entry := range lines {
-		if count >= maxCount {
-			break
-		}
-		if !entry.IsBlank && entry.BreakType == "" {
-			totalLen += len(entry.Content)
-			count++
-		}
-	}
-
-	if count == 0 {
-		return "L" // Si no hay líneas, usar Landscape
-	}
-
-	avgLen := totalLen / count
-
-	// Si línea promedio > 80 caracteres → Landscape
-	// Si línea promedio <= 80 caracteres → Portrait
-	if avgLen > 80 {
-		return "L" // Landscape para líneas largas
-	}
-	return "P" // Portrait para líneas cortas
-}
-
-// generateAuditReport crea un archivo con registro de autenticidad
-func generateAuditReport(inputDir string, auditFile string) error {
-	files, err := filepath.Glob(filepath.Join(inputDir, "*.txt"))
-	if err != nil {
-		return err
-	}
-
-	if len(files) == 0 {
-		return fmt.Errorf("no se encontraron archivos .txt")
-	}
-
-	var auditContent strings.Builder
-	auditContent.WriteString("=== REGISTRO DE AUTENTICIDAD DE DOCUMENTOS ===\n")
-	auditContent.WriteString(fmt.Sprintf("Generado: %s\n", time.Now().Format("2006-01-02 15:04:05")))
-	auditContent.WriteString(strings.Repeat("=", 50) + "\n\n")
-
-	for _, file := range files {
-		baseName := filepath.Base(file)
-		hash, err := calculateFileHash(file)
-		if err != nil {
-			continue
-		}
-
-		auditContent.WriteString(fmt.Sprintf("Archivo: %s\n", baseName))
-		auditContent.WriteString(fmt.Sprintf("Hash SHA256 TXT: %s\n", hash))
-
-		// Calcular hash del PDF si existe
-		pdfName := strings.TrimSuffix(baseName, ".txt") + ".pdf"
-		pdfPath := filepath.Join(inputDir, pdfName)
-		if pdfHash, err := calculateFileHash(pdfPath); err == nil {
-			auditContent.WriteString(fmt.Sprintf("Hash SHA256 PDF: %s\n", pdfHash))
-			auditContent.WriteString(fmt.Sprintf("Hash corto PDF: %s\n", pdfHash[:16]))
-		}
-
-		auditContent.WriteString(fmt.Sprintf("PDF: %s\n", pdfName))
-		auditContent.WriteString(strings.Repeat("-", 50) + "\n\n")
-	}
-
-	err = os.WriteFile(auditFile, []byte(auditContent.String()), 0644)
-	if err != nil {
-		return err
-	}
-
-	fmt.Printf("✓ Reporte de autenticidad generado: %s\n", auditFile)
-
-	return nil
-}
-
-type LineEntry struct {
-	Number    int
-	BreakType string
-	Content   string
-	IsBlank   bool
-}
-
-func readFile(fileName string) ([]LineEntry, int, int, int, error) {
-	file, err := os.Open(fileName)
-	if err != nil {
-		return nil, 0, 0, 0, err
-	}
-	defer file.Close()
-
-	scanner := bufio.NewScanner(file)
-	var lines []LineEntry
-	lineNum := 0
-	blankLines := 0
-	pageBreaks := 0
-	lastBreakType := ""
-
-	for scanner.Scan() {
-		lineNum++
-		line := scanner.Text()
-		breakType := isPageBreak(line)
-
-		// Si hay dos saltos de página seguidos, omitir el segundo
-		if breakType != "" && lastBreakType != "" {
-			breakType = "" // Omitir este salto
-		}
-
-		entry := LineEntry{
-			Number:    lineNum,
-			BreakType: breakType,
-			Content:   line,
-			IsBlank:   len(line) == 0,
-		}
-
-		if breakType != "" {
-			pageBreaks++
-			lastBreakType = breakType
-		} else {
-			lastBreakType = ""
-		}
-
-		if len(line) == 0 {
-			blankLines++
-		}
-
-		lines = append(lines, entry)
-	}
-
-	return lines, lineNum, blankLines, pageBreaks, scanner.Err()
-}
-
-func generatePDF(fileName string, lines []LineEntry, orientation string) error {
-	pdfFileName := strings.TrimSuffix(fileName, ".txt") + ".pdf"
-
-	pdf := gofpdf.New(orientation, "mm", "A4", "")
-	pdf.SetMargins(10, 15, 10)
-
-	// Metadatos
-	pdf.SetAuthor("Sistema de Procesamiento", true)
-	pdf.SetCreator("TextIzer v1.0", true)
-	pdf.SetTitle(filepath.Base(fileName), true)
-	pdf.SetSubject("Conversión de TXT a PDF", true)
-	pdf.SetKeywords("procesamiento, documentos", true)
-
-	// Configurar encabezado con logo
-	pdf.SetHeaderFunc(func() {
-		// Logo como marca de agua - semi-transparente
-		logoPath := "logo/logo_dgs.png"
-		if _, err := os.Stat(logoPath); err == nil {
-			// Guardar posición actual
-			x, y := pdf.GetXY()
-
-			// Hacer la imagen semi-transparente (50% opacidad)
-			pdf.SetAlpha(0.5, "Normal")
-
-			// Posición esquina superior derecha: x=240, y=3
-			// Tamaño: 40x10mm
-			pdf.Image(logoPath, 240, 3, 40, 10, false, "", 0, "")
-
-			// Restaurar opacidad normal
-			pdf.SetAlpha(1.0, "Normal")
-
-			// Restaurar posición original
-			pdf.SetXY(x, y)
-		}
-	})
-
-	// Configurar pie de página
-	pdf.SetFooterFunc(func() {
-		pdf.SetY(-15)
-		pdf.SetFont("Courier", "", 6)
-		// Fecha y hora
-		dateStr := time.Now().Format("02/01/2006 15:04:05")
-		pdf.Cell(0, 10, dateStr)
-		// Número de página
-		pageStr := fmt.Sprintf("Página %d", pdf.PageNo())
-		pdf.SetX(250)
-		pdf.Cell(0, 10, pageStr)
-	})
-
-	pdf.AddPage()
-	pdf.SetFont("Courier", "", 7)
-
-	// Contenido
-	needsNewPage := false
-
-	for _, entry := range lines {
-		// Si hay salto de página (solo respetar FF, ignorar PAGE_NUM)
-		if entry.BreakType == "FF" {
-			needsNewPage = true
-			continue
-		}
-
-		// Ignorar otros tipos de saltos de página
-		if entry.BreakType != "" {
-			continue
-		}
-
-		// Saltar líneas en blanco
-		if entry.IsBlank {
-			continue
-		}
-
-		// Si necesitamos nueva página, crearla antes del contenido
-		if needsNewPage {
-			pdf.AddPage()
-			pdf.SetFont("Courier", "", 7)
-			needsNewPage = false
-		}
-
-		y := pdf.GetY()
-
-		// Verificar si se necesita nueva página por altura (margen de seguridad)
-		if y > 270 {
-			pdf.AddPage()
-		}
-
-		// Usar MultiCell para que envuelva automáticamente líneas largas
-		pdf.MultiCell(0, 2, entry.Content, "", "L", false)
-	}
-
-	// Guardar PDF
-	err := pdf.OutputFileAndClose(pdfFileName)
-	if err != nil {
-		return err
-	}
-
-	fmt.Printf("✓ PDF generado: %s\n", pdfFileName)
-	return nil
-}
 
 func main() {
 	var fileName string
@@ -303,9 +15,10 @@ func main() {
 	var processAll bool
 	var genAudit bool
 	var hashFile bool
-	var autoOrient bool
 	var forcePortrait bool
 	var forceLandscape bool
+	var apiMode bool
+	var apiPort string
 
 	flag.StringVar(&fileName, "file", "", "Nombre del archivo a leer")
 	flag.StringVar(&inputDir, "input", "./input", "Directorio con archivos .txt")
@@ -313,11 +26,29 @@ func main() {
 	flag.BoolVar(&processAll, "all", false, "Procesar todos los archivos .txt del directorio")
 	flag.BoolVar(&genAudit, "audit", false, "Generar reporte de autenticidad con hashes")
 	flag.BoolVar(&hashFile, "hash", false, "Calcular hash SHA256 de archivo(s)")
-	flag.BoolVar(&autoOrient, "auto", false, "Detectar orientación automáticamente")
 	flag.BoolVar(&forcePortrait, "portrait", false, "Forzar orientación vertical (Portrait)")
 	flag.BoolVar(&forceLandscape, "landscape", false, "Forzar orientación horizontal (Landscape)")
+	flag.BoolVar(&apiMode, "api", false, "Iniciar en modo servidor API REST")
+	flag.StringVar(&apiPort, "port", "8080", "Puerto para el servidor API")
 	flag.Parse()
 
+	// Modo API
+	if apiMode {
+		fmt.Println("🚀 txt2pdf API REST iniciado")
+		fmt.Printf("🌐 Servidor escuchando en http://localhost:%s\n", apiPort)
+		fmt.Printf("📚 Documentación: http://localhost:%s/help\n", apiPort)
+		fmt.Printf("🔗 Status: http://localhost:%s/status\n", apiPort)
+		fmt.Println("⏹️  Presiona Ctrl+C para detener\n")
+
+		server := NewAPIServer()
+		if err := server.Start(apiPort); err != nil {
+			fmt.Printf("Error: %v\n", err)
+			os.Exit(1)
+		}
+		return
+	}
+
+	// Modo CLI
 	// Crear directorio input si no existe
 	if _, err := os.Stat(inputDir); os.IsNotExist(err) {
 		fmt.Printf("📁 Creando directorio: %s\n", inputDir)
@@ -328,7 +59,7 @@ func main() {
 	if hashFile {
 		if fileName != "" {
 			// Hash de un archivo específico
-			hash, err := calculateFileHash(fileName)
+			hash, err := CalculateFileHash(fileName)
 			if err != nil {
 				fmt.Printf("Error: %v\n", err)
 				return
@@ -351,7 +82,7 @@ func main() {
 			fmt.Println("=== HASHES DE PDFS ===\n")
 			for _, file := range files {
 				baseName := filepath.Base(file)
-				hash, err := calculateFileHash(file)
+				hash, err := CalculateFileHash(file)
 				if err != nil {
 					fmt.Printf("  ✗ %s: Error\n", baseName)
 					continue
@@ -369,11 +100,12 @@ func main() {
 	// Generar reporte de auditoría si se indica
 	if genAudit {
 		auditFile := filepath.Join(inputDir, "hashes.txt")
-		err := generateAuditReport(inputDir, auditFile)
+		err := GenerateAuditReport(inputDir, auditFile)
 		if err != nil {
 			fmt.Printf("Error: %v\n", err)
 			return
 		}
+		fmt.Printf("✓ Reporte de autenticidad generado: %s\n", auditFile)
 		return
 	}
 
@@ -402,7 +134,7 @@ func main() {
 
 			fmt.Printf("Procesando: %s\n", baseName)
 
-			lines, _, _, _, err := readFile(file)
+			lines, _, _, _, err := ReadFile(file)
 			if err != nil {
 				fmt.Printf("  ✗ Error: %v\n\n", err)
 				continue
@@ -417,14 +149,15 @@ func main() {
 					orientation = "L"
 				} else {
 					// Por defecto: auto-detecta
-					orientation = detectOrientation(lines)
+					orientation = DetectOrientation(lines)
 				}
 
-				err := generatePDF(file, lines, orientation)
+				err := GeneratePDFToFile(file, lines, orientation)
 				if err != nil {
 					fmt.Printf("  ✗ Error al generar PDF: %v\n\n", err)
 					continue
 				}
+				fmt.Printf("✓ PDF generado: %s\n\n", strings.TrimSuffix(baseName, ".txt")+".pdf")
 			} else {
 				fmt.Printf("  → %d líneas\n\n", len(lines))
 			}
@@ -434,9 +167,11 @@ func main() {
 		if toPDF {
 			fmt.Println("\nGenerando reporte de autenticidad...")
 			auditFile := filepath.Join(inputDir, "hashes.txt")
-			err := generateAuditReport(inputDir, auditFile)
+			err := GenerateAuditReport(inputDir, auditFile)
 			if err != nil {
 				fmt.Printf("  ✗ Error al generar reporte: %v\n", err)
+			} else {
+				fmt.Printf("✓ Reporte generado: %s\n", auditFile)
 			}
 		}
 		return
@@ -479,14 +214,21 @@ func main() {
 		fmt.Println("ORIENTACIÓN DEL PDF (opcional):")
 		fmt.Println("════════════════════════════════════════════════════════════════\n")
 
-		fmt.Printf("  %s -file documento.txt -pdf -auto\n", appName)
-		fmt.Println("    Auto-detecta la mejor orientación (Portrait/Landscape)\n")
-
 		fmt.Printf("  %s -file documento.txt -pdf -portrait\n", appName)
 		fmt.Println("    Fuerza orientación vertical (Portrait)\n")
 
 		fmt.Printf("  %s -file documento.txt -pdf -landscape\n", appName)
-		fmt.Println("    Fuerza orientación horizontal (Landscape, por defecto)\n")
+		fmt.Println("    Fuerza orientación horizontal (Landscape)\n")
+
+		fmt.Println("════════════════════════════════════════════════════════════════")
+		fmt.Println("MODO API REST:")
+		fmt.Println("════════════════════════════════════════════════════════════════\n")
+
+		fmt.Printf("  %s -api -port 8080\n", appName)
+		fmt.Println("    Iniciar servidor API REST en puerto 8080\n")
+
+		fmt.Printf("  curl -F 'file=@documento.txt' http://localhost:8080/convert\n")
+		fmt.Println("    Convertir TXT a PDF vía API\n")
 
 		fmt.Println("════════════════════════════════════════════════════════════════")
 		fmt.Println()
@@ -494,7 +236,7 @@ func main() {
 	}
 
 	// Leer archivo
-	lines, totalLines, blankLines, pageBreaks, err := readFile(fileName)
+	lines, totalLines, blankLines, pageBreaks, err := ReadFile(fileName)
 	if err != nil {
 		fmt.Printf("Error: %v\n", err)
 		return
@@ -510,14 +252,15 @@ func main() {
 			orientation = "L"
 		} else {
 			// Por defecto: auto-detecta
-			orientation = detectOrientation(lines)
+			orientation = DetectOrientation(lines)
 		}
 
-		err := generatePDF(fileName, lines, orientation)
+		err := GeneratePDFToFile(fileName, lines, orientation)
 		if err != nil {
 			fmt.Printf("Error al generar PDF: %v\n", err)
 			return
 		}
+		fmt.Printf("✓ PDF generado: %s\n", strings.TrimSuffix(fileName, ".txt")+".pdf")
 
 		// Generar reporte de autenticidad automáticamente
 		fmt.Println("Generando reporte de autenticidad...")
@@ -530,9 +273,11 @@ func main() {
 			}
 		}
 		auditFile := filepath.Join(reportDir, "hashes.txt")
-		err = generateAuditReport(reportDir, auditFile)
+		err = GenerateAuditReport(reportDir, auditFile)
 		if err != nil {
 			fmt.Printf("  ✗ Error al generar reporte: %v\n", err)
+		} else {
+			fmt.Printf("✓ Reporte generado: %s\n", auditFile)
 		}
 	} else {
 		// Mostrar en consola
