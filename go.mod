@@ -1,4 +1,4 @@
-module text-analyzer
+module txt2pdf
 
 go 1.21
 

@@ -14,7 +14,6 @@ import (
 	"time"
 
 	"github.com/jung-kurt/gofpdf"
-	"github.com/skip2/go-qrcode"
 )
 
 // isPageBreak detecta si una línea es un salto de página
@@ -58,25 +57,6 @@ func calculateFileHash(fileName string) (string, error) {
 	return hex.EncodeToString(hash.Sum(nil)), nil
 }
 
-// generateQRCode crea un código QR con información de autenticidad
-func generateQRCode(fileName string, hash string) ([]byte, error) {
-	timestamp := time.Now().Format("2006-01-02 15:04:05")
-	// Formato simple sin saltos de línea para mejor lectura en escaneo
-	appInfo := fmt.Sprintf("%s | %s | %s", filepath.Base(fileName), hash[:16], timestamp)
-
-	qr, err := qrcode.New(appInfo, qrcode.High)
-	if err != nil {
-		return nil, err
-	}
-
-	pngData, err := qr.PNG(256)
-	if err != nil {
-		return nil, err
-	}
-
-	return pngData, nil
-}
-
 // generateAuditReport crea un archivo con registro de autenticidad
 func generateAuditReport(inputDir string, auditFile string) error {
 	files, err := filepath.Glob(filepath.Join(inputDir, "*.txt"))
@@ -102,13 +82,13 @@ func generateAuditReport(inputDir string, auditFile string) error {
 
 		auditContent.WriteString(fmt.Sprintf("Archivo: %s\n", baseName))
 		auditContent.WriteString(fmt.Sprintf("Hash SHA256 TXT: %s\n", hash))
-		auditContent.WriteString(fmt.Sprintf("Hash QR: %s\n", hash[:16]))
 
 		// Calcular hash del PDF si existe
 		pdfName := strings.TrimSuffix(baseName, ".txt") + ".pdf"
 		pdfPath := filepath.Join(inputDir, pdfName)
 		if pdfHash, err := calculateFileHash(pdfPath); err == nil {
 			auditContent.WriteString(fmt.Sprintf("Hash SHA256 PDF: %s\n", pdfHash))
+			auditContent.WriteString(fmt.Sprintf("Hash corto PDF: %s\n", pdfHash[:16]))
 		}
 
 		auditContent.WriteString(fmt.Sprintf("PDF: %s\n", pdfName))
@@ -181,6 +161,8 @@ func readFile(fileName string) ([]LineEntry, int, int, int, error) {
 }
 
 func generatePDF(fileName string, lines []LineEntry) error {
+	pdfFileName := strings.TrimSuffix(fileName, ".txt") + ".pdf"
+
 	pdf := gofpdf.New("L", "mm", "A4", "")
 	pdf.SetMargins(10, 15, 10)
 
@@ -199,7 +181,7 @@ func generatePDF(fileName string, lines []LineEntry) error {
 			// Guardar posición actual
 			x, y := pdf.GetXY()
 
-			// Hacer la imagen semi-transparente (30% opacidad)
+			// Hacer la imagen semi-transparente (50% opacidad)
 			pdf.SetAlpha(0.5, "Normal")
 
 			// Posición esquina superior derecha: x=240, y=3
@@ -209,7 +191,7 @@ func generatePDF(fileName string, lines []LineEntry) error {
 			// Restaurar opacidad normal
 			pdf.SetAlpha(1.0, "Normal")
 
-			// Restaurar posición original sin agregar líneas
+			// Restaurar posición original
 			pdf.SetXY(x, y)
 		}
 	})
@@ -226,24 +208,6 @@ func generatePDF(fileName string, lines []LineEntry) error {
 		pdf.SetX(250)
 		pdf.Cell(0, 10, pageStr)
 	})
-
-	// Calcular hash y generar QR para autenticidad
-	fileHash, err := calculateFileHash(fileName)
-	if err != nil {
-		return err
-	}
-
-	qrData, err := generateQRCode(fileName, fileHash)
-	if err != nil {
-		return err
-	}
-
-	qrFileName := "temp_qr_" + fmt.Sprintf("%d", time.Now().UnixNano()) + ".png"
-	err = os.WriteFile(qrFileName, qrData, 0644)
-	if err != nil {
-		return err
-	}
-	defer os.Remove(qrFileName)
 
 	pdf.AddPage()
 	pdf.SetFont("Courier", "", 7)
@@ -282,20 +246,12 @@ func generatePDF(fileName string, lines []LineEntry) error {
 			pdf.AddPage()
 		}
 
-		// Mostrar solo el contenido sin números ni marcas
-		lineStr := entry.Content
-
 		// Usar MultiCell para que envuelva automáticamente líneas largas
-		pdf.MultiCell(0, 2, lineStr, "", "L", false)
+		pdf.MultiCell(0, 2, entry.Content, "", "L", false)
 	}
 
-	// Insertar QR en la última página (esquina inferior derecha)
-	// Posición: X=260, Y=170, Tamaño pequeño: 20x20mm
-	pdf.Image(qrFileName, 260, 170, 20, 20, false, "", 0, "")
-
 	// Guardar PDF
-	pdfFileName := strings.TrimSuffix(fileName, ".txt") + ".pdf"
-	err = pdf.OutputFileAndClose(pdfFileName)
+	err := pdf.OutputFileAndClose(pdfFileName)
 	if err != nil {
 		return err
 	}
@@ -310,17 +266,67 @@ func main() {
 	var toPDF bool
 	var processAll bool
 	var genAudit bool
+	var hashFile bool
 
 	flag.StringVar(&fileName, "file", "", "Nombre del archivo a leer")
 	flag.StringVar(&inputDir, "input", "./input", "Directorio con archivos .txt")
 	flag.BoolVar(&toPDF, "pdf", false, "Generar salida en PDF")
 	flag.BoolVar(&processAll, "all", false, "Procesar todos los archivos .txt del directorio")
 	flag.BoolVar(&genAudit, "audit", false, "Generar reporte de autenticidad con hashes")
+	flag.BoolVar(&hashFile, "hash", false, "Calcular hash SHA256 de archivo(s)")
 	flag.Parse()
+
+	// Crear directorio input si no existe
+	if _, err := os.Stat(inputDir); os.IsNotExist(err) {
+		fmt.Printf("📁 Creando directorio: %s\n", inputDir)
+		os.MkdirAll(inputDir, 0755)
+	}
+
+	// Calcular hash si se indica
+	if hashFile {
+		if fileName != "" {
+			// Hash de un archivo específico
+			hash, err := calculateFileHash(fileName)
+			if err != nil {
+				fmt.Printf("Error: %v\n", err)
+				return
+			}
+			fmt.Printf("SHA256: %s\n", hash)
+			fmt.Printf("Hash corto: %s\n", hash[:16])
+		} else if processAll {
+			// Hash de todos los PDFs
+			files, err := filepath.Glob(filepath.Join(inputDir, "*.pdf"))
+			if err != nil {
+				fmt.Printf("Error: %v\n", err)
+				return
+			}
+
+			if len(files) == 0 {
+				fmt.Println("No se encontraron archivos .pdf")
+				return
+			}
+
+			fmt.Println("=== HASHES DE PDFS ===\n")
+			for _, file := range files {
+				baseName := filepath.Base(file)
+				hash, err := calculateFileHash(file)
+				if err != nil {
+					fmt.Printf("  ✗ %s: Error\n", baseName)
+					continue
+				}
+				fmt.Printf("Archivo: %s\n", baseName)
+				fmt.Printf("SHA256: %s\n", hash)
+				fmt.Printf("Hash corto: %s\n\n", hash[:16])
+			}
+		} else {
+			fmt.Println("Use: -file archivo -hash  OR  -all -hash -input ./carpeta")
+		}
+		return
+	}
 
 	// Generar reporte de auditoría si se indica
 	if genAudit {
-		auditFile := filepath.Join(inputDir, "autenticidad.txt")
+		auditFile := filepath.Join(inputDir, "hashes.txt")
 		err := generateAuditReport(inputDir, auditFile)
 		if err != nil {
 			fmt.Printf("Error: %v\n", err)
@@ -347,8 +353,8 @@ func main() {
 		for _, file := range files {
 			baseName := filepath.Base(file)
 
-			// Ignorar archivo de autenticidad.txt (se genera después con -audit)
-			if baseName == "autenticidad.txt" {
+			// Ignorar archivo de hashes.txt
+			if baseName == "hashes.txt" {
 				continue
 			}
 
@@ -370,20 +376,54 @@ func main() {
 				fmt.Printf("  → %d líneas\n\n", len(lines))
 			}
 		}
+
+		// Generar reporte de autenticidad automáticamente después de procesar PDFs
+		if toPDF {
+			fmt.Println("\nGenerando reporte de autenticidad...")
+			auditFile := filepath.Join(inputDir, "hashes.txt")
+			err := generateAuditReport(inputDir, auditFile)
+			if err != nil {
+				fmt.Printf("  ✗ Error al generar reporte: %v\n", err)
+			}
+		}
 		return
 	}
 
 	// Procesar archivo único
 	if fileName == "" {
 		appName := filepath.Base(os.Args[0])
-		fmt.Printf("\n%s - Convertidor de TXT a PDF\n\n", strings.TrimSuffix(strings.ToUpper(appName), ".EXE"))
-		fmt.Println("Uso:")
-		fmt.Printf("  %s -file archivo.txt          (leer un archivo)\n", appName)
-		fmt.Printf("  %s -file archivo.txt -pdf    (generar PDF)\n", appName)
-		fmt.Printf("  %s -all -pdf                 (generar PDFs de todos)\n", appName)
-		fmt.Printf("  %s -all -input ./mi_carpeta  (procesar todos de otra carpeta)\n", appName)
-		fmt.Printf("  %s -audit                    (generar reporte de autenticidad)\n", appName)
-		fmt.Printf("  %s -audit -input ./mi_carpeta (generar reporte de otra carpeta)\n\n", appName)
+		fmt.Printf("\n🚀 %s - Convertidor de TXT a PDF con Autenticidad\n\n", strings.TrimSuffix(strings.ToUpper(appName), ".EXE"))
+		fmt.Println("════════════════════════════════════════════════════════════════")
+		fmt.Println("GUÍA RÁPIDA (3 comandos principales):")
+		fmt.Println("════════════════════════════════════════════════════════════════\n")
+
+		fmt.Println("1️⃣  Convertir UN archivo:")
+		fmt.Printf("  %s -file input/documento.txt -pdf\n", appName)
+		fmt.Println("  → Genera: documento.pdf + actualiza hashes.txt\n")
+
+		fmt.Println("2️⃣  Convertir TODOS los archivos:")
+		fmt.Printf("  %s -all -pdf\n", appName)
+		fmt.Println("  → Genera: Todos los PDFs + actualiza hashes.txt\n")
+
+		fmt.Println("3️⃣  Verificar integridad de PDF:")
+		fmt.Printf("  %s -file documento.pdf -hash\n", appName)
+		fmt.Println("  → Calcula: SHA256 + hash corto\n")
+
+		fmt.Println("════════════════════════════════════════════════════════════════")
+		fmt.Println("COMANDOS ADICIONALES:")
+		fmt.Println("════════════════════════════════════════════════════════════════\n")
+
+		fmt.Printf("  %s -all -hash\n", appName)
+		fmt.Println("    Calcular hashes de TODOS los PDFs\n")
+
+		fmt.Printf("  %s -all -pdf -input ./otra_carpeta\n", appName)
+		fmt.Println("    Procesar archivos de otra carpeta\n")
+
+		fmt.Printf("  %s -file documento.txt\n", appName)
+		fmt.Println("    Solo leer y mostrar contenido (sin generar PDF)\n")
+
+		fmt.Println("════════════════════════════════════════════════════════════════")
+		fmt.Println()
 		return
 	}
 
@@ -400,6 +440,14 @@ func main() {
 		if err != nil {
 			fmt.Printf("Error al generar PDF: %v\n", err)
 			return
+		}
+
+		// Generar reporte de autenticidad automáticamente
+		fmt.Println("Generando reporte de autenticidad...")
+		auditFile := filepath.Join(inputDir, "hashes.txt")
+		err = generateAuditReport(inputDir, auditFile)
+		if err != nil {
+			fmt.Printf("  ✗ Error al generar reporte: %v\n", err)
 		}
 	} else {
 		// Mostrar en consola
