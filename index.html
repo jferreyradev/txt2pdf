@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>txt2pdf Converter - API REST</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            padding: 40px;
+            max-width: 500px;
+            width: 100%;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            text-align: center;
+            font-size: 28px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+            font-weight: 500;
+            font-size: 14px;
+        }
+
+        input[type="file"],
+        select {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 14px;
+            transition: border-color 0.3s;
+            background: #f9f9f9;
+        }
+
+        input[type="file"]:hover,
+        select:hover {
+            border-color: #667eea;
+        }
+
+        input[type="file"]:focus,
+        select:focus {
+            outline: none;
+            border-color: #667eea;
+            background: white;
+        }
+
+        .file-info {
+            font-size: 12px;
+            color: #999;
+            margin-top: 5px;
+        }
+
+        button {
+            width: 100%;
+            padding: 14px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+        }
+
+        button:active {
+            transform: translateY(0);
+        }
+
+        button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        #status {
+            margin-top: 25px;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            min-height: 20px;
+            font-size: 14px;
+            display: none;
+        }
+
+        #status.show {
+            display: block;
+        }
+
+        #status.success {
+            background: #e8f5e9;
+            color: #2e7d32;
+            border: 1px solid #c8e6c9;
+        }
+
+        #status.error {
+            background: #ffebee;
+            color: #c62828;
+            border: 1px solid #ffcdd2;
+        }
+
+        #status.loading {
+            background: #e3f2fd;
+            color: #1565c0;
+            border: 1px solid #bbdefb;
+        }
+
+        .file-list {
+            margin-top: 15px;
+            max-height: 150px;
+            overflow-y: auto;
+            padding: 10px;
+            background: #f5f5f5;
+            border-radius: 6px;
+            display: none;
+        }
+
+        .file-list.show {
+            display: block;
+        }
+
+        .file-item {
+            padding: 8px;
+            background: white;
+            margin-bottom: 5px;
+            border-radius: 4px;
+            font-size: 13px;
+            color: #333;
+            border-left: 3px solid #667eea;
+        }
+
+        .spinner {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            border: 2px solid #f3f3f3;
+            border-top: 2px solid #667eea;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-right: 8px;
+            vertical-align: middle;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .info-box {
+            background: #f0f4ff;
+            border-left: 4px solid #667eea;
+            padding: 12px;
+            border-radius: 4px;
+            margin-top: 20px;
+            font-size: 13px;
+            color: #555;
+        }
+
+        .checkbox-group {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        input[type="checkbox"] {
+            width: 18px;
+            height: 18px;
+            cursor: pointer;
+        }
+
+        .checkbox-label {
+            font-size: 14px;
+            color: #333;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .hash-section {
+            margin-top: 20px;
+            padding: 15px;
+            background: #f9f9f9;
+            border-radius: 8px;
+            display: none;
+        }
+
+        .hash-section.show {
+            display: block;
+        }
+
+        .hash-title {
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 12px;
+            font-size: 14px;
+        }
+
+        .hash-item {
+            background: white;
+            padding: 12px;
+            margin-bottom: 10px;
+            border-radius: 6px;
+            border: 1px solid #e0e0e0;
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .hash-filename {
+            font-weight: 600;
+            color: #333;
+            display: inline-block;
+            margin-right: 10px;
+            word-break: break-word;
+        }
+
+        .hash-value {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: #f5f5f5;
+            padding: 8px 10px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            color: #555;
+            font-size: 11px;
+            word-break: break-all;
+            width: 100%;
+        }
+
+        .copy-btn {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 4px 10px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 11px;
+            white-space: nowrap;
+            transition: background 0.2s;
+            flex-shrink: 0;
+            margin-left: 5px;
+        }
+
+        .copy-btn:hover {
+            background: #764ba2;
+        }
+
+        .hash-actions {
+            display: flex;
+            gap: 10px;
+            margin-top: 12px;
+            flex-wrap: wrap;
+        }
+
+        .secondary-btn {
+            flex: 1;
+            min-width: 150px;
+            padding: 10px;
+            background: #e0e0e0;
+            color: #333;
+            border: none;
+            border-radius: 6px;
+            font-size: 13px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        .secondary-btn:hover {
+            background: #d0d0d0;
+        }
+
+        .hash-summary {
+            padding: 10px;
+            background: #e8f5e9;
+            border-left: 3px solid #4caf50;
+            border-radius: 4px;
+            font-size: 12px;
+            color: #2e7d32;
+            margin-bottom: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📄 txt2pdf Converter</h1>
+        <p class="subtitle">Convierte archivos TXT a PDF con un clic</p>
+
+        <form id="converterForm">
+            <div class="form-group">
+                <label for="fileInput">Selecciona archivos TXT:</label>
+                <input 
+                    type="file" 
+                    id="fileInput" 
+                    accept=".txt,.pdf" 
+                    multiple 
+                    required
+                />
+                <p class="file-info">Puedes seleccionar uno o múltiples archivos</p>
+            </div>
+
+            <div class="form-group">
+                <label for="orientation">Orientación:</label>
+                <select id="orientation">
+                    <option value="auto">🔄 Auto-detectar</option>
+                    <option value="portrait">📋 Vertical (Portrait)</option>
+                    <option value="landscape">📰 Horizontal (Landscape)</option>
+                </select>
+            </div>
+
+            <div class="checkbox-group">
+                <input type="checkbox" id="generateHashCheckbox" />
+                <label for="generateHashCheckbox" class="checkbox-label">
+                    🔐 Activar verificación de integridad (SHA256)
+                </label>
+            </div>
+
+            <button type="submit">🚀 Convertir a PDF</button>
+            <button type="button" id="verifyButton" style="display:none; background: #4caf50; margin-top: 10px;">✓ Verificar Integridad (sin descargar)</button>
+        </form>
+
+        <div class="file-list" id="fileList"></div>
+
+        <div class="hash-section" id="hashSection">
+            <div class="hash-title">📋 Verificación de Integridad - Hashes SHA256:</div>
+            <div id="hashContainer"></div>
+            <div class="hash-actions" id="hashActions"></div>
+        </div>
+
+        <div id="status"></div>
+
+        <div class="info-box">
+            <strong>💡 Cómo funciona:</strong>
+            <br><br>
+            <strong>Opción 1: Solo verificar (sin descargar)</strong>
+            <br>1. Activar checkbox ✓
+            <br>2. Seleccionar archivos
+            <br>3. Clic en "✓ Verificar Integridad"
+            <br>4. Ver/copiar/descargar hashes
+            <br><br>
+            <strong>Opción 2: Convertir + Verificar</strong>
+            <br>1. Activar checkbox ✓
+            <br>2. Seleccionar archivos
+            <br>3. Clic en "🚀 Convertir a PDF"
+            <br>4. Descargar PDFs + archivo de hashes
+            <br><br>
+            <strong>Opción 3: Solo convertir</strong>
+            <br>1. Desactivar checkbox
+            <br>2. Seleccionar archivos
+            <br>3. Clic en "🚀 Convertir a PDF"
+        </div>
+    </div>
+
+    <script>
+        const fileInput = document.getElementById('fileInput');
+        const form = document.getElementById('converterForm');
+        const statusDiv = document.getElementById('status');
+        const fileListDiv = document.getElementById('fileList');
+        const orientationSelect = document.getElementById('orientation');
+        const generateHashCheckbox = document.getElementById('generateHashCheckbox');
+        const hashSection = document.getElementById('hashSection');
+        const hashContainer = document.getElementById('hashContainer');
+        const hashActions = document.getElementById('hashActions');
+        const verifyButton = document.getElementById('verifyButton');
+
+        let fileHashes = {}; // Almacenar hashes: { "BOLETAS.txt": { txtHash: "...", pdfName: "BOLETAS.pdf", pdfHash: "..." } }
+
+        // Mostrar lista de archivos seleccionados
+        fileInput.addEventListener('change', (e) => {
+            const files = e.target.files;
+            if (files.length === 0) {
+                fileListDiv.classList.remove('show');
+                hashSection.classList.remove('show');
+                fileHashes = {};
+                return;
+            }
+
+            fileListDiv.innerHTML = '';
+            let totalSize = 0;
+            for (let file of files) {
+                const fileSize = (file.size / 1024).toFixed(2);
+                totalSize += file.size;
+                const item = document.createElement('div');
+                item.className = 'file-item';
+                item.textContent = `📄 ${file.name} (${fileSize} KB)`;
+                fileListDiv.appendChild(item);
+            }
+            
+            const totalSizeKB = (totalSize / 1024).toFixed(2);
+            const totalItem = document.createElement('div');
+            totalItem.className = 'file-item';
+            totalItem.style.borderLeftColor = '#4caf50';
+            totalItem.style.fontWeight = 'bold';
+            totalItem.textContent = `📦 Total: ${files.length} archivo(s) - ${totalSizeKB} KB`;
+            fileListDiv.appendChild(totalItem);
+            
+            fileListDiv.classList.add('show');
+
+            // Si está activado el checkbox de hashes, calcular automáticamente
+            if (generateHashCheckbox.checked) {
+                calculateHashes(files);
+            }
+        });
+
+        // Calcular hashes SHA256 de los archivos TXT
+        async function calculateHashes(files) {
+            fileHashes = {};
+
+            try {
+                for (let file of files) {
+                    const hash = await calculateFileSHA256(file);
+                    const pdfName = file.name.replace(/\.txt$/i, '.pdf');
+                    fileHashes[file.name] = {
+                        txtHash: hash,
+                        pdfName: pdfName,
+                        pdfHash: null  // Se calculará después de convertir
+                    };
+                }
+            } catch (error) {
+                console.error('Error al calcular hashes:', error);
+                fileHashes = {};
+            }
+        }
+
+        // Calcular SHA256 de un archivo
+        async function calculateFileSHA256(file) {
+            const buffer = await file.arrayBuffer();
+            const hashBuffer = await crypto.subtle.digest('SHA-256', buffer);
+            const hashArray = Array.from(new Uint8Array(hashBuffer));
+            return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+        }
+
+        // Calcular SHA256 de un blob
+        async function calculateBlobSHA256(blob) {
+            const buffer = await blob.arrayBuffer();
+            const hashBuffer = await crypto.subtle.digest('SHA-256', buffer);
+            const hashArray = Array.from(new Uint8Array(hashBuffer));
+            return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+        }
+
+        // Mostrar UI de verificación con hashes en formato texto
+        function displayVerificationUI() {
+            hashContainer.innerHTML = '';
+            let hashText = '';
+            for (const [filename, hashData] of Object.entries(fileHashes)) {
+                if (hashData.txtHash) {
+                    hashText += `Archivo: ${filename}\n`;
+                    hashText += `Hash SHA256 TXT: ${hashData.txtHash}\n`;
+                    if (hashData.pdfHash) {
+                        const shortHash = hashData.pdfHash.substring(0, 16);
+                        hashText += `PDF: ${hashData.pdfName}\n`;
+                        hashText += `Hash SHA256 PDF: ${hashData.pdfHash}\n`;
+                        hashText += `Hash corto PDF: ${shortHash}\n`;
+                    }
+                    hashText += '\n';
+                }
+            }
+            
+            const textArea = document.createElement('textarea');
+            textArea.value = hashText;
+            textArea.style.width = '100%';
+            textArea.style.height = '200px';
+            textArea.style.fontFamily = "'Courier New', monospace";
+            textArea.style.fontSize = '11px';
+            textArea.style.border = '1px solid #e0e0e0';
+            textArea.style.borderRadius = '6px';
+            textArea.style.padding = '10px';
+            textArea.style.resize = 'vertical';
+            textArea.readOnly = true;
+            
+            hashContainer.appendChild(textArea);
+            displayHashActions();
+            hashSection.classList.add('show');
+        }
+
+        // Mostrar botones de acciones para hashes
+        function displayHashActions() {
+            hashActions.innerHTML = `
+                <button type="button" class="secondary-btn" onclick="exportHashesToFile()">
+                    📥 Descargar archivo de hashes
+                </button>
+                <button type="button" class="secondary-btn" onclick="copyAllHashesToClipboard()">
+                    📋 Copiar todos
+                </button>
+            `;
+        }
+
+        // Exportar hashes a un archivo .txt
+        function exportHashesToFile() {
+            downloadVerificationFile();
+        }
+
+        // Generar y descargar archivo de verificación
+        function downloadVerificationFile(filename = null) {
+            let content = 'VERIFICATION FILE - SOURCE FILES HASHES\n';
+            content += `Generated: ${new Date().toLocaleString()}\n`;
+            content += '='.repeat(80) + '\n\n';
+
+            for (const [fname, hashData] of Object.entries(fileHashes)) {
+                if (hashData.txtHash) {
+                    content += `Archivo: ${fname}\n`;
+                    content += `Hash SHA256 TXT: ${hashData.txtHash}\n`;
+                    if (hashData.pdfHash) {
+                        const shortHash = hashData.pdfHash.substring(0, 16);
+                        content += `PDF: ${hashData.pdfName}\n`;
+                        content += `Hash SHA256 PDF: ${hashData.pdfHash}\n`;
+                        content += `Hash corto PDF: ${shortHash}\n`;
+                    } else {
+                        content += `PDF: ${hashData.pdfName}\n`;
+                        content += `Hash SHA256 PDF: NO DISPONIBLE\n`;
+                        content += `Hash corto PDF: NO DISPONIBLE\n`;
+                    }
+                    content += '\n';
+                }
+            }
+
+            const blob = new Blob([content], { type: 'text/plain' });
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            
+            // Si es un archivo único, usar su nombre
+            if (filename) {
+                a.download = filename.replace(/\.txt$/i, '') + '_VERIFICATION_HASHES.txt';
+            } else {
+                a.download = 'VERIFICATION_HASHES.txt';
+            }
+            
+            a.click();
+            window.URL.revokeObjectURL(url);
+            
+            // Actualizar estado final
+            setTimeout(() => {
+                showStatus(`✅ Archivo de verificación generado`, 'success');
+            }, 200);
+        }
+
+        // Copiar todos los hashes
+        function copyAllHashesToClipboard() {
+            let content = '';
+            for (const [filename, hashData] of Object.entries(fileHashes)) {
+                if (hashData.txtHash) {
+                    content += `Archivo: ${filename}\n`;
+                    content += `Hash SHA256 TXT: ${hashData.txtHash}\n`;
+                    if (hashData.pdfHash) {
+                        const shortHash = hashData.pdfHash.substring(0, 16);
+                        content += `PDF: ${hashData.pdfName}\n`;
+                        content += `Hash SHA256 PDF: ${hashData.pdfHash}\n`;
+                        content += `Hash corto PDF: ${shortHash}\n`;
+                    }
+                    content += '\n';
+                }
+            }
+            navigator.clipboard.writeText(content).then(() => {
+                alert('✅ Todos los hashes copiados al portapapeles');
+            }).catch(() => {
+                alert('❌ No se pudo copiar');
+            });
+        }
+
+        // Escuchar cambios en el checkbox de hashes
+        generateHashCheckbox.addEventListener('change', (e) => {
+            // El botón de verificación siempre visible
+            verifyButton.style.display = 'block';
+            if (!e.target.checked) {
+                hashSection.classList.remove('show');
+                hashContainer.innerHTML = '';
+            }
+        });
+
+        // Botón para verificar integridad sin descargar
+        verifyButton.addEventListener('click', async () => {
+            const files = fileInput.files;
+            if (files.length === 0) return;
+
+            if (Object.keys(fileHashes).length === 0) {
+                showStatus(`<span class="spinner"></span>Calculando hashes...`, 'loading');
+                await calculateHashes(files);
+            }
+
+            displayVerificationUI();
+            showStatus(`✅ ${Object.keys(fileHashes).length} hash(es) calculado(s)`, 'success');
+        });
+
+        // Enviar formulario
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+
+            const files = fileInput.files;
+            if (files.length === 0) {
+                showStatus('❌ Selecciona uno o más archivos', 'error');
+                return;
+            }
+
+            const orientation = orientationSelect.value;
+            const formData = new FormData();
+
+            let txtCount = 0;
+            for (let file of files) {
+                if (file.name.toLowerCase().endsWith('.txt')) {
+                    formData.append('file', file);
+                    txtCount++;
+                }
+            }
+            if (txtCount === 0) {
+                showStatus('❌ Solo puedes convertir archivos TXT. Los PDF serán ignorados.', 'error');
+                return;
+            }
+            formData.append('orientation', orientation);
+
+            try {
+                // Calcular hashes si está activado y aún no se han calculado
+                if (generateHashCheckbox.checked && Object.keys(fileHashes).length === 0) {
+                    showStatus(`<span class="spinner"></span>Calculando hashes de integridad...`, 'loading');
+                    await calculateHashes(files);
+                }
+
+                showStatus(`<span class="spinner"></span>Procesando ${files.length} archivo(s)...`, 'loading');
+                
+                // Por defecto, conecta a localhost:8080
+                const apiUrl = 'http://localhost:8080/convert';
+                
+                const response = await fetch(apiUrl, {
+                    method: 'POST',
+                    body: formData
+                });
+
+                if (!response.ok) {
+                    throw new Error(`Error del servidor: ${response.statusText}`);
+                }
+
+                // Descargar resultado
+                const blob = await response.blob();
+                const url = window.URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+
+                if (files.length === 1) {
+                    const pdfName = files[0].name.replace(/\.txt$/i, '.pdf');
+                    a.download = pdfName;
+                    showStatus(`✅ PDF generado correctamente<br>📥 Descargando ${pdfName}`, 'loading');
+                    a.click();
+                    window.URL.revokeObjectURL(url);
+                    
+                    // Calcular hash del PDF si está activado
+                    if (generateHashCheckbox.checked) {
+                        // Leer hash del header si está disponible
+                        let pdfHash = null;
+                        try {
+                            pdfHash = response.headers.get('X-PDF-Hash');
+                        } catch {}
+                        if (!pdfHash) {
+                            pdfHash = await calculateBlobSHA256(blob);
+                        }
+                        // Actualizar estructura con hash del PDF
+                        if (fileHashes[files[0].name]) {
+                            fileHashes[files[0].name].pdfHash = pdfHash;
+                        }
+                        // Mostrar hashes automáticamente
+                        displayVerificationUI();
+                        setTimeout(() => {
+                            downloadVerificationFile(files[0].name);
+                        }, 500);
+                    } else {
+                        showStatus(`✅ PDF generado correctamente`, 'success');
+                    }
+                } else {
+                    a.download = 'documentos.zip';
+                    showStatus(`✅ ${files.length} PDFs generados correctamente<br>📥 Descargando ZIP...`, 'loading');
+                    a.click();
+                    window.URL.revokeObjectURL(url);
+
+                    if (generateHashCheckbox.checked) {
+                        // Buscar el header de hashes de PDFs de forma robusta
+                        let pdfHashes = null;
+                        try {
+                            let hashesHeader = null;
+                            let debugHeaders = [];
+                            for (let pair of response.headers.entries()) {
+                                debugHeaders.push(pair[0] + ': ' + pair[1]);
+                            }
+                            console.log('HEADERS RECIBIDOS:', debugHeaders.join('\n'));
+                            // Intentar obtener el header directamente (case-insensitive)
+                            for (let pair of response.headers.entries()) {
+                                if (pair[0].toLowerCase().includes('pdf-hashes')) {
+                                    hashesHeader = pair[1];
+                                    break;
+                                }
+                            }
+                            console.log('Valor detectado para hashesHeader:', hashesHeader);
+                            if (hashesHeader) {
+                                pdfHashes = JSON.parse(hashesHeader);
+                            }
+                        } catch (e) {
+                            console.error('Error parseando hashesHeader:', e);
+                        }
+                        // Asignar hashes de PDFs a la estructura fileHashes
+                        if (pdfHashes && Object.keys(pdfHashes).length > 0) {
+                            for (const [fname, hash] of Object.entries(pdfHashes)) {
+                                // Buscar el TXT correspondiente (case-insensitive)
+                                for (const [txtName, hashData] of Object.entries(fileHashes)) {
+                                    if (hashData.pdfName && hashData.pdfName.toLowerCase() === fname.toLowerCase()) {
+                                        fileHashes[txtName].pdfHash = hash;
+                                    }
+                                }
+                            }
+                            // Mostrar hashes automáticamente
+                            displayVerificationUI();
+                            // Descargar el archivo de verificación solo si todos los hashes están presentes
+                            const allPDFsWithHash = Object.values(fileHashes).every(h => h.pdfHash);
+                            if (allPDFsWithHash) {
+                                downloadVerificationFile();
+                            } else {
+                                showStatus('⚠️ No se pudieron asignar todos los hashes de los PDFs generados', 'error');
+                            }
+                        } else {
+                            showStatus('⚠️ No se pudieron obtener los hashes de los PDFs del ZIP', 'error');
+                        }
+                    } else {
+                        showStatus(`✅ ZIP generado correctamente`, 'success');
+                    }
+                }
+
+                // Limpiar después de la descarga
+                setTimeout(() => {
+                    fileInput.value = '';
+                    fileListDiv.classList.remove('show');
+                    fileHashes = {};
+                    hashSection.classList.remove('show');
+                    hashContainer.innerHTML = '';
+                    hashActions.innerHTML = '';
+                    // El botón de verificación siempre visible
+                    verifyButton.style.display = 'block';
+                    setTimeout(() => {
+                        statusDiv.classList.remove('show');
+                    }, 2000);
+                }, 1500);
+
+            } catch (error) {
+                showStatus(`❌ Error: ${error.message}`, 'error');
+            }
+        });
+
+        function showStatus(message, type) {
+            statusDiv.innerHTML = message;
+            statusDiv.className = `show ${type}`;
+        }
+
+        // Verificar que el servidor está disponible al cargar la página
+        window.addEventListener('load', async () => {
+            try {
+                const response = await fetch('http://localhost:8080/status');
+                if (response.ok) {
+                    console.log('✅ Servidor txt2pdf conectado');
+                }
+            } catch (error) {
+                showStatus('⚠️ No se pudo conectar al servidor. Asegúrate de ejecutar: txt2pdf.exe -api -port 8080', 'error');
+            }
+        });
+    </script>
+</body>
+</html>

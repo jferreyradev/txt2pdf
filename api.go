@@ -3,6 +3,7 @@ package main
 import (
 	"archive/zip"
 	"bytes"
+	"encoding/json"
 	"fmt"
 	"io"
 	"net/http"
@@ -245,6 +246,22 @@ func (s *APIServer) handleConvert(c *gin.Context) {
 		zipWriter.Close()
 
 		// Enviar ZIP
+		// Construir mapa de hashes de PDFs
+		pdfHashes := make(map[string]string)
+		for _, result := range pdfResults {
+			if _, ok := result["error"]; ok {
+				continue
+			}
+			pdfFileName := result["file"].(string)
+			pdfHash := result["sha256"].(string)
+			pdfHashes[pdfFileName] = pdfHash
+		}
+		// Serializar a JSON
+		hashesJSON, err := json.Marshal(pdfHashes)
+		if err == nil {
+			c.Header("X-Pdf-Hashes", string(hashesJSON))
+			c.Header("Access-Control-Expose-Headers", "X-Pdf-Hashes")
+		}
 		c.Header("Content-Type", "application/zip")
 		c.Header("Content-Disposition", "attachment; filename=documentos.zip")
 		c.Data(http.StatusOK, "application/zip", zipBuffer.Bytes())
