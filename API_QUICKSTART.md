@@ -24,16 +24,34 @@ txt2pdf.exe -api -port 8080
 
 ## Paso 2: Probar con cURL
 
-### Convertir TXT a PDF
+### Convertir un archivo TXT a PDF
 
 ```bash
-curl -F "file=@documento.txt" http://localhost:8080/convert \
-  --output documento.pdf
+curl -F "file=@BOLETAS.txt" http://localhost:8080/convert \
+  --output BOLETAS.pdf
 ```
 
-**Resultado:** `documento.pdf` se descarga automáticamente con headers:
+**Respuesta:** Se descarga `BOLETAS.pdf` con headers:
 - `X-PDF-Hash`: Hash SHA256 completo
 - `X-PDF-Hash-Short`: Primeros 16 caracteres
+
+### Convertir múltiples archivos a PDF (ZIP)
+
+```bash
+curl -F "file=@BOLETAS.txt" -F "file=@LIBRAMIENTOS.txt" -F "file=@PLANILLAS.txt" \
+  http://localhost:8080/convert --output reportes.zip
+```
+
+**Respuesta:** Se descarga `reportes.zip` con todos los PDFs generados
+
+### Con orientación personalizada
+
+```bash
+curl -F "file=@PLANILLAS.txt" -F "file=@RESUMEN.txt" \
+  -F "orientation=landscape" http://localhost:8080/convert --output apaisado.zip
+```
+
+**Opciones disponibles:** `auto`, `portrait`, `landscape`
 
 ### Calcular hash de archivo
 
@@ -70,9 +88,9 @@ curl http://localhost:8080/status | jq
     <title>txt2pdf API</title>
 </head>
 <body>
-    <h1>Convertir TXT a PDF</h1>
+    <h1>txt2pdf Batch Converter</h1>
     
-    <input type="file" id="fileInput" accept=".txt" />
+    <input type="file" id="fileInput" accept=".txt" multiple />
     
     <select id="orientation">
         <option value="auto">Auto-detect</option>
@@ -85,21 +103,23 @@ curl http://localhost:8080/status | jq
 
     <script>
         async function convertToPDF() {
-            const file = document.getElementById('fileInput').files[0];
+            const files = document.getElementById('fileInput').files;
             const orientation = document.getElementById('orientation').value;
             const status = document.getElementById('status');
             
-            if (!file) {
-                status.innerHTML = '❌ Selecciona un archivo';
+            if (files.length === 0) {
+                status.innerHTML = '❌ Selecciona uno o más archivos';
                 return;
             }
 
             const formData = new FormData();
-            formData.append('file', file);
+            for (let file of files) {
+                formData.append('file', file);
+            }
             formData.append('orientation', orientation);
 
             try {
-                status.innerHTML = '⏳ Procesando...';
+                status.innerHTML = `⏳ Procesando ${files.length} archivo(s)...`;
                 
                 const response = await fetch('http://localhost:8080/convert', {
                     method: 'POST',
@@ -110,23 +130,20 @@ curl http://localhost:8080/status | jq
                     throw new Error(`Error: ${response.statusText}`);
                 }
 
-                // Obtener headers con los hashes
-                const fullHash = response.headers.get('X-PDF-Hash');
-                const shortHash = response.headers.get('X-PDF-Hash-Short');
-
-                // Descargar PDF
+                // Descargar resultado
                 const blob = await response.blob();
                 const url = window.URL.createObjectURL(blob);
                 const a = document.createElement('a');
                 a.href = url;
-                a.download = file.name.replace('.txt', '.pdf');
+                a.download = files.length === 1 
+                    ? files[0].name.replace('.txt', '.pdf')
+                    : 'documentos.zip';
                 a.click();
                 window.URL.revokeObjectURL(url);
 
                 status.innerHTML = `
-                    ✅ PDF generado correctamente<br>
-                    📄 Hash: <code>${shortHash}</code><br>
-                    🔒 Verifica con el hash completo si lo necesitas
+                    ✅ ${files.length === 1 ? 'PDF generado' : 'ZIP generado'} correctamente<br>
+                    📦 Descargando...
                 `;
             } catch (error) {
                 status.innerHTML = `❌ ${error.message}`;
@@ -137,123 +154,9 @@ curl http://localhost:8080/status | jq
 </html>
 ```
 
-### Python
+---
 
-```python
-import requests
-
-# Convertir TXT a PDF
-files = {'file': open('documento.txt', 'rb')}
-data = {'orientation': 'auto'}
-
-response = requests.post(
-    'http://localhost:8080/convert',
-    files=files,
-    data=data
-)
-
-if response.status_code == 200:
-    # Guardar PDF
-    with open('documento.pdf', 'wb') as f:
-        f.write(response.content)
-    
-    # Obtener hashes
-    full_hash = response.headers.get('X-PDF-Hash')
-    short_hash = response.headers.get('X-PDF-Hash-Short')
-    
-    print(f"✅ PDF generado")
-    print(f"Hash corto: {short_hash}")
-else:
-    print(f"❌ Error: {response.status_code}")
-
-# Calcular hash
-files = {'file': open('documento.pdf', 'rb')}
-response = requests.post(
-    'http://localhost:8080/hash',
-    files=files
-)
-
-result = response.json()
-print(f"SHA256: {result['sha256']}")
-print(f"Tamaño: {result['size_bytes']} bytes")
-```
-
-### Node.js + Express
-
-```javascript
-const express = require('express');
-const formData = require('form-data');
-const axios = require('axios');
-const fs = require('fs');
-
-const app = express();
-
-app.post('/convertir', async (req, res) => {
-    try {
-        // Preparar archivo
-        const form = new formData();
-        form.append('file', fs.createReadStream('documento.txt'));
-        form.append('orientation', 'auto');
-
-        // Enviar a txt2pdf API
-        const response = await axios.post(
-            'http://localhost:8080/convert',
-            form,
-            { headers: form.getHeaders() }
-        );
-
-        // Guardar PDF
-        fs.writeFileSync('documento.pdf', response.data);
-
-        // Obtener hashes
-        const fullHash = response.headers['x-pdf-hash'];
-        const shortHash = response.headers['x-pdf-hash-short'];
-
-        res.json({
-            success: true,
-            file: 'documento.pdf',
-            hash_short: shortHash,
-            hash_full: fullHash
-        });
-    } catch (error) {
-        res.json({ success: false, error: error.message });
-    }
-});
-
-app.listen(3000);
-```
-
-### cURL + Bash
-
-```bash
-#!/bin/bash
-
-# Función para convertir TXT a PDF
-convert_txt_to_pdf() {
-    local input_file=$1
-    local output_file=$2
-    local orientation=${3:-auto}
-
-    echo "⏳ Convirtiendo $input_file..."
-
-    curl -F "file=@$input_file" \
-         -F "orientation=$orientation" \
-         http://localhost:8080/convert \
-         --output "$output_file" \
-         -H "User-Agent: bash-script"
-
-    if [ $? -eq 0 ]; then
-        echo "✅ $output_file generado"
-    else
-        echo "❌ Error al procesar"
-        return 1
-    fi
-}
-
-# Función para obtener hash
-get_hash() {
-    local file=$1
-    curl -F "file=@$file" http://localhost:8080/hash | jq .
+## Paso 4: Documentación de endpoints
 }
 
 # Uso
