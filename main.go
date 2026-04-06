@@ -308,7 +308,7 @@ func main() {
 	var forceLandscape bool
 
 	flag.StringVar(&fileName, "file", "", "Nombre del archivo a leer")
-	flag.StringVar(&inputDir, "input", "./input", "Directorio con archivos .txt")
+	flag.StringVar(&inputDir, "input", "", "Directorio con archivos .txt (opcional)")
 	flag.BoolVar(&toPDF, "pdf", false, "Generar salida en PDF")
 	flag.BoolVar(&processAll, "all", false, "Procesar todos los archivos .txt del directorio")
 	flag.BoolVar(&genAudit, "audit", false, "Generar reporte de autenticidad con hashes")
@@ -318,10 +318,10 @@ func main() {
 	flag.BoolVar(&forceLandscape, "landscape", false, "Forzar orientación horizontal (Landscape)")
 	flag.Parse()
 
-	// Crear directorio input si no existe
-	if _, err := os.Stat(inputDir); os.IsNotExist(err) {
-		fmt.Printf("📁 Creando directorio: %s\n", inputDir)
-		os.MkdirAll(inputDir, 0755)
+	// No crear directorio input automáticamente
+	if inputDir == "" {
+		fmt.Println("Debe especificar el directorio de entrada con -input")
+		return
 	}
 
 	// Calcular hash si se indica

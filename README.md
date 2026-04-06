@@ -50,26 +50,22 @@ Para descripción detallada de comandos, continúa leyendo abajo.
 ✅ Genera `documento.pdf` en la misma carpeta  
 ✅ Automáticamente actualiza `hashes.txt`
 
-### 2. Convertir todos los archivos
-```bash
-# Carpeta por defecto (input/)
-.\txt2pdf.exe -all -pdf
 
-# O carpeta personalizada
+### 2. Convertir todos los archivos (siempre especificando carpeta)
+```bash
 .\txt2pdf.exe -all -pdf -input ./documentos
 .\txt2pdf.exe -all -pdf -input C:\mis_documentos
 ```
-✅ Procesa todos los `.txt`  
-✅ Automáticamente actualiza `hashes.txt` con todos los hash SHA256  
-✅ Crea la carpeta si no existe
+✅ Procesa todos los `.txt` en la carpeta indicada  
+✅ Automáticamente actualiza `hashes.txt` con todos los hash SHA256
 
-### 3. Especificar carpeta personalizada
+
+### 3. Procesar múltiples carpetas
 ```bash
 .\txt2pdf.exe -all -pdf -input ./auditoria_2024
 .\txt2pdf.exe -all -pdf -input ./auditoria_2025
 ```
 ✅ Cada carpeta genera sus PDFs y hashes.txt por separado
-✅ Ideal para organizar múltiples lotes de documentos
 
 ### 4. Controlar orientación del PDF
 
@@ -179,6 +175,7 @@ PDF: DOCUMENTO.pdf
 - ⚠️ Para máxima seguridad, mantén `hashes.txt` en lugar protegido
 - ⚠️ No autentica la identidad del autor (se requeriría certificado digital)
 
+
 ## Estructura del Proyecto
 
 ```
@@ -192,19 +189,13 @@ txt2pdf/
 
 Opcionalmente (para uso avanzado):
 ├── logo/                  (OPCIONAL - para watermark personalizado)
-│   └── logo_dgs.png      (coloca tu logo aquí)
-├── input/                 (OPCIONAL - carpeta de trabajo por defecto)
-│   ├── *.txt             (archivos TXT fuente)
-│   ├── *.pdf             (PDFs generados)
-│   └── hashes.txt        (reporte de hashes)
-└── mis_documentos/        (OPCIONAL - o cualquier otra carpeta)
-    └── ...
+|   └── logo_dgs.png      (coloca tu logo aquí)
+└── mis_documentos/        (o cualquier carpeta de trabajo)
+   └── ...
 ```
 
 **Nota Importante:**
-- La carpeta `input/` es solo el **nombre por defecto**, no es obligatoria
-- El programa se adapta a cualquier carpeta: `-input ./tu_carpeta`
-- Las carpetas se crean automáticamente si no existen
+- Siempre debes especificar la carpeta de trabajo con `-input ./tu_carpeta`
 - El archivo `logo/logo_dgs.png` es completamente opcional
 
 ## Dependencias

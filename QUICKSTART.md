@@ -20,16 +20,15 @@ go build -o txt2pdf.exe
 
 ## Paso 2: Preparar tus documentos
 
-**Opción A: Usar la carpeta por defecto `input/`**
-1. Crear carpeta `input/` (se crea automáticamente si la necesitas)
-2. Coloca archivos `.txt` en `input/`
 
-**Opción B: Usar carpeta personalizada**
+**Prepara tu carpeta de trabajo**
+1. Crea una carpeta para tus archivos `.txt` (por ejemplo, `documentos/`)
+2. Coloca archivos `.txt` en esa carpeta
+
 ```bash
-.\txt2pdf.exe -all -pdf -input ./mi_carpeta_personalizada
+.\txt2pdf.exe -all -pdf -input ./documentos
 ```
-- Se crea automáticamente si no existe
-- Todos los archivos `.txt` en esa carpeta se procesan
+Todos los archivos `.txt` en esa carpeta se procesan
 
 ```
 Ejemplo con carpeta personalizada:
@@ -46,13 +45,8 @@ Ejemplo con carpeta personalizada:
 
 ## Paso 3: Generar PDFs
 
-### Con carpeta por defecto:
-```bash
-.\txt2pdf.exe -all -pdf
-```
-Procesa todos los `.txt` en `input/`
 
-### Con carpeta personalizada:
+### Procesar todos los archivos de una carpeta:
 ```bash
 .\txt2pdf.exe -all -pdf -input ./documentos
 ```
@@ -105,7 +99,7 @@ SHA256: 4f790750acda0983c5313eded002b470212468bb56608e557fe3ac6af9c16369
 Hash corto: 4f790750acda0983
 ```
 
-Compara el **hash corto** con el que aparece en `input/hashes.txt` → ✅ Es auténtico
+Compara el **hash corto** con el que aparece en `hashes.txt` de la misma carpeta → ✅ Es auténtico
 
 ### Ver hashes de TODOS los PDFs:
 ```bash
@@ -116,7 +110,7 @@ Compara el **hash corto** con el que aparece en `input/hashes.txt` → ✅ Es au
 
 ## 📋 Archivo de Hashes (`hashes.txt`)
 
-Se genera automáticamente en `input/hashes.txt`
+Se genera automáticamente en `hashes.txt` dentro de la carpeta de trabajo
 
 ```
 === REGISTRO DE AUTENTICIDAD DE DOCUMENTOS ===
@@ -169,14 +163,12 @@ PDF: documento1.pdf
 .\txt2pdf.exe
 ```
 
+
 ### ¿Necesito crear las carpetas?
-✅ **No**, se crean automáticamente. 
-- Si usas la carpeta por defecto, se crea `input/`
-- Si especificas `-input ./personal`, se crea `personal/`
+✅ Sí, debes crear la carpeta de trabajo y especificarla con `-input ./tu_carpeta`
 
 ### ¿Dónde están los PDFs generados?
 📁 En la **misma carpeta que los archivos `.txt`**:
-- Con `-all -pdf` → en `input/`
 - Con `-all -pdf -input ./documentos` → en `./documentos/`
 
 ### ¿Puedo editar los PDFs después?
@@ -228,10 +220,10 @@ PDF: documento1.pdf
 
 ## ✨ ¿Listo?
 
-1. ✅ Coloca archivos `.txt` en `input/`
-2. ✅ Ejecuta: `.\txt2pdf.exe -all -pdf`
+1. ✅ Coloca archivos `.txt` en tu carpeta de trabajo
+2. ✅ Ejecuta: `.\txt2pdf.exe -all -pdf -input ./tu_carpeta`
 3. ✅ Tus PDFs están listos
-4. ✅ Guarda `input/hashes.txt`
+4. ✅ Guarda `hashes.txt` de esa carpeta
 
 **¡Ya tienes documentos auténticos!** 🎉
 
