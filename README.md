@@ -139,6 +139,31 @@ Hash corto PDF: 8b4c73e5a2f9d1c6
 PDF: DOCUMENTO.pdf
 ```
 
+### 🔍 ¿Cómo verificar archivos TXT?
+
+**Verificar integridad del archivo de texto original:**
+```bash
+# Calcular hash del archivo TXT
+.\txt2pdf.exe -file documento.txt -hash
+
+# Resultado:
+# SHA256: fa7db23065f80f212769a7bb18f8d21854ea2d2216d8e321af727e6feee0b39b
+# Hash corto: fa7db23065f80f21
+
+# Compara con hashes.txt
+# Si coincide → ✅ Archivo TXT auténtico (no fue alterado)
+# Si difiere → ❌ Alteración detectada en el archivo de texto
+```
+
+**Verificar todos los archivos TXT de una carpeta:**
+```bash
+# Ver hashes de todos los TXT en carpeta actual
+.\txt2pdf.exe -all -hash
+
+# O de una carpeta específica
+.\txt2pdf.exe -all -hash -input ./documentos
+```
+
 ### 🔍 ¿Cómo verificar que un PDF es auténtico?
 
 **Verificación automática:**
@@ -158,6 +183,7 @@ PDF: DOCUMENTO.pdf
 ### ¿Por qué es efectivo?
 
 - Si alguien modifica el PDF → el hash cambiaría inmediatamente
+- Si alguien modifica el TXT → el hash del archivo de texto cambiaría
 - El `hashes.txt` almacenado separado revela cualquier alteración
 - Detecta cambios accidentales y modificaciones con herramientas
 - Se puede verificar **sin dependencias** (solo necesitas calcular SHA256)

@@ -84,11 +84,34 @@ Procesa todos los `.txt` en `./documentos/`
 
 ---
 
-## Paso 4: Verificar integridad
+## Paso 4: Verificar integridad de archivos
+
+### 📝 Verificar archivos TXT
+
+¿Quieres asegurarte de que un archivo TXT no fue alterado?
+
+**Ver hash de UN archivo TXT:**
+```bash
+.\txt2pdf.exe -file documento.txt -hash
+```
+
+**Resultado:**
+```
+SHA256: 2f04e232dedeca7d150c84e12d194b8500321c429a1f8d1a6c8b5e9f3a4c7d2e
+Hash corto: 2f04e232dedeca7d
+```
+Compara con el que aparece en `hashes.txt` → ✅ Archivo TXT auténtico
+
+**Ver hashes de TODOS los TXT:**
+```bash
+.\txt2pdf.exe -all -hash
+```
+
+### 📄 Verificar archivos PDF
 
 ¿Quieres asegurarte de que un PDF no fue alterado?
 
-### Ver hash de UN PDF:
+**Ver hash de UN PDF:**
 ```bash
 .\txt2pdf.exe -file documento1.pdf -hash
 ```
@@ -99,7 +122,7 @@ SHA256: 4f790750acda0983c5313eded002b470212468bb56608e557fe3ac6af9c16369
 Hash corto: 4f790750acda0983
 ```
 
-Compara el **hash corto** con el que aparece en `hashes.txt` de la misma carpeta → ✅ Es auténtico
+Compara el **hash corto** con el que aparece en `hashes.txt` de la misma carpeta → ✅ PDF auténtico
 
 ### Ver hashes de TODOS los PDFs:
 ```bash
@@ -123,7 +146,11 @@ Hash corto PDF: 4f790750acda0983
 PDF: documento1.pdf
 ```
 
-**⚠️ Guarda este archivo en lugar seguro** - Lo necesitarás para verificar autenticidad
+**¿Qué validan los hashes?**
+- **Hash SHA256 TXT**: Verifica que el archivo de texto **original no fue alterado**
+- **Hash SHA256 PDF**: Verifica que el archivo **PDF generado no fue modificado**
+
+**⚠️ Guarda este archivo en lugar seguro** - Lo necesitarás para verificar autenticidad de AMBOS archivos (TXT y PDF)
 
 ---
 
