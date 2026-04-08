@@ -31,6 +31,18 @@ go build -o txt2pdf.exe
 
 El ejecutable se creará en el mismo directorio.
 
+⚠️ **IMPORTANTE - Estructura de carpetas requerida:**
+
+La carpeta `logo/` debe estar **en el mismo directorio** que el ejecutable para que aparezca la marca de agua en los PDFs:
+
+```
+├── txt2pdf.exe              ← Ejecutable
+└── logo/                    ← Carpeta con el logo (OBLIGATORIA)
+    └── logo_dgs.png         ← Imagen que aparecerá en los PDFs
+```
+
+Sin esta estructura, el programa seguirá funcionando pero los PDFs se generarán **sin marca de agua**.
+
 ## 🚀 Guía Rápida
 
 👉 **Si eres usuario final, lee [QUICKSTART.md](QUICKSTART.md)**

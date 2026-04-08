@@ -7,7 +7,7 @@ Guía rápida para empezar a usar la herramienta en 5 minutos.
 ## Paso 1: Preparar el ejecutable
 
 ### Opción A: Usar el ejecutable ya compilado
-Si tienes `txt2pdf.exe` en la carpeta, **salta al Paso 2**.
+Si tienes `txt2pdf.exe` en la carpeta, **asegúrate de que la carpeta `logo/` esté en el mismo directorio**. Salta al Paso 2.
 
 ### Opción B: Compilar (solo una vez)
 Requiere: [Go instalado](https://go.dev/dl)
@@ -15,6 +15,16 @@ Requiere: [Go instalado](https://go.dev/dl)
 ```bash
 go build -o txt2pdf.exe
 ```
+
+⚠️ **IMPORTANTE:** La carpeta `logo/` debe estar en el mismo directorio que `txt2pdf.exe`
+
+```
+├── txt2pdf.exe              ← El ejecutable
+└── logo/                    ← Esta carpeta es OBLIGATORIA
+    └── logo_dgs.png         ← Logo que aparecerá en los PDFs
+```
+
+Sin la carpeta `logo/`, el programa funcionará pero los PDFs se generarán sin marca de agua.
 
 ---
 
@@ -31,8 +41,10 @@ go build -o txt2pdf.exe
 Todos los archivos `.txt` en esa carpeta se procesan
 
 ```
-Ejemplo con carpeta personalizada:
-├── txt2pdf.exe
+Estructura de carpetas (con logo obligatorio):
+├── txt2pdf.exe           ← El ejecutable
+├── logo/                 ← OBLIGATORIO para marca de agua
+│   └── logo_dgs.png
 └── documentos/           ← Tu carpeta personalizada
     ├── reporte1.txt
     ├── reporte2.txt
